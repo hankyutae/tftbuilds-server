@@ -1,0 +1,7 @@
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":5432,"level":"error"}
+{"name":"error","length":168,"severity":"ERROR","code":"42P01","position":"24","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\parser\\parse_relation.c","line":"1180","routine":"parserOpenTable","level":"error"}
+{"name":"error","length":168,"severity":"FATAL","code":"57P03","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\postmaster\\postmaster.c","line":"2206","routine":"ProcessStartupPacket","level":"error"}
+{"name":"error","length":168,"severity":"FATAL","code":"57P03","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\postmaster\\postmaster.c","line":"2206","routine":"ProcessStartupPacket","level":"error"}
+{"name":"error","length":168,"severity":"FATAL","code":"57P03","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\postmaster\\postmaster.c","line":"2206","routine":"ProcessStartupPacket","level":"error"}
