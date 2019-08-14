@@ -1,11 +1,11 @@
 const jsondata = require('../TFT/en_us_TFT.json');
 const knex = require('knex');
-const { DB_URL } = require('../src/config');
+const { TEST_DB_URL } = require('../src/config');
 const fetch = require('node-fetch');
 
 const db = knex({
   client: 'pg',
-  connection: DB_URL,
+  connection: TEST_DB_URL,
 });
 
 
@@ -294,7 +294,3 @@ db.raw(
   .then(() => db.into('tft_champs').insert([{ champdata: jsondata.champions }]))
   .then(() => db.into('tft_traits').insert([{ traitdata: traitobj }]))
   .then(() => db.destroy());
-
-
-
-
