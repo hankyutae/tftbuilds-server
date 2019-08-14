@@ -13,6 +13,8 @@
 - Bootstrap development database: `MIGRATION_DB_NAME=tftBuilds npm run migrate`
 - Bootstrap test database: `MIGRATION_DB_NAME=tftBuilds-test npm run migrate`
 
+- Need to initialize game data to DB, so run `node ./scripts/allStatsParser`
+
 ## Scripts
 
 Start the application `npm start`
