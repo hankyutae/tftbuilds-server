@@ -6,13 +6,13 @@ const REGEX_UPPER_LOWER_NUMBER_SPECIAL = /(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*
 const UsersService = {
   hasUserWithUserName(db, user_name) {
     return db('users')
-      .where({ user_name })
+      .where('user_name','ilike',user_name.toLowerCase())
       .first()
       .then(user => !!user);
   },
   insertUser(db, newUser) {
     return db
-      .insert(newUser)
+      .insert({...newUser, user_name:newUser.user_name.toLowerCase() })
       .into('users')
       .returning('*')
       .then(([user]) => user);

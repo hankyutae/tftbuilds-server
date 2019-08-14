@@ -130,7 +130,7 @@ function makeUsersArray() {
       date_modified: new Date('2029-01-22T16:28:32.615Z'),
     },
     {
-      /* id: 2, */
+      id: 'a931cafc-dd9e-463c-bf72-e2d78960e9df',
       user_name: 'test-user-2',
       email: 'TU2@gmail.com',
       password: 'password',
@@ -160,7 +160,7 @@ function makeBuildsArray(users) {
   return [
     {
       'id': '28208e13-629f-4eb9-9a82-c2ee91fc6c3b',
-      'user_id': '0429cadf-3783-41f2-b7ab-4fd0186068a3',
+      'user_id': users[0].id,
       'date_created': new Date('2029-01-22T16:28:32.615Z'),
       'date_modified': new Date('2029-01-22T16:28:32.615Z'),
       'is_public': true,
@@ -212,7 +212,7 @@ function makeBuildsArray(users) {
     },
     {
       'id': '5812433b-1948-41ca-9ff1-b55c98f2c2db',
-      'user_id': '0429cadf-3783-41f2-b7ab-4fd0186068a3',
+      'user_id': users[1].id,
       'date_created': new Date('2029-01-22T16:28:32.615Z'),
       'date_modified': new Date('2029-01-22T16:28:32.615Z'),
       'is_public': true,
@@ -227,7 +227,35 @@ function makeBuildsArray(users) {
   ];
 }
 
+function makeFixtures() {
+  const testUsers = makeUsersArray();
+  const testBuilds = makeBuildsArray(testUsers);
+  return { testUsers, testBuilds };
+}
+
+function seedUsers(db, users) {
+  const preppedUsers = users.map(user => ({
+    ...user,
+    password: bcrypt.hashSync(user.password, 1)
+  }))
+  return db.into('users').insert(preppedUsers)
+}
+
+function seedBuilds(db, users, builds) {
+  return seedUsers(db, users)
+    .then(() =>
+      db
+        .into('builds')
+        .insert(builds)
+    )
+}
+
 module.exports = {
   makeUsersArray,
   makeBuildsArray,
+  makeTfChampSample,
+  makeBfItemSample,
+  makeFixtures,
+  seedBuilds,
+  seedUsers,
 };
