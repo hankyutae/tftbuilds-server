@@ -1,11 +1,16 @@
 const jsondata = require('../TFT/en_us_TFT.json');
 const knex = require('knex');
-const { DB_URL } = require('../src/config');
+const { TEST_DB_URL, DB_URL } = require('../src/config');
 const fetch = require('node-fetch');
 
 const db = knex({
   client: 'pg',
   connection: DB_URL,
+});
+
+const testdb = knex({
+  client: 'pg',
+  connection: TEST_DB_URL,
 });
 
 console.log(DB_URL);
@@ -92,13 +97,14 @@ function isItOrigin(traitName) {
     return true;
   case 'Yordle':
     return true;
-    /* case 'Hextech':
+  case 'Hextech':
     return true;
+    /* 
   case 'Demon':
     return true;
   case 'Demon':
     return true; */
-  
+
   default:
     return false;
 
@@ -107,105 +113,117 @@ function isItOrigin(traitName) {
 
 function handleQuirks(champion) {
   if (champion.name.toLowerCase() === 'swain') {
-    let index=champion.ability.variables.findIndex(obj=>{
-      return obj.key==='HealthIncrease';
+    let index = champion.ability.variables.findIndex(obj => {
+      return obj.key === 'HealthIncrease';
     });
-    if(index===-1){
+    if (index === -1) {
       return;
     }
-    champion.ability.variables.splice(index,1);
+    champion.ability.variables.splice(index, 1);
   }
   else if (champion.name.toLowerCase() === 'morgana') {
-    let index=champion.ability.variables.findIndex(obj=>{
-      return obj.key==='CanCastRange';
+    let index = champion.ability.variables.findIndex(obj => {
+      return obj.key === 'CanCastRange';
     });
-    if(index===-1){
+    if (index === -1) {
       return;
     }
-    champion.ability.variables.splice(index,1);
+    champion.ability.variables.splice(index, 1);
   }
   else if (champion.name.toLowerCase() === 'mordekaiser') {
-    let propsToRemove=['MaceStartDistance', 'MaceLength','RectangleWidth'];
-    propsToRemove.forEach(prop=>{
-      let index=champion.ability.variables.findIndex(obj=>{
-        return obj.key===prop;
+    let propsToRemove = ['MaceStartDistance', 'MaceLength', 'RectangleWidth'];
+    propsToRemove.forEach(prop => {
+      let index = champion.ability.variables.findIndex(obj => {
+        return obj.key === prop;
       });
-      if(index===-1){
+      if (index === -1) {
         return;
       }
-      champion.ability.variables.splice(index,1);
+      champion.ability.variables.splice(index, 1);
     });
   }
   else if (champion.name.toLowerCase() === 'akali') {
-    let propsToRemove=['ConeDeg'];
-    propsToRemove.forEach(prop=>{
-      let index=champion.ability.variables.findIndex(obj=>{
-        return obj.key===prop;
+    let propsToRemove = ['ConeDeg'];
+    propsToRemove.forEach(prop => {
+      let index = champion.ability.variables.findIndex(obj => {
+        return obj.key === prop;
       });
-      if(index===-1){
+      if (index === -1) {
         return;
       }
-      champion.ability.variables.splice(index,1);
+      champion.ability.variables.splice(index, 1);
     });
   }
   else if (champion.name.toLowerCase() === 'volibear') {
-    let propsToRemove=['SizeIncrease'];
-    propsToRemove.forEach(prop=>{
-      let index=champion.ability.variables.findIndex(obj=>{
-        return obj.key===prop;
+    let propsToRemove = ['SizeIncrease'];
+    propsToRemove.forEach(prop => {
+      let index = champion.ability.variables.findIndex(obj => {
+        return obj.key === prop;
       });
-      if(index===-1){
+      if (index === -1) {
         return;
       }
-      champion.ability.variables.splice(index,1);
+      champion.ability.variables.splice(index, 1);
     });
   }
   else if (champion.name.toLowerCase() === 'lissandra') {
-    let propsToRemove=['SlowAmount','SelfUltHealthPercent'];
-    propsToRemove.forEach(prop=>{
-      let index=champion.ability.variables.findIndex(obj=>{
-        return obj.key===prop;
+    let propsToRemove = ['SlowAmount', 'SelfUltHealthPercent'];
+    propsToRemove.forEach(prop => {
+      let index = champion.ability.variables.findIndex(obj => {
+        return obj.key === prop;
       });
-      if(index===-1){
+      if (index === -1) {
         return;
       }
-      champion.ability.variables.splice(index,1);
+      champion.ability.variables.splice(index, 1);
     });
   }
   else if (champion.name.toLowerCase() === 'gnar') {
-    let propsToRemove=['RKnockbackDistance'];
-    propsToRemove.forEach(prop=>{
-      let index=champion.ability.variables.findIndex(obj=>{
-        return obj.key===prop;
+    let propsToRemove = ['RKnockbackDistance'];
+    propsToRemove.forEach(prop => {
+      let index = champion.ability.variables.findIndex(obj => {
+        return obj.key === prop;
       });
-      if(index===-1){
+      if (index === -1) {
         return;
       }
-      champion.ability.variables.splice(index,1);
+      champion.ability.variables.splice(index, 1);
     });
   }
   else if (champion.name.toLowerCase() === 'yasuo') {
-    let propsToRemove=['QWidth'];
-    propsToRemove.forEach(prop=>{
-      let index=champion.ability.variables.findIndex(obj=>{
-        return obj.key===prop;
+    let propsToRemove = ['QWidth'];
+    propsToRemove.forEach(prop => {
+      let index = champion.ability.variables.findIndex(obj => {
+        return obj.key === prop;
       });
-      if(index===-1){
+      if (index === -1) {
         return;
       }
-      champion.ability.variables.splice(index,1);
+      champion.ability.variables.splice(index, 1);
     });
   }
   else if (champion.name.toLowerCase() === 'rek\'sai') {
-    let propsToRemove=['HealTickRate'];
-    propsToRemove.forEach(prop=>{
-      let index=champion.ability.variables.findIndex(obj=>{
-        return obj.key===prop;
+    let propsToRemove = ['HealTickRate'];
+    propsToRemove.forEach(prop => {
+      let index = champion.ability.variables.findIndex(obj => {
+        return obj.key === prop;
       });
-      if(index===-1){
+      if (index === -1) {
         return;
       }
-      champion.ability.variables.splice(index,1);
+      champion.ability.variables.splice(index, 1);
+    });
+  }
+  else if (champion.name.toLowerCase() === 'jayce') {
+    let propsToRemove = ['HexRange'];
+    propsToRemove.forEach(prop => {
+      let index = champion.ability.variables.findIndex(obj => {
+        return obj.key === prop;
+      });
+      if (index === -1) {
+        return;
+      }
+      champion.ability.variables.splice(index, 1);
     });
   }
   /*  else if (champion.name.toLowerCase() === 'elise') {
@@ -230,23 +248,34 @@ function handleQuirks(champion) {
 }
 
 Object.keys(jsondata.champions).forEach(key => {
-  let origins=[];
-  let classes=[];
-  jsondata.champions[key].traits.forEach(trait=>{
-    if(isItOrigin(trait))
+  let origins = [];
+  let classes = [];
+  jsondata.champions[key].traits.forEach(trait => {
+    if (isItOrigin(trait))
       origins.push(trait);
     else
       classes.push(trait);
   });
-  jsondata.champions[key].origins=origins;
-  jsondata.champions[key].classes=classes;
+  jsondata.champions[key].origins = origins;
+  jsondata.champions[key].classes = classes;
+  jsondata.champions[key].id = Number(key);
   handleQuirks(jsondata.champions[key]);
 });
 
-const traitobj = {};
+const traitobj = {};/* 
+const effectIdToString={
+  ''
+}; */
 jsondata.traits.forEach(trait => {
   traitobj[trait.name] = trait;
   traitobj[trait.name].isOrigin = isItOrigin(trait.name);
+  if (trait.name === 'Hextech') {
+    traitobj[trait.name].effects.forEach(effect => {
+      if (-1 === effect.vars.findIndex(el => el.name === 'HexSize')) {
+        effect.vars[effect.vars.findIndex(el=>el.name==='FB0B4533')].name='HexSize';
+      }
+    });
+  }
 });
 
 
@@ -270,6 +299,30 @@ db.raw(
   .then(() => db.into('tft_champs').insert([{ champdata: jsondata.champions }]))
   .then(() => db.into('tft_traits').insert([{ traitdata: traitobj }]))
   .then(() => db.destroy());
+
+
+
+
+
+testdb.raw(
+  `TRUNCATE
+    tft_items,
+    tft_champs,
+    tft_traits`
+)
+  /* .then(() => db.into('tft_items').insert(itemarray))
+  .then(() => db.into('tft_champs').insert(champarray)) */.then(() => testdb.into('tft_items').insert([{ itemdata: jsondata.items }]))
+  .then(() => Promise.all(fetchPng))
+  .then(resArray => {
+    resArray.forEach((res, index) => {
+      if (!res.ok) {
+        jsondata.champions[[keyAndUrl[index].key]].splash = keyAndUrl[index].otherUrl;
+      }
+    });
+  })
+  .then(() => testdb.into('tft_champs').insert([{ champdata: jsondata.champions }]))
+  .then(() => testdb.into('tft_traits').insert([{ traitdata: traitobj }]))
+  .then(() => testdb.destroy());
 
 
 

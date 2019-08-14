@@ -5,3 +5,30 @@
 {"name":"error","length":168,"severity":"FATAL","code":"57P03","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\postmaster\\postmaster.c","line":"2206","routine":"ProcessStartupPacket","level":"error"}
 {"name":"error","length":168,"severity":"FATAL","code":"57P03","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\postmaster\\postmaster.c","line":"2206","routine":"ProcessStartupPacket","level":"error"}
 {"name":"error","length":168,"severity":"FATAL","code":"57P03","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\postmaster\\postmaster.c","line":"2206","routine":"ProcessStartupPacket","level":"error"}
+{"name":"error","length":173,"severity":"ERROR","code":"42P01","position":"15","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\parser\\parse_relation.c","line":"1180","routine":"parserOpenTable","level":"error"}
+{"name":"error","length":173,"severity":"ERROR","code":"42P01","position":"15","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\parser\\parse_relation.c","line":"1180","routine":"parserOpenTable","level":"error"}
+{"name":"error","length":173,"severity":"ERROR","code":"42P01","position":"15","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\parser\\parse_relation.c","line":"1180","routine":"parserOpenTable","level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"name":"error","length":262,"severity":"ERROR","code":"22P02","detail":"Expected \":\", but found \"}\".","where":"JSON data, line 1: ...rigins\\\":[\\\"Yordle\\\"],\\\"stars\\\":1,\\\"items\\\":[]}\"}","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\utils\\adt\\json.c","line":"1203","routine":"report_parse_error","level":"error"}
+{"name":"error","length":262,"severity":"ERROR","code":"22P02","detail":"Expected \":\", but found \"}\".","where":"JSON data, line 1: ...rigins\\\":[\\\"Yordle\\\"],\\\"stars\\\":1,\\\"items\\\":[]}\"}","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\utils\\adt\\json.c","line":"1203","routine":"report_parse_error","level":"error"}
+{"name":"error","length":262,"severity":"ERROR","code":"22P02","detail":"Expected \":\", but found \"}\".","where":"JSON data, line 1: ...rigins\\\":[\\\"Yordle\\\"],\\\"stars\\\":1,\\\"items\\\":[]}\"}","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\utils\\adt\\json.c","line":"1203","routine":"report_parse_error","level":"error"}
+{"name":"error","length":262,"severity":"ERROR","code":"22P02","detail":"Expected \":\", but found \"}\".","where":"JSON data, line 1: ...rigins\\\":[\\\"Yordle\\\"],\\\"stars\\\":1,\\\"items\\\":[]}\"}","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\utils\\adt\\json.c","line":"1203","routine":"report_parse_error","level":"error"}
+{"name":"error","length":262,"severity":"ERROR","code":"22P02","detail":"Expected \":\", but found \"}\".","where":"JSON data, line 1: ...rigins\\\":[\\\"Yordle\\\"],\\\"stars\\\":1,\\\"items\\\":[]}\"}","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\utils\\adt\\json.c","line":"1203","routine":"report_parse_error","level":"error"}
+{"name":"error","length":180,"severity":"ERROR","code":"42703","position":"23","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\parser\\parse_target.c","line":"1033","routine":"checkInsertTargets","level":"error"}
+{"level":"error"}
+{"name":"error","length":166,"severity":"ERROR","code":"22P02","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\utils\\adt\\uuid.c","line":"137","routine":"string_to_uuid","level":"error"}
+{"name":"error","length":166,"severity":"ERROR","code":"22P02","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\utils\\adt\\uuid.c","line":"137","routine":"string_to_uuid","level":"error"}
+{"name":"error","length":166,"severity":"ERROR","code":"22P02","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\utils\\adt\\uuid.c","line":"137","routine":"string_to_uuid","level":"error"}
+{"name":"error","length":164,"severity":"ERROR","code":"22P02","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\utils\\adt\\uuid.c","line":"137","routine":"string_to_uuid","level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"name":"error","length":189,"severity":"ERROR","code":"42703","position":"21","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\parser\\analyze.c","line":"2346","routine":"transformUpdateTargetList","level":"error"}
+{"name":"error","length":189,"severity":"ERROR","code":"42703","position":"21","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\parser\\analyze.c","line":"2346","routine":"transformUpdateTargetList","level":"error"}
+{"name":"error","length":189,"severity":"ERROR","code":"42703","position":"21","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\parser\\analyze.c","line":"2346","routine":"transformUpdateTargetList","level":"error"}
