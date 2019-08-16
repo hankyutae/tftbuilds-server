@@ -97,7 +97,7 @@
       "stats": {
         "hp": 750.0,
         "hpScaleFactor": 1.8,
-        "mana": 100,
+        "mana": 125.0,
         "initalMana": 0,
         "damage": 70.0,
         "damageScaleFactor": 1.25,
@@ -105,7 +105,7 @@
         "magicResist": 20.0,
         "critMultiplier": 1.5,
         "critChance": 0.25,
-        "attackSpeed": 1.1,
+        "attackSpeed": 1.0,
         "range": 3
       },
       "traits": [
@@ -130,15 +130,15 @@
             ]
           },
           {
-            "key": "ExtraTargets",
+            "key": "Targets",
             "values": [
-              -1.0,
               0.0,
               1.0,
               2.0,
               3.0,
               4.0,
-              5.0
+              5.0,
+              6.0
             ]
           }
         ]
@@ -2067,6 +2067,18 @@
               500.0,
               475.0
             ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
           }
         ]
       }
@@ -3289,7 +3301,7 @@
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Braum.dds",
       "stats": {
-        "hp": 750.0,
+        "hp": 650.0,
         "hpScaleFactor": 1.8,
         "mana": 50.0,
         "initalMana": 0,
