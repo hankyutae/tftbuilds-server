@@ -206,6 +206,18 @@
               0.5,
               0.5
             ]
+          },
+          {
+            "key": "MaxChargeDamage",
+            "values": [
+              75.0,
+              150.0,
+              225.0,
+              300.0,
+              375.0,
+              450.0,
+              525.0
+            ]
           }
         ]
       }
@@ -293,9 +305,9 @@
       "cost": 5,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_MissFortune.dds",
       "stats": {
-        "hp": 650.0,
+        "hp": 700.0,
         "hpScaleFactor": 1.8,
-        "mana": 100,
+        "mana": 75.0,
         "initalMana": 0,
         "damage": 75.0,
         "damageScaleFactor": 1.25,
@@ -349,6 +361,18 @@
               3.0,
               3.0,
               3.0
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
             ]
           }
         ]
@@ -583,7 +607,7 @@
       "stats": {
         "hp": 850.0,
         "hpScaleFactor": 1.8,
-        "mana": 85.0,
+        "mana": 125.0,
         "initalMana": 0,
         "damage": 65.0,
         "damageScaleFactor": 1.25,
@@ -607,24 +631,24 @@
             "key": "Damage",
             "values": [
               100.0,
-              400.0,
-              700.0,
-              1000.0,
-              1300.0,
-              1600.0,
-              1900.0
+              350.0,
+              600.0,
+              850.0,
+              1100.0,
+              1350.0,
+              1600.0
             ]
           },
           {
             "key": "NumberOfTargets",
             "values": [
-              1.0,
+              3.0,
               5.0,
+              7.0,
               9.0,
+              11.0,
               13.0,
-              17.0,
-              21.0,
-              25.0
+              15.0
             ]
           }
         ]
@@ -661,12 +685,12 @@
             "key": "Damage",
             "values": [
               0.0,
-              200.0,
-              400.0,
-              600.0,
-              800.0,
-              1000.0,
-              1200.0
+              175.0,
+              350.0,
+              525.0,
+              700.0,
+              875.0,
+              1050.0
             ]
           },
           {
@@ -969,12 +993,12 @@
             "key": "HealPerTick",
             "values": [
               10.0,
-              50.0,
-              90.0,
+              40.0,
+              70.0,
+              100.0,
               130.0,
-              170.0,
-              210.0,
-              250.0
+              160.0,
+              190.0
             ]
           },
           {
@@ -992,6 +1016,30 @@
           {
             "key": "HealthIncrease",
             "values": null
+          },
+          {
+            "key": "TotalDamage",
+            "values": [
+              0.0,
+              600.0,
+              1200.0,
+              1800.0,
+              2400.0,
+              3000.0,
+              3600.0
+            ]
+          },
+          {
+            "key": "TotalHeal",
+            "values": [
+              120.0,
+              600.0,
+              1080.0,
+              1560.0,
+              2040.0,
+              2520.0,
+              3000.0
+            ]
           }
         ]
       }
@@ -1059,7 +1107,7 @@
         "hpScaleFactor": 1.8,
         "mana": 100,
         "initalMana": 0,
-        "damage": 50.0,
+        "damage": 65.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
         "magicResist": 20.0,
@@ -1136,6 +1184,18 @@
               12.0,
               14.0
             ]
+          },
+          {
+            "key": "TotalDamage",
+            "values": [
+              300.0,
+              600.0,
+              900.0,
+              1200.0,
+              1500.0,
+              1800.0,
+              2100.0
+            ]
           }
         ]
       }
@@ -1145,11 +1205,11 @@
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Elise.dds",
       "stats": {
-        "hp": 450.0,
+        "hp": 500.0,
         "hpScaleFactor": 1.8,
         "mana": 100,
         "initalMana": 0,
-        "damage": 40.0,
+        "damage": 45.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
         "magicResist": 20.0,
@@ -1213,7 +1273,7 @@
       "stats": {
         "hp": 700.0,
         "hpScaleFactor": 1.8,
-        "mana": 125.0,
+        "mana": 150.0,
         "initalMana": 0,
         "damage": 60.0,
         "damageScaleFactor": 1.25,
@@ -1236,13 +1296,13 @@
           {
             "key": "Damage",
             "values": [
-              25.0,
-              200.0,
-              375.0,
-              550.0,
-              725.0,
-              900.0,
-              1075.0
+              50.0,
+              250.0,
+              450.0,
+              650.0,
+              850.0,
+              1050.0,
+              1250.0
             ]
           },
           {
@@ -1275,7 +1335,7 @@
         "magicResist": 20.0,
         "critMultiplier": 1.5,
         "critChance": 0.25,
-        "attackSpeed": 0.75,
+        "attackSpeed": 0.7,
         "range": 3
       },
       "traits": [
@@ -1290,13 +1350,13 @@
           {
             "key": "PercentDamage",
             "values": [
-              0.06,
+              0.04,
               0.08,
-              0.1,
               0.12,
-              0.14,
               0.16,
-              0.18
+              0.2,
+              0.24,
+              0.28
             ]
           }
         ]
@@ -1569,7 +1629,7 @@
         "hpScaleFactor": 1.8,
         "mana": 25.0,
         "initalMana": 0,
-        "damage": 70.0,
+        "damage": 80.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
         "magicResist": 20.0,
@@ -1909,13 +1969,13 @@
           {
             "key": "TransformDuration",
             "values": [
-              60.0,
-              60.0,
-              60.0,
-              60.0,
-              60.0,
-              60.0,
-              60.0
+              5.0,
+              5.0,
+              5.0,
+              5.0,
+              5.0,
+              5.0,
+              5.0
             ]
           },
           {
@@ -1952,6 +2012,18 @@
               625.0,
               750.0,
               875.0
+            ]
+          },
+          {
+            "key": "ExtraAARange",
+            "values": [
+              480.0,
+              480.0,
+              480.0,
+              480.0,
+              480.0,
+              480.0,
+              480.0
             ]
           }
         ]
@@ -2425,25 +2497,25 @@
           {
             "key": "BonusHealth",
             "values": [
-              125.0,
+              200.0,
               300.0,
-              475.0,
-              650.0,
-              825.0,
-              1000.0,
-              1175.0
+              400.0,
+              500.0,
+              600.0,
+              700.0,
+              800.0
             ]
           },
           {
-            "key": "ExtraTargets",
+            "key": "Targets",
             "values": [
-              -1.0,
               0.0,
               1.0,
               2.0,
               3.0,
               4.0,
-              5.0
+              5.0,
+              6.0
             ]
           },
           {
@@ -2571,11 +2643,11 @@
             "values": [
               50.0,
               150.0,
-              300.0,
+              250.0,
+              350.0,
               450.0,
-              600.0,
-              750.0,
-              900.0
+              550.0,
+              650.0
             ]
           },
           {
@@ -2642,6 +2714,18 @@
               250.0,
               300.0,
               350.0
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
             ]
           }
         ]
@@ -2748,7 +2832,15 @@
           },
           {
             "key": "HexRange",
-            "values": null
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
           }
         ]
       }
@@ -2760,7 +2852,7 @@
       "stats": {
         "hp": 450.0,
         "hpScaleFactor": 1.8,
-        "mana": 150.0,
+        "mana": 125.0,
         "initalMana": 0,
         "damage": 40.0,
         "damageScaleFactor": 1.25,
@@ -3437,7 +3529,7 @@
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Zed.dds",
       "stats": {
-        "hp": 500.0,
+        "hp": 550.0,
         "hpScaleFactor": 1.8,
         "mana": 75.0,
         "initalMana": 0,
@@ -3447,7 +3539,7 @@
         "magicResist": 20.0,
         "critMultiplier": 1.5,
         "critChance": 0.25,
-        "attackSpeed": 0.65,
+        "attackSpeed": 0.7,
         "range": 1
       },
       "traits": [
@@ -3462,13 +3554,13 @@
           {
             "key": "Damage",
             "values": [
-              100.0,
+              50.0,
               200.0,
-              300.0,
-              400.0,
+              350.0,
               500.0,
-              600.0,
-              700.0
+              650.0,
+              800.0,
+              950.0
             ]
           },
           {
@@ -3641,8 +3733,8 @@
               300.0,
               450.0,
               600.0,
-              700.0,
-              800.0
+              750.0,
+              900.0
             ]
           },
           {
@@ -3816,7 +3908,7 @@
             },
             {
               "name": "ManaDrainBurn",
-              "value": 30.0
+              "value": 20.0
             },
             {
               "name": "ManaDrainDrain",
@@ -3834,7 +3926,7 @@
             },
             {
               "name": "ManaDrainBurn",
-              "value": 30.0
+              "value": 20.0
             },
             {
               "name": "ManaDrainDrain",
@@ -3852,7 +3944,7 @@
             },
             {
               "name": "ManaDrainBurn",
-              "value": 30.0
+              "value": 20.0
             },
             {
               "name": "ManaDrainDrain",
@@ -3931,7 +4023,7 @@
           "vars": [
             {
               "name": "BonusHealth",
-              "value": 700.0
+              "value": 600.0
             }
           ]
         },
@@ -3941,7 +4033,7 @@
           "vars": [
             {
               "name": "BonusHealth",
-              "value": 1200.0
+              "value": 1000.0
             }
           ]
         }
@@ -4073,11 +4165,11 @@
           "vars": [
             {
               "name": "ADValue",
-              "value": 40.0
+              "value": 50.0
             },
             {
               "name": "APValue",
-              "value": 40.0
+              "value": 50.0
             }
           ]
         },
@@ -4087,11 +4179,11 @@
           "vars": [
             {
               "name": "ADValue",
-              "value": 60.0
+              "value": 70.0
             },
             {
               "name": "APValue",
-              "value": 60.0
+              "value": 70.0
             }
           ]
         }
@@ -4239,7 +4331,7 @@
           "vars": [
             {
               "name": "AP",
-              "value": 45.0
+              "value": 40.0
             }
           ]
         },
@@ -4286,7 +4378,7 @@
             },
             {
               "name": "A004F927",
-              "value": 2.25
+              "value": 1.25
             }
           ]
         },
@@ -4304,7 +4396,7 @@
             },
             {
               "name": "A004F927",
-              "value": 2.25
+              "value": 1.25
             }
           ]
         }
@@ -4338,15 +4430,15 @@
           "vars": [
             {
               "name": "Armor",
-              "value": 60.0
+              "value": 75.0
             },
             {
               "name": "Heal",
-              "value": 35.0
+              "value": 30.0
             },
             {
               "name": "MagicResist",
-              "value": 60.0
+              "value": 75.0
             }
           ]
         },
@@ -4356,15 +4448,15 @@
           "vars": [
             {
               "name": "Armor",
-              "value": 60.0
+              "value": 75.0
             },
             {
               "name": "Heal",
-              "value": 35.0
+              "value": 30.0
             },
             {
               "name": "MagicResist",
-              "value": 60.0
+              "value": 75.0
             }
           ]
         }
@@ -4661,7 +4753,7 @@
       "effects": [
         {
           "name": "OmniVamp",
-          "value": 33.0
+          "value": 25.0
         }
       ]
     },
@@ -4691,7 +4783,7 @@
       "effects": [
         {
           "name": "HealthRestore",
-          "value": 800.0
+          "value": 500.0
         },
         {
           "name": "C425872E",
@@ -4710,7 +4802,7 @@
       "effects": [
         {
           "name": "Lifesteal",
-          "value": 50.0
+          "value": 40.0
         }
       ]
     },
@@ -4878,6 +4970,18 @@
         {
           "name": "Damage",
           "value": 200.0
+        },
+        {
+          "name": "Bounces",
+          "value": 4.0
+        },
+        {
+          "name": "HexRange",
+          "value": 2.0
+        },
+        {
+          "name": "93D13AF6",
+          "value": 3.0
         }
       ]
     },
@@ -4930,7 +5034,7 @@
       "effects": [
         {
           "name": "BurnPercent",
-          "value": 20.0
+          "value": 60.0
         },
         {
           "name": "6DF27940",
@@ -4942,7 +5046,7 @@
         },
         {
           "name": "BurnDuration",
-          "value": 5.0
+          "value": 45.0
         }
       ]
     },
@@ -5105,11 +5209,11 @@
       "effects": [
         {
           "name": "BurnPercent",
-          "value": 13.0
+          "value": 60.0
         },
         {
           "name": "BurnDuration",
-          "value": 5.0
+          "value": 45.0
         },
         {
           "name": "6DF27940",

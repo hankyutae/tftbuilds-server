@@ -27,10 +27,10 @@ publicBuildsRouter
   })
   .get((req,res,next)=>{
     if(res.build['is_public']){
-      return res.json(res.build);
+      return res.status(200).json(res.build);
     }
-    res.status(404).json({
-      error: { message: 'Build doesn\'t exist' }
+    res.status(403).json({
+      error: 'Forbidden'
     }).end();
   });
 

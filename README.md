@@ -45,6 +45,21 @@ timezone = 'UTC'
 - To seed the database for development: `psql -U tester -d tftBuilds -a -f seeds/seed.users.sql`
 - To clear seed data: `psql -U tester -d tftBuilds -a -f seeds/trunc.users.sql`## Sample Data
 
+## Endpoints
+Unprotected:
+`GET /api/champions`
+`GET /api/items`
+`GET /api/traits`
+`POST /api/users`
+`GET /api/public-builds/:id`
+`POST /api/auth/login`
+
+Protected:
+`GET /api/builds`
+`POST /api/builds`
+`DELETE /api/builds/:id`
+`PATCH /api/builds/make-public/:id`
+
 
 ## Deploying
 

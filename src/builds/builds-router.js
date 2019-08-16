@@ -46,7 +46,7 @@ buildsRouter
           const champ = build_data[i];
           const { id, items, stars } = champ;
           if (typeof id !== typeof 4) {
-            return new Error({
+            return res.status(400).json({
               error: 'id in build_data must be a number'
             });
           }
@@ -116,6 +116,9 @@ buildsRouter
             error: { message: 'Build doesn\'t exist' }
           });
         }
+        if(Build.user_id!==req.user.id){
+          return res.status(403).json({ error: 'Forbidden' });
+        }
         res.build = Build; // save the article for the next middleware
         next(); // don't forget to call next so the next middleware happens!
       })
@@ -146,15 +149,16 @@ buildsRouter
             error: { message: 'Build doesn\'t exist' }
           });
         }
+        if(Build.user_id!==req.user.id){
+          return res.status(403).json({ error: 'Forbidden' });
+        }
         res.build = Build; // save the article for the next middleware
         next(); // don't forget to call next so the next middleware happens!
       })
       .catch(next);
   })
   .patch((req, res, next) => {
-    const db = req.app.get('db');
-    const id = req.params.id;
-    BuildsService.makePublic(db, id)
+    BuildsService.makePublic(req.app.get('db'), req.params.id)
       .then(actual => {
         res.status(204).end();
       })

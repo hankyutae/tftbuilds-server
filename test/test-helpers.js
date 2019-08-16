@@ -158,6 +158,7 @@ function makeUsersArray() {
 
 function makeBuildsArray(users) {
   return [
+    //The first build always has to be owned by users[0]
     {
       'id': '28208e13-629f-4eb9-9a82-c2ee91fc6c3b',
       'user_id': users[0].id,
@@ -210,12 +211,13 @@ function makeBuildsArray(users) {
         }
       ]
     },
+    //Second build needs to be is_public:false
     {
       'id': '5812433b-1948-41ca-9ff1-b55c98f2c2db',
       'user_id': users[1].id,
       'date_created': new Date('2029-01-22T16:28:32.615Z'),
       'date_modified': new Date('2029-01-22T16:28:32.615Z'),
-      'is_public': true,
+      'is_public': false,
       'build_data': [
         {
           'id': 18,
@@ -223,8 +225,48 @@ function makeBuildsArray(users) {
           'stars': 1
         }
       ]
-    }
+    },
+    {
+      "id": "599a5eb5-48c8-404c-b769-9444e9512755",
+      "user_id": users[0].id,
+      "date_created": new Date('2029-01-22T16:28:32.615Z'),
+      "date_modified": new Date('2029-01-22T16:28:32.615Z'),
+      "is_public": true,
+      "build_data": [
+          {
+              "id": 38,
+              "items": [
+                  15,
+                  14,
+                  16
+              ],
+              "stars": 1
+          },
+          {
+              "id": 60,
+              "items": [],
+              "stars": 1
+          }
+      ]
+  }
   ];
+}
+
+function getArrayOfUsersBuilds(user){
+  return makeBuildsArray(makeUsersArray()).filter(build=>build.user_id===user.id);
+}
+
+function makeExpectedBuild(build){/* 
+  const user = users
+    .find(user => user.id === build.user_id) */
+  return{
+    id:build.id,
+    user_id:build.user_id,
+    date_created:build.date_created.toISOString(),
+    date_modified:build.date_modified.toISOString(),
+    is_public:build.is_public,
+    build_data:build.build_data,
+  }
 }
 
 function makeFixtures() {
@@ -246,16 +288,44 @@ function seedBuilds(db, users, builds) {
     .then(() =>
       db
         .into('builds')
-        .insert(builds)
+        .insert(builds.map(build=>{
+          return{
+            ...build,
+            build_data:JSON.stringify(build.build_data)
+          };
+        }))
     )
+}
+
+function makeAuthHeader(user, secret = process.env.JWT_SECRET) {
+  const token = jwt.sign({ user_id: user.id }, secret, {
+    subject: user.user_name,
+    algorithm: 'HS256',
+  })
+  return `Bearer ${token}`
+}
+
+function cleanTables(db) {
+  return db.raw(
+    `TRUNCATE
+      builds,
+      users
+      RESTART IDENTITY CASCADE`
+  )
 }
 
 module.exports = {
   makeUsersArray,
   makeBuildsArray,
+  makeFixtures,
+  makeAuthHeader,
+  makeExpectedBuild,
+
   makeTfChampSample,
   makeBfItemSample,
-  makeFixtures,
+  getArrayOfUsersBuilds,
+
   seedBuilds,
   seedUsers,
+  cleanTables,
 };

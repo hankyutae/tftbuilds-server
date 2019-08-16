@@ -1,7 +1,7 @@
 {
   "champions": {
     "4": {
-      "name": "Twisted Fate",
+      "name": "트위스티드 페이트",
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_TwistedFate.dds",
       "stats": {
@@ -23,8 +23,8 @@
         "Sorcerer"
       ],
       "ability": {
-        "name": "Pick a Card",
-        "desc": "Twisted Fate randomly picks a card, then throws it at his current target, dealing @ModifiedDamage@ magic damage and creating a special effect based on the color of the card.<br><br>Blue: Restores @BlueCardManaRestore@ mana to all allies adjacent to Twisted Fate.<br>Red: Deals @ModifiedDamage@ to all enemies adjacent to the target.<br>Gold: Stuns the target for @GoldCardStunDuration@ seconds.",
+        "name": "tft_character_twistedfate_ability_name: Pick a Card",
+        "desc": "tft_character_twistedfate_ability_description",
         "icon": "ASSETS/Characters/TFT_TwistedFate/HUD/Icons2D/TFT_TwistedFate_Spell.TFT.dds",
         "variables": [
           {
@@ -91,7 +91,7 @@
       }
     },
     "10": {
-      "name": "Kayle",
+      "name": "케일",
       "cost": 5,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kayle.dds",
       "stats": {
@@ -113,8 +113,8 @@
         "Knight"
       ],
       "ability": {
-        "name": "Divine Judgement",
-        "desc": "Kayle shields her @Targets@ weakest allies, making them immune to all damage for @ShieldDuration@ seconds.",
+        "name": "신성한 심판",
+        "desc": "케일이 가장 약한 아군에게 보호막을 씌워 피해를 입지 않게 합니다.",
         "icon": "ASSETS/Characters/Kayle/HUD/Icons2D/Kayle_R.dds",
         "variables": [
           {
@@ -145,7 +145,7 @@
       }
     },
     "18": {
-      "name": "Tristana",
+      "name": "트리스타나",
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Tristana.dds",
       "stats": {
@@ -167,8 +167,8 @@
         "Gunslinger"
       ],
       "ability": {
-        "name": "Explosive Charge",
-        "desc": "Tristana places a bomb on her current target which will detonate after she Basic Attacks them 3 times or @ExplosiveChargeDuration@ seconds pass without Tristana attacking them.<br><br>When the bomb detonates, it deals @ModifiedDamage@ magic damage to all nearby enemies, plus @PercentDamageIncrease@ for each Basic Attack, up to a maximum of @ModifiedMaxDamage@.",
+        "name": "폭발 화약",
+        "desc": "트리스타나가 현재 대상에게 폭탄을 설치합니다. 폭탄은 3회 공격 시 폭발하며 주변 적에게 피해를 입힙니다.",
         "icon": "ASSETS/Characters/Tristana/HUD/Icons2D/Tristana_E.dds",
         "variables": [
           {
@@ -223,7 +223,7 @@
       }
     },
     "19": {
-      "name": "Warwick",
+      "name": "워윅",
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Warwick.dds",
       "stats": {
@@ -245,8 +245,8 @@
         "Brawler"
       ],
       "ability": {
-        "name": "Infinite Duress",
-        "desc": "Warwick pounces on the weakest enemy, stunning them for @Duration@ seconds and striking them @Hits@ times, dealing @ModifiedDamage@ magic damage. Each strike triggers on-hit effects and heals Warwick for 100% of the damage dealt.",
+        "name": "무한의 구속",
+        "desc": "워윅이 가장 체력이 낮은 적에게 달려들어 기절시키고 피해를 입히며 자신의 체력을 회복합니다.",
         "icon": "ASSETS/Characters/Warwick/HUD/Icons2D/WarwickR.dds",
         "variables": [
           {
@@ -301,7 +301,7 @@
       }
     },
     "21": {
-      "name": "Miss Fortune",
+      "name": "미스 포츈",
       "cost": 5,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_MissFortune.dds",
       "stats": {
@@ -323,8 +323,8 @@
         "Gunslinger"
       ],
       "ability": {
-        "name": "Bullet Time",
-        "desc": "Miss Fortune channels and fires waves of bullets in a cone for @ChannelDuration@ seconds, dealing @ModifiedDamage@ magic damage to all enemies within over the duration.",
+        "name": "쌍권총 난사",
+        "desc": "미스 포츈이 정신 집중을 한 뒤 원뿔 모양으로 총을 난사해 범위 내의 적에게 피해를 입힙니다.",
         "icon": "ASSETS/Characters/MissFortune/HUD/Icons2D/MissFortune_R.dds",
         "variables": [
           {
@@ -379,7 +379,7 @@
       }
     },
     "22": {
-      "name": "Ashe",
+      "name": "애쉬",
       "cost": 3,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Ashe.dds",
       "stats": {
@@ -401,8 +401,8 @@
         "Ranger"
       ],
       "ability": {
-        "name": "Enchanted Crystal Arrow",
-        "desc": "Ashe fires an arrow at the farthest enemy. It stops on the first target hit, dealing @ModifiedDamage@ magic damage and stunning them for @StunDurationPerSquare@ seconds per Hex traveled.",
+        "name": "마법의 수정화살",
+        "desc": "애쉬가 화살을 발사해 가장 멀리 있는 적에게 피해를 입히고 기절시킵니다. 적이 멀수록 기절 시간이 길어집니다.",
         "icon": "ASSETS/Characters/Ashe/HUD/Icons2D/Ashe_R.dds",
         "variables": [
           {
@@ -433,7 +433,7 @@
       }
     },
     "25": {
-      "name": "Morgana",
+      "name": "모르가나",
       "cost": 3,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Morgana.dds",
       "stats": {
@@ -455,8 +455,8 @@
         "Sorcerer"
       ],
       "ability": {
-        "name": "Soul Shackles",
-        "desc": "Morgana fires chains to all nearby enemies, dealing @ModifiedDamage@ magic damage.<br><br>After @ChainDuration@ seconds, all chained enemies still within range of Morgana are stunned for @StunDuration@ seconds and take @ModifiedDamage@ magic damage again.",
+        "name": "영혼의 족쇄",
+        "desc": "모르가나가 주변 적을 사슬로 묶어 피해를 입힙니다. 잠시 후 벗어나지 못한 적을 기절시킵니다.",
         "icon": "ASSETS/Characters/Morgana/HUD/Icons2D/FallenAngel_Purgatory.dds",
         "variables": [
           {
@@ -523,7 +523,7 @@
       }
     },
     "28": {
-      "name": "Evelynn",
+      "name": "이블린",
       "cost": 3,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Evelyn.dds",
       "stats": {
@@ -545,8 +545,8 @@
         "Assassin"
       ],
       "ability": {
-        "name": "Last Caress",
-        "desc": "Evelynn deals @ModifiedDamage@ magic damage to up to 3 nearby enmies, then teleports away.<br><br>This damage is increased to @ModifiedCritDamage@ against targets below @ExecuteThreshholdPercent@ health.",
+        "name": "최후의 포옹",
+        "desc": "이블린이 가장 가까운 적 셋에게 피해를 입히고 순간이동해 멀어집니다. 체력이 낮은 적을 공격하면 피해량이 증가합니다.",
         "icon": "ASSETS/Characters/Evelynn/HUD/Icons2D/Evelynn_R.dds",
         "variables": [
           {
@@ -601,7 +601,7 @@
       }
     },
     "30": {
-      "name": "Karthus",
+      "name": "카서스",
       "cost": 5,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Karthus.dds",
       "stats": {
@@ -623,8 +623,8 @@
         "Sorcerer"
       ],
       "ability": {
-        "name": "Requiem",
-        "desc": "Karthus channels for 2.25 seconds, then deals @ModifiedDamage@ magic damage to @NumberOfTargets@ random enemies.",
+        "name": "진혼곡",
+        "desc": "카서스가 정신을 집중한 뒤 다수의 무작위 적에게 피해를 입힙니다.",
         "icon": "ASSETS/Characters/Karthus/HUD/Icons2D/Karthus_R.dds",
         "variables": [
           {
@@ -655,7 +655,7 @@
       }
     },
     "31": {
-      "name": "Cho'Gath",
+      "name": "초가스",
       "cost": 4,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Chogath.dds",
       "stats": {
@@ -677,8 +677,8 @@
         "Brawler"
       ],
       "ability": {
-        "name": "Rupture",
-        "desc": "Cho'gath ruptures a large area, dealing @ModifiedDamage@ magic damage and knocking up all enemies within for @KnockDuration@ seconds.",
+        "name": "파열",
+        "desc": "초가스가 땅을 파열시켜 대상 지역에 있는 적 모두를 기절시키고 피해를 입힙니다.",
         "icon": "ASSETS/Characters/Chogath/HUD/Icons2D/GreenTerror_SpikeSlam.dds",
         "variables": [
           {
@@ -721,7 +721,7 @@
       }
     },
     "34": {
-      "name": "Anivia",
+      "name": "애니비아",
       "cost": 5,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Anivia.dds",
       "stats": {
@@ -743,8 +743,8 @@
         "Elementalist"
       ],
       "ability": {
-        "name": "Glacial Storm",
-        "desc": "Anivia creates a large hailstorm that lasts for @StormDuration@ seconds, dealing @ModifiedDamage@ magic damage over the duration and slowing the attack speed of all enemies inside of it by @AttackSpeedSlow@%.",
+        "name": "얼음 폭풍",
+        "desc": "애니비아가 폭풍우를 소환해 폭풍우 안의 모든 적에게 피해를 입히고 공격 속도를 낮춥니다.",
         "icon": "ASSETS/Characters/Anivia/HUD/Icons2D/Anivia_R.dds",
         "variables": [
           {
@@ -787,7 +787,7 @@
       }
     },
     "38": {
-      "name": "Kassadin",
+      "name": "카사딘",
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kassadin.dds",
       "stats": {
@@ -809,8 +809,8 @@
         "Sorcerer"
       ],
       "ability": {
-        "name": "Nether Blade",
-        "desc": "Passive: Kassadin's basic attacks steal @ManaSteal@ mana from his target and grant him a @ModifiedShield@ damage shield for @ShieldDuration@ seconds.",
+        "name": "황천의 검",
+        "desc": "카사딘이 공격하면 적으로부터 마나를 훔쳐 보호막으로 전환합니다.",
         "icon": "ASSETS/Characters/Kassadin/HUD/Icons2D/Kassadin_W.dds",
         "variables": [
           {
@@ -841,7 +841,7 @@
       }
     },
     "41": {
-      "name": "Gangplank",
+      "name": "갱플랭크",
       "cost": 3,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Gangplank.dds",
       "stats": {
@@ -864,8 +864,8 @@
         "Blademaster"
       ],
       "ability": {
-        "name": "Powder Kegs",
-        "desc": "Passive: Gangplank periodically places barrels near enemies.<br><br>Active: Gangplank shoots his barrels, causing them all to explode, dealing @ModifiedDamage@ magic damage to nearby enemies and applying on-hit effects.",
+        "name": "화약통",
+        "desc": "갱플랭크가 주기적으로 화약통을 생성합니다. 스킬을 사용하면 화약통을 폭발시켜 주변 적에게 피해를 입힙니다.",
         "icon": "ASSETS/Characters/Gangplank/HUD/Icons2D/Gangplank_E.dds",
         "variables": [
           {
@@ -884,7 +884,7 @@
       }
     },
     "45": {
-      "name": "Veigar",
+      "name": "베이가",
       "cost": 3,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Veigar.dds",
       "stats": {
@@ -906,8 +906,8 @@
         "Sorcerer"
       ],
       "ability": {
-        "name": "Primordial Burst",
-        "desc": "Veigar blasts an enemy with magical energy, dealing @ModifiedDamage@ magic damage. If Veigar is a higher star level than his target, this damage is increased to @ModifiedLowerStarDamage@.",
+        "name": "태초의 폭발",
+        "desc": "베이가가 적에게 마법 에너지를 발사해 피해를 입힙니다. 베이가보다 등급이 낮은 적은 즉시 사망합니다.",
         "icon": "ASSETS/Characters/Veigar/HUD/Icons2D/VeigarPrimordialBurst.dds",
         "variables": [
           {
@@ -938,7 +938,7 @@
       }
     },
     "50": {
-      "name": "Swain",
+      "name": "스웨인",
       "cost": 5,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Swain.dds",
       "stats": {
@@ -961,8 +961,8 @@
         "Shapeshifter"
       ],
       "ability": {
-        "name": "Demonflare",
-        "desc": "Swain transforms into demon form for @TransformDuration@ seconds.<br><br>While in demon form, Swain drains health from nearby enemies, dealing @ModifiedDamage@ magic damage and healing himself for @ModifiedHeal@ over the duration for each enemy in range. At the end of the transformation, Swain sends out a Soul Flare, dealing @ModifiedSoulFlareDamage@ magic damage to all nearby enemies.",
+        "name": "악의 불길",
+        "desc": "스웨인이 변신해 주변 모든 적의 체력을 흡수합니다. 변신이 끝나면 에너지 충격파를 방출해 주변 적에게 피해를 입힙니다.",
         "icon": "ASSETS/Characters/Swain/HUD/Icons2D/Swain_R.dds",
         "variables": [
           {
@@ -1045,7 +1045,7 @@
       }
     },
     "53": {
-      "name": "Blitzcrank",
+      "name": "블리츠크랭크",
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Blitzcrank.dds",
       "stats": {
@@ -1067,8 +1067,8 @@
         "Brawler"
       ],
       "ability": {
-        "name": "Rocket Grab",
-        "desc": "Blitzcrank pulls the furthest enemy to him, dealing @ModifiedDamage@ magic damage and stunning them for @StunDuration@ seconds.<br><br>His next attack after pulling knocks up for 1 second.<br><br>Allies within range will prioritize attacking Blitzcrank's target.",
+        "name": "로켓 손",
+        "desc": "블리츠크랭크가 가장 멀리 있는 적을 자신에게 당기고 공중에 띄웁니다.",
         "icon": "ASSETS/Characters/Blitzcrank/HUD/Icons2D/Blitzcrank_RocketGrab.dds",
         "variables": [
           {
@@ -1099,7 +1099,7 @@
       }
     },
     "55": {
-      "name": "Katarina",
+      "name": "카타리나",
       "cost": 3,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Katarina.dds",
       "stats": {
@@ -1121,8 +1121,8 @@
         "Assassin"
       ],
       "ability": {
-        "name": "Death Lotus",
-        "desc": "Katarina channels for @Duration@ seconds, throwing knives at @NumberOfTargets@ nearby enemies, dealing @ModifiedDamage@ magic damage over the duration and preventing healing to her targets for @GrievousWoundsDuration@ seconds.",
+        "name": "죽음의 연꽃",
+        "desc": "카타리나가 정신 집중을 한 뒤 주변 적에게 단검을 던져 피해를 입히고 회복 효과를 감소시킵니다.",
         "icon": "ASSETS/Characters/Katarina/HUD/Icons2D/Katarina_R.dds",
         "variables": [
           {
@@ -1201,7 +1201,7 @@
       }
     },
     "60": {
-      "name": "Elise",
+      "name": "엘리스",
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Elise.dds",
       "stats": {
@@ -1223,8 +1223,8 @@
         "Shapeshifter"
       ],
       "ability": {
-        "name": "Spider Form",
-        "desc": "Elise transforms into a giant spider and summons @NumSpiderlings@ spiderlings to fight alongside her.<br><br>While in spider form, Elise gains @LifestealPercent@ bonus lifesteal. Spiderlings benefit from active Demon trait bonuses.",
+        "name": "거미 형태",
+        "desc": "엘리스가 새끼 거미를 소환하고 변신해 생명력 흡수 효과를 얻습니다.",
         "icon": "ASSETS/Characters/Elise/HUD/Icons2D/EliseR.DDS",
         "variables": [
           {
@@ -1267,7 +1267,7 @@
       }
     },
     "63": {
-      "name": "Brand",
+      "name": "브랜드",
       "cost": 4,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Brand.dds",
       "stats": {
@@ -1289,8 +1289,8 @@
         "Elementalist"
       ],
       "ability": {
-        "name": "Pyroclasm",
-        "desc": "Brand launches a bouncing fireball at an enemy. This fireball will bounce to nearby enemies up to @MaxBounces@ times, dealing @ModifiedDamage@ magic damage each time it hits.",
+        "name": "파멸의 불덩이",
+        "desc": "브랜드가 튕기는 불덩이를 발사해 닿는 적에게 피해를 입힙니다.",
         "icon": "ASSETS/Characters/Brand/HUD/Icons2D/BrandR.dds",
         "variables": [
           {
@@ -1321,7 +1321,7 @@
       }
     },
     "67": {
-      "name": "Vayne",
+      "name": "베인",
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Vayne.dds",
       "stats": {
@@ -1343,8 +1343,8 @@
         "Ranger"
       ],
       "ability": {
-        "name": "Silver Bolts",
-        "desc": "Passive: Whenever Vayne Basic Attacks the same target 3 times, she deals @ModifiedDamage@ of her target's Maximum Health as true damage.",
+        "name": "은화살",
+        "desc": "베인이 세 번째 공격마다 적 최대 체력에 비례한 고정 피해를 입힙니다.",
         "icon": "ASSETS/Characters/Vayne/HUD/Icons2D/Vayne_SilveredBolts.dds",
         "variables": [
           {
@@ -1363,7 +1363,7 @@
       }
     },
     "76": {
-      "name": "Nidalee",
+      "name": "니달리",
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Nidalee.dds",
       "stats": {
@@ -1385,8 +1385,8 @@
         "Shapeshifter"
       ],
       "ability": {
-        "name": "Primal Surge",
-        "desc": "Nidalee heals herself and an ally, restoring @ModifiedHeal@ health over @HoTDuration@ seconds, then transforms into cat form.<br><br>While in cat form, Nidalee's range is reduced to 1 hex and she gains @ADinCougar@ Bonus Attack Damage.",
+        "name": "태고의 생명력",
+        "desc": "니달리가 자신과 가장 약한 아군의 체력을 회복한 뒤 변신해 공격력을 얻습니다.",
         "icon": "ASSETS/Characters/Nidalee/HUD/Icons2D/Nidalee_R2.dds",
         "variables": [
           {
@@ -1453,7 +1453,7 @@
       }
     },
     "78": {
-      "name": "Poppy",
+      "name": "뽀삐",
       "cost": 3,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Poppy.dds",
       "stats": {
@@ -1475,8 +1475,8 @@
         "Knight"
       ],
       "ability": {
-        "name": "Keeper's Verdict",
-        "desc": "Poppy creates a shockwave in a straight line that can hit up to @NumberOfTargets@ enemies, dealing @ModifiedDamage@ magic damage, knocking up and stunning them for @StunDuration@ seconds.",
+        "name": "수호자의 심판",
+        "desc": "뽀삐가 망치를 휘둘러 피해를 입히고 가장 가까운 적을 공중에 띄웁니다.",
         "icon": "ASSETS/Characters/Poppy/HUD/Icons2D/Poppy_R.dds",
         "variables": [
           {
@@ -1543,7 +1543,7 @@
       }
     },
     "82": {
-      "name": "Mordekaiser",
+      "name": "모데카이저",
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Mordekaiser.dds",
       "stats": {
@@ -1565,8 +1565,8 @@
         "Knight"
       ],
       "ability": {
-        "name": "Obliterate",
-        "desc": "Mordekaiser slams his mace on the two spaces in front of him, dealing @ModifiedDamage@ magic damage to enemies within.",
+        "name": "말살",
+        "desc": "모데카이저가 전방에 철퇴를 내리쳐 일직선상에 있는 적 두 명에게 피해를 입힙니다.",
         "icon": "ASSETS/Characters/Mordekaiser/HUD/Icons2D/MordekaiserQ.MordeVGU.dds",
         "variables": [
           {
@@ -1621,7 +1621,7 @@
       }
     },
     "84": {
-      "name": "Akali",
+      "name": "아칼리",
       "cost": 4,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Akali.dds",
       "stats": {
@@ -1643,8 +1643,8 @@
         "Assassin"
       ],
       "ability": {
-        "name": "Five Point Strike",
-        "desc": "Akali throws kunai at her target, dealing @ModifiedDamage@ magic damage.<br><br>There is a @CritChance@ chance that this spell will critically strike for @CritDamage@ magic damage instead.",
+        "name": "오연투척검",
+        "desc": "아칼리가 전방에 표창을 던져 피해를 입힙니다.",
         "icon": "ASSETS/Characters/Akali/HUD/Icons2D/Akali_Q.dds",
         "variables": [
           {
@@ -1687,7 +1687,7 @@
       }
     },
     "85": {
-      "name": "Kennen",
+      "name": "케넨",
       "cost": 3,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kennen.dds",
       "stats": {
@@ -1710,8 +1710,8 @@
         "Elementalist"
       ],
       "ability": {
-        "name": "Slicing Maelstrom",
-        "desc": "Kennen summons a storm around himself for @Duration@ seconds, calling down lightning bolts on all enemies in the area every @TickRate@ second and dealing @ModifiedDamage@ magic damage over the duration. Each enemy struck by 3 lightning bolts is stunned for @StunDuration@ seconds.",
+        "name": "날카로운 소용돌이",
+        "desc": "케넨이 주변에 폭풍을 소환해 범위 내에 있는 적에게 피해를 입히고 기절시킵니다.",
         "icon": "ASSETS/Characters/Kennen/HUD/Icons2D/Kennen_R.dds",
         "variables": [
           {
@@ -1766,7 +1766,7 @@
       }
     },
     "86": {
-      "name": "Garen",
+      "name": "가렌",
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Garen.dds",
       "stats": {
@@ -1788,8 +1788,8 @@
         "Knight"
       ],
       "ability": {
-        "name": "Judgement",
-        "desc": "Garen spins his sword for @SpinDuration@ seconds, becoming immune to magic damage and dealing @ModifiedDamage@ magic damage to nearby enemies over the duration.",
+        "name": "심판",
+        "desc": "가렌이 검을 들고 회전하며 마법 피해에 면역 상태가 되고 주변 적에게 피해를 입힙니다.",
         "icon": "ASSETS/Characters/Garen/HUD/Icons2D/Garen_E1.dds",
         "variables": [
           {
@@ -1832,7 +1832,7 @@
       }
     },
     "89": {
-      "name": "Leona",
+      "name": "레오나",
       "cost": 4,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Leona.dds",
       "stats": {
@@ -1854,8 +1854,8 @@
         "Guardian"
       ],
       "ability": {
-        "name": "Solar Flare",
-        "desc": "Leona calls down a solar ray in an area, dealing @ModifiedDamage@ magic damage to all enemies within and stunning the enmey in the center for @CCDuration@ seconds.",
+        "name": "흑점 폭발",
+        "desc": "레오나가 태양 광선을 내리꽂아 범위 내의 적에게 피해를 입히고 둔화시킵니다. 빛줄기 중심에 있는 적은 기절합니다.",
         "icon": "ASSETS/Characters/Leona/HUD/Icons2D/LeonaSolarFlare.dds",
         "variables": [
           {
@@ -1898,7 +1898,7 @@
       }
     },
     "98": {
-      "name": "Shen",
+      "name": "쉔",
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Shen.dds",
       "stats": {
@@ -1920,8 +1920,8 @@
         "Blademaster"
       ],
       "ability": {
-        "name": "Spirit's Refuge",
-        "desc": "Shen creates a zone around himself for @ZoneDuration@ seconds, granting all nearby allies 100% chance to dodge incoming basic attacks.",
+        "name": "의지의 결계",
+        "desc": "쉔이 주변에 결계를 생성합니다. 결계 안의 아군은 모든 공격을 회피합니다.",
         "icon": "ASSETS/Characters/Shen/HUD/Icons2D/Shen_W.dds",
         "variables": [
           {
@@ -1940,7 +1940,7 @@
       }
     },
     "102": {
-      "name": "Shyvana",
+      "name": "쉬바나",
       "cost": 3,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Shyvana.dds",
       "stats": {
@@ -1962,8 +1962,8 @@
         "Shapeshifter"
       ],
       "ability": {
-        "name": "Dragon's Descent",
-        "desc": "Shyvana dashes away from her current target and transforms into dragon form.<br><br>While in dragon form, Shyvana's Basic Attack becomes ranged, she gains @ADWhileDragon@ Attack Damage, and her Basic Attacks burn her enemies for @BurnDuration@ seconds, dealing @ModifiedDamage@ magic damage and preventing all healing over the duration.",
+        "name": "용의 강림",
+        "desc": "쉬바나가 돌진하며 변신하고 공격력과 공격 사거리가 증가합니다. 변신 시 공격은 적을 불태웁니다.",
         "icon": "ASSETS/Characters/Shyvana/HUD/Icons2D/ShyvanaDragonsDescent.dds",
         "variables": [
           {
@@ -2030,7 +2030,7 @@
       }
     },
     "103": {
-      "name": "Ahri",
+      "name": "아리",
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Ahri.dds",
       "stats": {
@@ -2052,8 +2052,8 @@
         "Sorcerer"
       ],
       "ability": {
-        "name": "Orb of Deception",
-        "desc": "Ahri fires an orb in a line, dealing @ModifiedDamage@ magic damage to all enemies it passes through.<br><br>It then returns to her, dealing @ModifiedDamage@ true damage to all enemies it passes through.",
+        "name": "현혹의 구슬",
+        "desc": "아리가 일직선으로 구슬을 던집니다. 구슬은 아리에게 되돌아오며 닿는 적에게 피해를 입힙니다.",
         "icon": "ASSETS/Characters/Ahri/HUD/Icons2D/Ahri_OrbofDeception.dds",
         "variables": [
           {
@@ -2072,7 +2072,7 @@
       }
     },
     "104": {
-      "name": "Graves",
+      "name": "그레이브즈",
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Graves.dds",
       "stats": {
@@ -2094,8 +2094,8 @@
         "Gunslinger"
       ],
       "ability": {
-        "name": "Buckshot",
-        "desc": "Passive: Graves' basic attacks deal @BonusDamage@ bonus physical damage and hit all enemies in a cone in front of him. Graves applies on-hit effects to all enemies hit.",
+        "name": "산탄 사격",
+        "desc": "그레이브즈의 공격은 전방에 있는 모든 적에게 추가 피해를 입힙니다.",
         "icon": "ASSETS/Characters/Graves/HUD/Icons2D/BuckshotOld.dds",
         "variables": [
           {
@@ -2114,7 +2114,7 @@
       }
     },
     "106": {
-      "name": "Volibear",
+      "name": "볼리베어",
       "cost": 3,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Volibear.dds",
       "stats": {
@@ -2136,8 +2136,8 @@
         "Brawler"
       ],
       "ability": {
-        "name": "Thunder Claws",
-        "desc": "Volibear empowers his attacks for the next @BuffDuration@ seconds, causing them to chain to up to @MaxBounces@ nearby enemies. These chains deal @ChainDamage@ physical damage and apply on-hit effects.",
+        "name": "천둥 발톱",
+        "desc": "볼리베어의 공격이 강화되어 여러 적에게 연쇄 피해를 입히고 적중 시 효과를 적용합니다.",
         "icon": "ASSETS/Characters/Volibear/HUD/Icons2D/VolibearR.dds",
         "variables": [
           {
@@ -2204,7 +2204,7 @@
       }
     },
     "107": {
-      "name": "Rengar",
+      "name": "렝가",
       "cost": 3,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Rengar.dds",
       "stats": {
@@ -2226,8 +2226,8 @@
         "Assassin"
       ],
       "ability": {
-        "name": "Savagery",
-        "desc": "Rengar leaps to and stabs the weakest enemy, dealing @LeapDamage@ physical damage and applying on-hit effects to his target.<br><br>After this leap, Rengar gains @ASBuffPercent@ Attack Speed and @CritBuffPercent@ Critical Strike Chance for the next @BuffDuration@ seconds.",
+        "name": "포악함",
+        "desc": "렝가가 가장 약한 적에게 도약해 추가 피해를 입힙니다. 이후 렝가의 공격 속도와 치명타 확률이 증가합니다.",
         "icon": "ASSETS/Characters/Rengar/HUD/Icons2D/RengarQ.dds",
         "variables": [
           {
@@ -2282,7 +2282,7 @@
       }
     },
     "110": {
-      "name": "Varus",
+      "name": "바루스",
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Varus.dds",
       "stats": {
@@ -2304,8 +2304,8 @@
         "Ranger"
       ],
       "ability": {
-        "name": "Piercing Arrow",
-        "desc": "Varus channels for 1.5 seconds, then fires a piercing arrow, dealing @ModifiedDamage@ magic damage to all enemies in its path.",
+        "name": "꿰뚫는 화살",
+        "desc": "바루스가 힘을 모아 화살을 발사해 일직선상의 모든 적에게 피해를 입힙니다.",
         "icon": "ASSETS/Characters/Varus/HUD/Icons2D/VarusQ.dds",
         "variables": [
           {
@@ -2336,7 +2336,7 @@
       }
     },
     "113": {
-      "name": "Sejuani",
+      "name": "세주아니",
       "cost": 4,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Sejuani.dds",
       "stats": {
@@ -2358,8 +2358,8 @@
         "Knight"
       ],
       "ability": {
-        "name": "Glacial Prison",
-        "desc": "After a @ExplosionDelay@ second delay, Sejuani creates a glacial prison on an enemy, dealing @ModifiedDamage@ magic damage to all nearby enemeis and stunning them for @StunDuration@ seconds.",
+        "name": "빙하 감옥",
+        "desc": "세주아니가 거대한 빙하 폭풍을 일으킵니다. 빙하 폭풍 안의 적은 잠시 후 기절합니다.",
         "icon": "ASSETS/Characters/Sejuani/HUD/Icons2D/Sejuani_R.dds",
         "variables": [
           {
@@ -2402,7 +2402,7 @@
       }
     },
     "114": {
-      "name": "Fiora",
+      "name": "피오라",
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Fiora.dds",
       "stats": {
@@ -2424,8 +2424,8 @@
         "Blademaster"
       ],
       "ability": {
-        "name": "Riposte",
-        "desc": "Fiora enters a defensive stance for @BlockDuration@ seconds, becoming immune to damage and enemy spell effects. As she exits this stance, she ripostes, dealing @ModifiedDamage@ magic damage to a nearby enemy and stunning them for @StunDuration@ seconds.",
+        "name": "응수",
+        "desc": "피오라가 모든 피해와 스킬에 면역 상태가 됩니다. 잠시 후 가장 가까운 적을 기절시키고 피해를 입힙니다.",
         "icon": "ASSETS/Characters/Fiora/HUD/Icons2D/Fiora_W.dds",
         "variables": [
           {
@@ -2468,7 +2468,7 @@
       }
     },
     "117": {
-      "name": "Lulu",
+      "name": "룰루",
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Lulu.dds",
       "stats": {
@@ -2490,8 +2490,8 @@
         "Sorcerer"
       ],
       "ability": {
-        "name": "Wild Growth",
-        "desc": "Lulu makes @Targets@ allies giant, granting them @ModifiedBonusHealth@ bonus health and knocking up adjacent enemies near them for @CCDuration@ seconds.",
+        "name": "급성장",
+        "desc": "룰루가 아군에게 추가 체력을 부여하고 주변 적을 공중에 띄웁니다.",
         "icon": "ASSETS/Characters/Lulu/HUD/Icons2D/Lulu_GiantGrowth.dds",
         "variables": [
           {
@@ -2546,7 +2546,7 @@
       }
     },
     "119": {
-      "name": "Draven",
+      "name": "드레이븐",
       "cost": 4,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Draven.dds",
       "stats": {
@@ -2568,8 +2568,8 @@
         "Blademaster"
       ],
       "ability": {
-        "name": "Spinning Axes",
-        "desc": "Draven starts spinning an axe, granting him @BonusADDamage@ bonus physical damage on-hit on his next attack.<br><br>It will return to his location after striking the target and if Draven catches it, it will refresh the buff.<br><br>Draven can spin up to two axes at a time.",
+        "name": "회전 도끼",
+        "desc": "드레이븐이 회전 도끼를 얻어 적중 시 피해량이 증가합니다. 최대 2번 중첩됩니다.",
         "icon": "ASSETS/Characters/Draven/HUD/Icons2D/Draven_SpinningAxe.dds",
         "variables": [
           {
@@ -2612,7 +2612,7 @@
       }
     },
     "121": {
-      "name": "Kha'Zix",
+      "name": "카직스",
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Khazix.dds",
       "stats": {
@@ -2634,8 +2634,8 @@
         "Assassin"
       ],
       "ability": {
-        "name": "Taste their Fear",
-        "desc": "Kha'Zix slashes the nearest enemy, dealing @ModifiedDamage@ magic damage. If the enemy has no adjacent teammates, this damage is increased to @ModifiedIsolationDamage@.",
+        "name": "공포 감지",
+        "desc": "카직스가 가장 가까운 적을 베어 피해를 입힙니다. 고립된 적은 추가 피해를 입습니다.",
         "icon": "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_Q.dds",
         "variables": [
           {
@@ -2666,7 +2666,7 @@
       }
     },
     "122": {
-      "name": "Darius",
+      "name": "다리우스",
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Darius.dds",
       "stats": {
@@ -2688,8 +2688,8 @@
         "Knight"
       ],
       "ability": {
-        "name": "Decimate",
-        "desc": "Darius swings his axe in a circle, dealing @ModifiedDamage@ magic damage and healing himself for @ModifiedHeal@ health for each enemy hit.",
+        "name": "학살",
+        "desc": "다리우스가 도끼를 휘둘러 주변 적에게 피해를 입히고 맞은 적의 수에 비례해 자신의 체력을 회복합니다.",
         "icon": "ASSETS/Characters/Darius/HUD/Icons2D/Darius_Icon_Decimate.dds",
         "variables": [
           {
@@ -2732,7 +2732,7 @@
       }
     },
     "126": {
-      "name": "Jayce",
+      "name": "제이스",
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Jayce.dds",
       "stats": {
@@ -2754,8 +2754,8 @@
         "Shapeshifter"
       ],
       "ability": {
-        "name": "Transform Mercury Cannon",
-        "desc": "Jayce knocks away an enemy in melee range, and then transforms, gaining attack range and temporary attack speed",
+        "name": "tft_character_jayce_ability_name",
+        "desc": "tft_character_jayce_ability_description",
         "icon": "ASSETS/Characters/TFT_Jayce/HUD/Icons2D/TFT_Jayce_Spell.TFT_Hextech.dds",
         "variables": [
           {
@@ -2846,7 +2846,7 @@
       }
     },
     "127": {
-      "name": "Lissandra",
+      "name": "리산드라",
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Lissandra.dds",
       "stats": {
@@ -2868,8 +2868,8 @@
         "Elementalist"
       ],
       "ability": {
-        "name": "Frozen Tomb",
-        "desc": "Lissandra encases an enemy in ice, stunning them for @EnemyStunDuration@ seconds and dealing @ModifiedDamage@ magic damage to all enemies in the surrounding area.<br><br>If she is below @SelfUltPercentage@ health, Lissandra instead encases herself, becoming untargetable for @SelfDuration@ seconds and dealing @ModifiedDamage@ magic damage to all enemies in the surrounding area.",
+        "name": "얼음 무덤",
+        "desc": "리산드라가 대상을 얼음 속에 가두고 주변 적에게 피해를 입힙니다. 리산드라의 체력이 절반 이하일 때에는 자신의 몸을 얼음으로 감싸 대상으로 지정할 수 없는 상태가 됩니다.",
         "icon": "ASSETS/Characters/Lissandra/HUD/Icons2D/Lissandra_R.dds",
         "variables": [
           {
@@ -2972,7 +2972,7 @@
       }
     },
     "136": {
-      "name": "Aurelion Sol",
+      "name": "아우렐리온 솔",
       "cost": 4,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_AurelionSol.dds",
       "stats": {
@@ -2994,8 +2994,8 @@
         "Sorcerer"
       ],
       "ability": {
-        "name": "Voice of Light",
-        "desc": "Aurelion Sol breathes fire in a line, dealing @ModifiedDamage@ magic damage to all enemies in the area.",
+        "name": "성운의 공명",
+        "desc": "아우렐리온 솔이 일직선으로 거대한 불길을 내뿜어 적에게 피해를 입힙니다.",
         "icon": "ASSETS/Characters/AurelionSol/HUD/Icons2D/AurelionSol_R.dds",
         "variables": [
           {
@@ -3026,7 +3026,7 @@
       }
     },
     "150": {
-      "name": "Gnar",
+      "name": "나르",
       "cost": 4,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Gnar.dds",
       "stats": {
@@ -3049,8 +3049,8 @@
         "Shapeshifter"
       ],
       "ability": {
-        "name": "GNAR!",
-        "desc": "Gnar leaps towards an enemy and transforms into Mega Gnar, throwing nearby enemies, dealing @ModifiedDamage@ magic damage and stunning them for @RCCDuration@ seconds.<br><br>While in Mega Gnar form, Gnar gains @TransformHealth@ Health and @TransformAD@ Attack Damage.",
+        "name": "나르!",
+        "desc": "나르가 변신하며 체력과 공격력이 증가하고 가장 멀리 있는 적 뒤로 뜁니다. 착지할 때 주변 적에게 피해를 입히며 기절시킵니다.",
         "icon": "ASSETS/Characters/Gnar/HUD/Icons2D/GnarTransform.dds",
         "variables": [
           {
@@ -3129,7 +3129,7 @@
       }
     },
     "157": {
-      "name": "Yasuo",
+      "name": "야스오",
       "cost": 5,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Yasuo.dds",
       "stats": {
@@ -3151,8 +3151,8 @@
         "Blademaster"
       ],
       "ability": {
-        "name": "Steel Tempest",
-        "desc": "Yasuo stabs his sword into the two spaces in front of him, dealing @ModifiedDamage@ magic damage and applying on-hit effects to enemies within. Every third cast, Yasuo instead throws a tornado in a line that travels @QEmpowerHexRange@ hexes and additionally knocks enemies up for @QKnockupDuration@ seconds.",
+        "name": "강철 폭풍",
+        "desc": "야스오가 검을 전방으로 내질러 일직선상의 적 두 명에게 피해를 입힙니다. 세 번째 사용 시 야스오가 회오리바람을 날려 일직선상의 적에게 피해를 입히고 공중으로 띄워 올립니다.",
         "icon": "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_Q1.dds",
         "variables": [
           {
@@ -3231,7 +3231,7 @@
       }
     },
     "164": {
-      "name": "Camille",
+      "name": "카밀",
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Camille.dds",
       "stats": {
@@ -3253,8 +3253,8 @@
         "Blademaster"
       ],
       "ability": {
-        "name": "The Hextech Ultimatum",
-        "desc": "Camille damages and roots an enemy, ordering her team to attack it",
+        "name": "Spell_TFT_CamilleR_Name",
+        "desc": "Spell_TFT_CamilleR_Summary",
         "icon": "ASSETS/Characters/TFT_Camille/HUD/Icons2D/TFT_Camille_R.TFT_Hextech.dds",
         "variables": [
           {
@@ -3285,7 +3285,7 @@
       }
     },
     "201": {
-      "name": "Braum",
+      "name": "브라움",
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Braum.dds",
       "stats": {
@@ -3307,8 +3307,8 @@
         "Guardian"
       ],
       "ability": {
-        "name": "Unbreakable",
-        "desc": "Braum puts up his shield for @ShieldDuration@ seconds, absorbing and stopping all incoming missiles and reducing his damage taken from that direction by @ShieldDR@%.",
+        "name": "불굴",
+        "desc": "브라움이 피해를 막아주는 방패를 얻습니다.",
         "icon": "ASSETS/Characters/Braum/HUD/Icons2D/Braum_E.dds",
         "variables": [
           {
@@ -3339,7 +3339,7 @@
       }
     },
     "203": {
-      "name": "Kindred",
+      "name": "킨드레드",
       "cost": 4,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kindred.dds",
       "stats": {
@@ -3361,8 +3361,8 @@
         "Ranger"
       ],
       "ability": {
-        "name": "Lamb's Respite",
-        "desc": "Kindred creates a zone around themselves for @Duration@ seconds that prevents allies within from dropping below @MinHealth@ health or dying.",
+        "name": "양의 안식처",
+        "desc": "킨드레드가 자신의 주변에 아군이 죽지 않는 영역을 만들어냅니다.",
         "icon": "ASSETS/Characters/Kindred/HUD/Icons2D/Kindred_R.dds",
         "variables": [
           {
@@ -3393,7 +3393,7 @@
       }
     },
     "222": {
-      "name": "Jinx",
+      "name": "징크스",
       "cost": 4,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Jinx.dds",
       "stats": {
@@ -3415,8 +3415,8 @@
         "Gunslinger"
       ],
       "ability": {
-        "name": "Get Excited!",
-        "desc": "Jinx gets excited as she participates in kills, first gaining attack speed and then pulling out her rocket launcher",
+        "name": "tft_character_jinx_ability_name",
+        "desc": "Spell_TFT_JinxPassive_Description",
         "icon": "ASSETS/Characters/TFT_Jinx/HUD/Icons2D/TFT_Jinx_Spell.TFT_Hextech.dds",
         "variables": [
           {
@@ -3471,7 +3471,7 @@
       }
     },
     "236": {
-      "name": "Lucian",
+      "name": "루시안",
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Lucian.dds",
       "stats": {
@@ -3493,8 +3493,8 @@
         "Gunslinger"
       ],
       "ability": {
-        "name": "Relentless Pursuit",
-        "desc": "Lucian dashes away from his current target, then Basic Attacks them and fires a second shot which deals @ModifiedDamage@ magic damage.",
+        "name": "끈질긴 추격",
+        "desc": "루시안이 안전한 쪽으로 돌진하며 공격력으로 1회, 스킬 피해로 1회 공격합니다.",
         "icon": "ASSETS/Characters/Lucian/HUD/Icons2D/Lucian_E.dds",
         "variables": [
           {
@@ -3525,7 +3525,7 @@
       }
     },
     "238": {
-      "name": "Zed",
+      "name": "제드",
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Zed.dds",
       "stats": {
@@ -3547,8 +3547,8 @@
         "Assassin"
       ],
       "ability": {
-        "name": "Razor Shuriken",
-        "desc": "Zed throws a shuriken in a line, dealing @ModifiedDamage@ magic damage to all enemies in its path.",
+        "name": "예리한 표창",
+        "desc": "제드가 표창을 던져 일직선상의 적에게 피해를 입힙니다.",
         "icon": "ASSETS/Characters/Zed/HUD/Icons2D/shadowninja_Q.dds",
         "variables": [
           {
@@ -3579,7 +3579,7 @@
       }
     },
     "254": {
-      "name": "Vi",
+      "name": "바이",
       "cost": 3,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Vi.dds",
       "stats": {
@@ -3601,8 +3601,8 @@
         "Brawler"
       ],
       "ability": {
-        "name": "Assault and Battery",
-        "desc": "Vi charges down the furthest enemy, knocking aside anyone in her way. When she reaches her target, she deals damage and knocks them up",
+        "name": "Spell_TFT_ViR_Name",
+        "desc": "Spell_TFT_ViR_Description",
         "icon": "ASSETS/Characters/TFT_Vi/HUD/Icons2D/TFT_ViR.TFT_Hextech.dds",
         "variables": [
           {
@@ -3657,7 +3657,7 @@
       }
     },
     "266": {
-      "name": "Aatrox",
+      "name": "아트록스",
       "cost": 3,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Aatrox.dds",
       "stats": {
@@ -3679,8 +3679,8 @@
         "Blademaster"
       ],
       "ability": {
-        "name": "The Darkin Blade",
-        "desc": "Aatrox cleaves the area in front of him, dealing @ModifiedDamage@ magic damage to all enemies within.",
+        "name": "다르킨의 검",
+        "desc": "아트록스가 대검을 휘둘러 전방의 적에게 피해를 입힙니다.",
         "icon": "ASSETS/Characters/Aatrox/HUD/Icons2D/Aatrox_Q3.dds",
         "variables": [
           {
@@ -3699,7 +3699,7 @@
       }
     },
     "421": {
-      "name": "Rek'Sai",
+      "name": "렉사이",
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Reksai.dds",
       "stats": {
@@ -3721,8 +3721,8 @@
         "Brawler"
       ],
       "ability": {
-        "name": "Burrow",
-        "desc": "Rek'Sai burrows, becoming untargetable for @BurrowDuration@ second and healing for @ModifiedHeal@ health.<br><br>She emerges 2 Hexes away, dealing @ModifiedDamage@ magic damage to a nearby enemy and knocking them up for @KnockupDuration@ seconds.",
+        "name": "매복",
+        "desc": "렉사이가 잠시 매복 상태가 됩니다. 매복 상태에서는 대상으로 지정할 수 없으며 체력을 회복합니다. 렉사이가 매복을 풀고 나올 때 가장 가까운 적에게 피해를 입히고 공중으로 띄워 올립니다.",
         "icon": "ASSETS/Characters/RekSai/HUD/Icons2D/RekSai_W1.dds",
         "variables": [
           {
@@ -3789,7 +3789,7 @@
       }
     },
     "555": {
-      "name": "Pyke",
+      "name": "파이크",
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Pyke.dds",
       "stats": {
@@ -3811,8 +3811,8 @@
         "Assassin"
       ],
       "ability": {
-        "name": "Phantom Undertow",
-        "desc": "Pyke leaves an afterimage at his location, then dashes behind the farthest enemy. After @StunDelay@ second, his afterimage returns to Pyke, dealing @ModifiedDamage@ magic damage to all enemies it passes through and stunning them for @StunDuration@ seconds.",
+        "name": "망자의 물살",
+        "desc": "파이크가 가장 멀리 있는 적 뒤로 돌진하며 잔상을 남깁니다. 잔상이 통과하며 닿은 적은 기절합니다.",
         "icon": "ASSETS/Characters/Pyke/HUD/Icons2D/PykeE.dds",
         "variables": [
           {
@@ -3857,8 +3857,8 @@
   },
   "traits": [
     {
-      "name": "Pirate",
-      "desc": "<row>(@MinUnits@) At the end of each combat against another player, a treasure chest spawns on your arena containing up to 4 gold</row>",
+      "name": "해적",
+      "desc": "<row>(@MinUnits@) 다른 플레이어와 전투 후에 최대 4의 추가 골드를 얻습니다.</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Pirate.dds",
       "effects": [
         {
@@ -3869,8 +3869,8 @@
       ]
     },
     {
-      "name": "Elementalist",
-      "desc": "Innate: Elementalists gain double mana from Basic Attacks.<br><br><row>(@MinUnits@) At the start of combat, summon a Golem with 2200 Health to fight alongside your allies</row>",
+      "name": "원소술사",
+      "desc": "원소술사는 공격 시 2배의 마나를 획득합니다.<br><br><row>(@MinUnits@) 전투 시작 시 골렘 하나를 소환합니다.</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Elementalist.dds",
       "effects": [
         {
@@ -3894,8 +3894,8 @@
       ]
     },
     {
-      "name": "Demon",
-      "desc": "Basic Attacks from Demons have a @ManaDrainProcChance@% chance to reduce their target's Mana by @ManaDrainBurn@ and restore Mana to the Demon.<br><br><expandRow>(@MinUnits@) @ManaDrainDrain@ Mana restored</expandRow><br>",
+      "name": "악마",
+      "desc": "악마는 공격 시 일정 확률로 적의 마나를 전부 불태워 없애고 그만큼 고정 피해를 입힙니다.<br><br><expandRow>(@MinUnits@) 마나 불태우기 확률 @ProcChance@%</expandRow><br>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Demon.dds",
       "effects": [
         {
@@ -3955,8 +3955,8 @@
       ]
     },
     {
-      "name": "Wild",
-      "desc": "Select allies become empowered, causing their Basic Attacks to generate stacks of Fury (stacks up to 5 times), granting @AttackSpeedPercent@% Bonus Attack Speed per stack.<br><br><row>(@MinUnits@) Wild Allies Only</row><br><row>(@MinUnits@) All Allies</row>",
+      "name": "야생",
+      "desc": "공격할 때마다 분노 중첩이 쌓입니다. 최대 5번까지 중첩되며 중첩된 분노당 공격 속도가 @AttackSpeedPercent@ 증가합니다.<br><br><row>(@MinUnits@) 야생 아군만 해당</row><br><row>(@MinUnits@) 모든 아군</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Wild.dds",
       "effects": [
         {
@@ -3982,8 +3982,8 @@
       ]
     },
     {
-      "name": "Void",
-      "desc": "<row>(@MinUnits@) Basic Attacks and spells from Void champions deal true damage</row>",
+      "name": "공허",
+      "desc": "<row>(@MinUnits@) 모든 기본 공격이 적 방어력의 @PercentArmorPen@%를 무시합니다.</row><br>2",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Void.dds",
       "effects": [
         {
@@ -4003,8 +4003,8 @@
       ]
     },
     {
-      "name": "Brawler",
-      "desc": "Brawlers gain bonus Maximum Health.<br><br><expandRow>(@MinUnits@) @BonusHealth@ Bonus Health</expandRow><br>",
+      "name": "싸움꾼",
+      "desc": "싸움꾼은 추가 최대 체력을 얻습니다.<br><br><expandRow>(@MinUnits@) 추가 체력 @BonusHealth@</expandRow><br>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Brawler.dds",
       "effects": [
         {
@@ -4040,8 +4040,8 @@
       ]
     },
     {
-      "name": "Dragon",
-      "desc": "<row>(@MinUnits@) Dragons gain @MagicReduction@% resistance to Magic Damage</row>",
+      "name": "용",
+      "desc": "<row>(@MinUnits@) 용은 마법 피해에 면역입니다.</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Dragon.dds",
       "effects": [
         {
@@ -4057,8 +4057,8 @@
       ]
     },
     {
-      "name": "Exile",
-      "desc": "<row>(@MinUnits@) If an Exile has no adjacent allies at the start of combat, they gain a shield equal to @ShieldPercent@% of their maximum Health</row>",
+      "name": "추방자",
+      "desc": "<row>(@MinUnits@) 전투 시작 시 추방자 주변에 아군이 없다면 최대 체력의 @ShieldPercent@%만큼 피해를 흡수하는 보호막을 획득합니다.</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Exile.dds",
       "effects": [
         {
@@ -4074,8 +4074,8 @@
       ]
     },
     {
-      "name": "Yordle",
-      "desc": "Yordles gain a chance to dodge enemy Basic Attacks.<br><br><expandRow>(@MinUnits@) @MissPercent@% Chance to Dodge</expandRow><br>",
+      "name": "요들",
+      "desc": "요들 아군에 대한 공격이 일정 확률로 빗나갑니다.<br><br><expandRow>(@MinUnits@) 빗나갈 확률 @MissPercent@%</expandRow><br>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Yordle.dds",
       "effects": [
         {
@@ -4101,8 +4101,8 @@
       ]
     },
     {
-      "name": "Guardian",
-      "desc": "<row>(@MinUnits@) At the start of combat, Guardians grant +@Armor@ Armor to adjacent allies (this bonus can stack any number of times)</row>",
+      "name": "수호자",
+      "desc": "<row>(@MinUnits@) 전투 시작 시 모든 수호자와 주변 아군은 +@Armor@의 방어력을 얻습니다.</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Guardian.dds",
       "effects": [
         {
@@ -4118,8 +4118,8 @@
       ]
     },
     {
-      "name": "Knight",
-      "desc": "All allies block a flat amount of damage from all sources.<br><br><expandRow>(@MinUnits@) @BlockAmount@ Damage Blocked</expandRow>",
+      "name": "기사",
+      "desc": "기사는 기본 공격으로부터 피해를 입지 않습니다.<br><br><expandRow>(@MinUnits@) @BlockAmount@의 피해량 방어</expandRow>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Knight.dds",
       "effects": [
         {
@@ -4155,8 +4155,8 @@
       ]
     },
     {
-      "name": "Ninja",
-      "desc": "Ninjas gain bonus Attack Damage and Spell Power.<br><br>This trait is only active when you have exactly 1 or 4 unique Ninjas.<br><br><row>(@MinUnits@) Ninja gains +@ADValue@ Attack Damage & +@APValue@% Spell Power</row><br><row>(@MinUnits@) All Ninjas gain +@ADValue@ Attack Damage & +@APValue@% Spell Power</row>",
+      "name": "닌자",
+      "desc": "닌자 특성은 닌자가 정확히 하나 또는 넷일 때 활성화됩니다.<br><br><row>(@MinUnits@) 닌자 유닛 공격력 +@ADPercent@% 증가</row><br><row>(@MinUnits@) 모든 닌자 유닛의 공격력 +@ADPercent@% 증가</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Ninja.dds",
       "effects": [
         {
@@ -4190,8 +4190,8 @@
       ]
     },
     {
-      "name": "Ranger",
-      "desc": "Every @ProcRate@ seconds, Rangers have a chance to double their Attack Speed for @ProcRate@ seconds. <br><br><expandRow>(@MinUnits@) @ProcPercent@% Chance to Double Attack Speed</expandRow><br>",
+      "name": "정찰대",
+      "desc": "정찰대는 @ProcRate@초마다 일정 확률로 다음 @ProcRate@초 동안 공격 속도가 두 배로 증가합니다. <br><br><expandRow>(@MinUnits@) @ProcPercent@% 확률로 공격 속도 두 배로 증가</expandRow><br>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Ranger.dds",
       "effects": [
         {
@@ -4233,8 +4233,8 @@
       ]
     },
     {
-      "name": "Shapeshifter",
-      "desc": "Shapeshifters gain bonus Maximum Health when they transform.<br><br><expandRow>(@MinUnits@) @HPPercent@% Bonus Maximum Health</expandRow><br>",
+      "name": "형상변환자",
+      "desc": "형상변환자는 변신 시 추가 최대 체력을 얻습니다.<br><br><expandRow>(@MinUnits@) 추가 최대 체력 @HPPercent@%</expandRow><br>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Shapeshifter.dds",
       "effects": [
         {
@@ -4260,8 +4260,8 @@
       ]
     },
     {
-      "name": "Gunslinger",
-      "desc": "Gunslinger Basic Attacks have a @ProcPercent@%  chance to fire additional bullets at other enemies within range.<br><br>These bullets deal damage like Basic Attacks and apply on-hit effects.<br><br><row>(@MinUnits@) Attack @ExtraTargetsHit@ extra enemies</row><br><row>(@MinUnits@) Attack @ExtraTargetsHit@ extra enemies</row><br><row>(@MinUnits@) Attack @ExtraTargetsHit@ extra enemies</row>",
+      "name": "총잡이",
+      "desc": "총잡이는 공격 후 @ProcPercent@%의 확률로 추가 공격을 합니다.<br><br><row>(@MinUnits@) 무작위 적을 추가로 공격</row><br><row>(@MinUnits@) 사거리 내의 다른 모든 적을 공격</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Gunslinger.dds",
       "effects": [
         {
@@ -4321,8 +4321,8 @@
       ]
     },
     {
-      "name": "Sorcerer",
-      "desc": "Innate: Sorcerers gain double Mana from Basic Attacks.<br><br>All allies have increased Spell Power.<br><br><expandRow>(@MinUnits@) +@AP@% Spell Power</expandRow><br>",
+      "name": "마법사",
+      "desc": "마법사는 공격 시 2배의 마나를 획득합니다.<br><br>아군의 스킬 피해량이 증가합니다.<br><br><expandRow>(@MinUnits@) 스킬 피해량 +@AP@% 증가</expandRow><br>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Sorcerer.dds",
       "effects": [
         {
@@ -4348,8 +4348,8 @@
       ]
     },
     {
-      "name": "Robot",
-      "desc": "(@MinUnits@) Robots start combat at full Mana",
+      "name": "로봇",
+      "desc": "(@MinUnits@) 로봇은 마나가 가득찬 상태로 전투를 시작합니다.",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Robot.dds",
       "effects": [
         {
@@ -4360,8 +4360,8 @@
       ]
     },
     {
-      "name": "Hextech",
-      "desc": "At the start of combat, an ally Hextech launches and detonates a pulse bomb, temporarily disabling nearby enemy items for @DisableDuration@ seconds.<br><br><row>(@MinUnits@) @HexSize@ Hex Radius</row><br><row>(@MinUnits@) @HexSize@ Hex Radius</row>",
+      "name": "tft_trait_displayname_Hextech",
+      "desc": "tft_trait_description_Hextech3",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Hextech.dds",
       "effects": [
         {
@@ -4403,8 +4403,8 @@
       ]
     },
     {
-      "name": "Phantom",
-      "desc": "<row>(@MinUnits@) At the start of combat, a random enemy's Health is set to @HPToSet@</row>",
+      "name": "유령",
+      "desc": "<row>(@MinUnits@) 전투 시작 시 무작위 적 하나에게 저주를 걸어 @HPToSet@의 체력을 갖도록 합니다.</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Phantom.dds",
       "effects": [
         {
@@ -4420,8 +4420,8 @@
       ]
     },
     {
-      "name": "Noble",
-      "desc": "At the start of combat, select allies gain +@Armor@ Armor, +@MagicResist@ Magic Resistance, and heal @Heal@ Health on-hit.<br><br><row>(@MinUnits@) 1 Random Ally</row><br><row>(@MinUnits@) All Allies</row>",
+      "name": "귀족",
+      "desc": "방어력이 +@Armor@ 증가하고 공격할 때마다 @Heal@의 체력을 회복합니다.<br><br><row>(@MinUnits@) 무작위 아군 하나에 적용</row><br><row>(@MinUnits@) 모든 아군에 적용</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Noble.dds",
       "effects": [
         {
@@ -4463,8 +4463,8 @@
       ]
     },
     {
-      "name": "Assassin",
-      "desc": "Innate: At the start of combat, Assassins leap to the farthest enemy.<br><br>Assassins gain bonus Critical Strike Damage.<br><br><expandRow>(@MinUnits@) +@CritAmpPercent@% Critical Strike Damage</expandRow><br>",
+      "name": "암살자",
+      "desc": "암살자는 전투 시작 시 가장 멀리 있는 적에게 도약합니다. <br><br>암살자는 추가 치명타 피해를 입힙니다.<br><br><expandRow>(@MinUnits@) 치명타 피해량 +@CritAmpPercent@%</expandRow><br>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Assassin.dds",
       "effects": [
         {
@@ -4490,8 +4490,8 @@
       ]
     },
     {
-      "name": "Glacial",
-      "desc": "Basic Attacks from Glacials have a chance to stun their target for @StunDuration@ seconds.<br><br><expandRow>(@MinUnits@) @ProcPercent@% Chance to Stun</expandRow><br>",
+      "name": "빙하",
+      "desc": "빙하는 공격 시 일정 확률로 적을 @StunDuration@초 동안 기절시킵니다.<br><br><expandRow>(@MinUnits@) 적을 기절시킬 확률 @ProcPercent@%</expandRow><br>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Glacial.dds",
       "effects": [
         {
@@ -4539,8 +4539,8 @@
       ]
     },
     {
-      "name": "Imperial",
-      "desc": "At the start of combat, select Imperials are empowered to deal double damage.<br><br><row>(@MinUnits@) 1 Random Imperial</row><br><row>(@MinUnits@) All Imperials</row>",
+      "name": "제국",
+      "desc": "제국은 두 배의 피해를 입힙니다.<br><br><row>(@MinUnits@) 무작위 제국 유닛 하나에 적용</row><br><row>(@MinUnits@) 모든 제국 유닛에 적용</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Imperial.dds",
       "effects": [
         {
@@ -4566,8 +4566,8 @@
       ]
     },
     {
-      "name": "Blademaster",
-      "desc": "Blademaster Basic Attacks have a @ProcChance@% chance to trigger additional attacks against their target.<br><br>These additional attacks deal damage like Basic Attacks and trigger on-hit effects.<br><br><row>(@MinUnits@) One Additional Attack</row><br><row>(@MinUnits@) Two Additional Attacks</row><br><row>(@MinUnits@) Four Additional Attacks</row>",
+      "name": "검사",
+      "desc": "검사는 공격할 때마다 @ProcChance@%의 확률로 추가 공격을 가합니다.<br><br><row>(@MinUnits@) 추가 공격 1회</row><br><row>(@MinUnits@) 추가 공격 2회</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Blademaster.dds",
       "effects": [
         {
@@ -4617,8 +4617,8 @@
   ],
   "items": {
     "1": {
-      "name": "B. F. Sword",
-      "desc": " +@AD@ Attack Damage",
+      "name": "B.F. 대검",
+      "desc": " 공격력 +@AD@",
       "icon": "ASSETS/Maps/Particles/TFT/Icon_BFSword.TFT.dds",
       "from": [],
       "effects": [
@@ -4629,8 +4629,8 @@
       ]
     },
     "2": {
-      "name": "Recurve Bow",
-      "desc": " +@AS@% Attack Speed",
+      "name": "곡궁",
+      "desc": " 공격 속도 +@AS@%",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RecurveBow.TFT.dds",
       "from": [],
       "effects": [
@@ -4641,8 +4641,8 @@
       ]
     },
     "3": {
-      "name": "Needlessly Large Rod",
-      "desc": " +@AP@% Spell Power",
+      "name": "쓸데없이 큰 지팡이",
+      "desc": " 스킬 피해량 +@AP@%",
       "icon": "ASSETS/Maps/Particles/TFT/Icon_NeedlesslyLargeRod.TFT.dds",
       "from": [],
       "effects": [
@@ -4653,8 +4653,8 @@
       ]
     },
     "4": {
-      "name": "Tear of the Goddess",
-      "desc": " +@Mana@ Mana",
+      "name": "여신의 눈물",
+      "desc": " 마나 +@Mana@",
       "icon": "ASSETS/Maps/Particles/TFT/Icon_TearOfTheGoddess.TFT.dds",
       "from": [],
       "effects": [
@@ -4665,8 +4665,8 @@
       ]
     },
     "5": {
-      "name": "Chain Vest",
-      "desc": "+@Armor@ Armor",
+      "name": "쇠사슬 조끼",
+      "desc": "방어력 +@Armor@",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ChainVest.TFT.dds",
       "from": [],
       "effects": [
@@ -4677,8 +4677,8 @@
       ]
     },
     "6": {
-      "name": "Negatron Cloak",
-      "desc": "+@MagicResist@ Magic Resist",
+      "name": "음전자 망토",
+      "desc": "마법 저항력 +@MagicResist@",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_NegatronCloak.TFT.dds",
       "from": [],
       "effects": [
@@ -4689,8 +4689,8 @@
       ]
     },
     "7": {
-      "name": "Giant's Belt",
-      "desc": " +@Health@ Health",
+      "name": "거인의 허리띠",
+      "desc": " 체력 +@Health@",
       "icon": "ASSETS/Maps/Particles/TFT/Icon_GiantsBelt.TFT.dds",
       "from": [],
       "effects": [
@@ -4701,8 +4701,8 @@
       ]
     },
     "8": {
-      "name": "Spatula",
-      "desc": "It must do <i>something</i>...",
+      "name": "뒤집개",
+      "desc": "분명 무슨 효과가 있을 겁니다...",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Spatula.TFT.dds",
       "from": [],
       "effects": [
@@ -4713,8 +4713,8 @@
       ]
     },
     "11": {
-      "name": "Infinity Edge",
-      "desc": "Wearer gains +@CriticalStrikeAmp@% Critical Strike Damage.",
+      "name": "무한의 대검",
+      "desc": "치명타 공격 시 +@CriticalStrikeAmp@%의 피해",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_InfinityEdge.TFT.dds",
       "from": [
         "1",
@@ -4728,8 +4728,8 @@
       ]
     },
     "12": {
-      "name": "Sword of the Divine",
-      "desc": "Each second, the wearer has a @ChanceToProc@% chance to gain 100% Critical Strike Chance for the rest of combat.",
+      "name": "신성의 검",
+      "desc": "매초 치명타 확률 100%가 적용될 확률이 @ChanceToProc@%",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SwordOfTheDivine.TFT.dds",
       "from": [
         "1",
@@ -4743,8 +4743,8 @@
       ]
     },
     "13": {
-      "name": "Hextech Gunblade",
-      "desc": "Basic Attacks and spells heal the wearer for @OmniVamp@% of the damage dealt.",
+      "name": "마법공학 총검",
+      "desc": "가한 모든 피해량의 @OmniVamp@%만큼 체력 회복",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_HextechGunblade.TFT.dds",
       "from": [
         "1",
@@ -4758,8 +4758,8 @@
       ]
     },
     "14": {
-      "name": "Spear of Shojin",
-      "desc": "After casting their spell, the wearer's Basic Attacks restore @ManaPercentRestore@% of their Maximum Mana.",
+      "name": "쇼진의 창",
+      "desc": "스킬 사용 후 공격할 때마다 최대 마나의 @ManaPercentRestore@%에 해당하는 마나 회복",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SpearOfShojin.TFT.dds",
       "from": [
         "1",
@@ -4773,8 +4773,8 @@
       ]
     },
     "15": {
-      "name": "Guardian Angel",
-      "desc": "When the wearer dies, they cleanse negative effects and revive with up to @HealthRestore@ Health after a @StasisDuration@ second delay.<br><br>This effect can trigger once per combat.",
+      "name": "수호 천사",
+      "desc": "장착 상태에서 사망 시 @HealthRestore@의 체력을 지닌 채 부활",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_GuardianAngel.TFT.dds",
       "from": [
         "1",
@@ -4792,8 +4792,8 @@
       ]
     },
     "16": {
-      "name": "The Bloodthirster",
-      "desc": "Basic Attacks heal the wearer for @Lifesteal@% of the damage dealt.",
+      "name": "피바라기",
+      "desc": "공격 시 가한 피해량의 @Lifesteal@%만큼 체력 회복",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Bloodthirster.TFT.dds",
       "from": [
         "1",
@@ -4807,8 +4807,8 @@
       ]
     },
     "17": {
-      "name": "Zeke's Herald",
-      "desc": "When combar begins, the wearer and all allies within @HexRange@ hexes in the same row gain +@AttackSpeed@% Attack Speed for the rest of combat.",
+      "name": "지크의 전령",
+      "desc": "주변 아군의 공격 속도가 +@AttackSpeed@% 증가",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ZekesHerald.TFT.dds",
       "from": [
         "1",
@@ -4826,8 +4826,8 @@
       ]
     },
     "18": {
-      "name": "Youmuu's Ghostblade",
-      "desc": "Extra %i:scaleAD% +@AD@<br>Wearer is also an Assassin",
+      "name": "요우무의 유령검",
+      "desc": "장착 시 암살자 특성 획득",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_YoumuusGhostblade.TFT.dds",
       "from": [
         "1",
@@ -4841,8 +4841,8 @@
       ]
     },
     "22": {
-      "name": "Rapid Firecannon",
-      "desc": "Wearer gains +100% Attack Range and their Basic Attacks cannot be dodged.",
+      "name": "고속 연사포",
+      "desc": "장착 시 적이 공격을 회피할 수 없으며 사거리가 두 배로 증가",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RapidFirecannon.TFT.dds",
       "from": [
         "2",
@@ -4851,8 +4851,8 @@
       "effects": []
     },
     "23": {
-      "name": "Guinsoo's Rageblade",
-      "desc": "Basic Attacks grant the wearer +@AttackSpeedPerStack@% bonus Attack Speed for the rest of combat.<br><br>This effect can stack any number of times.",
+      "name": "구인수의 격노검",
+      "desc": "공격 시 공격 속도가 @AttackSpeedPerStack@% 증가 (무제한 중첩)",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_GuinsoosRageblade.TFT.dds",
       "from": [
         "2",
@@ -4866,8 +4866,8 @@
       ]
     },
     "24": {
-      "name": "Statikk Shiv",
-      "desc": "Every third Basic Attack from the wearer deals @Damage@ magical damage to @BouncesTooltip@ enemies.",
+      "name": "스태틱의 단검",
+      "desc": "세 번째 공격마다 @Damage@의 광역 마법 피해",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_StatikkShiv.TFT.dds",
       "from": [
         "2",
@@ -4889,8 +4889,8 @@
       ]
     },
     "25": {
-      "name": "Phantom Dancer",
-      "desc": "Wearer dodges all Basic Attacks that would critically strike.",
+      "name": "유령 무희",
+      "desc": "장착 시 모든 치명타 공격 회피",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_PhantomDancer.TFT.dds",
       "from": [
         "2",
@@ -4899,8 +4899,8 @@
       "effects": []
     },
     "26": {
-      "name": "Cursed Blade",
-      "desc": "Basic Attacks have a @ChanceOnHitToShrink@% chance on-hit to decrease the target's star level by 1 for the rest of combat.",
+      "name": "저주받은 칼날",
+      "desc": "공격 시 낮은 확률로 적 강등 (1성 낮춤)",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_CursedBlade.TFT.dds",
       "from": [
         "2",
@@ -4914,8 +4914,8 @@
       ]
     },
     "27": {
-      "name": "Titanic Hydra",
-      "desc": "Basic Attacks deal @MaxHealth@% of the wearer's Maximum Health as physical damage in a cone behind the target.",
+      "name": "거대한 히드라",
+      "desc": "공격 시 장착한 유닛 최대 체력의 @MaxHealth@%만큼 광역 피해",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_TitanicHydra.TFT.dds",
       "from": [
         "2",
@@ -4929,8 +4929,8 @@
       ]
     },
     "28": {
-      "name": "Blade of the Ruined King",
-      "desc": "Extra %i:scaleAS% +@AS@<br>Wearer is also a Blademaster",
+      "name": "몰락한 왕의 검",
+      "desc": "장착 시 검사 특성 획득",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_BladeOfTheRuinedKing.TFT.dds",
       "from": [
         "2",
@@ -4944,8 +4944,8 @@
       ]
     },
     "33": {
-      "name": "Rabadon's Deathcap",
-      "desc": "Wearer gains +@APPercentAmp@% Spell Power Amplification.<br><br>(All sources of Spell Power are @APPercentAmp@% more effective)",
+      "name": "라바돈의 죽음모자",
+      "desc": "장착 시 스킬 피해량 @APPercentAmp@% 증가",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RabadonsDeathcap.TFT.dds",
       "from": [
         "3",
@@ -4959,8 +4959,8 @@
       ]
     },
     "34": {
-      "name": "Luden's Echo",
-      "desc": "When the wearer deals damage with their spell, the first target hit and up to @ExtraBounces@ nearby enemies are dealt an additional @Damage@ magic damage.",
+      "name": "루덴의 메아리",
+      "desc": "스킬 적중 시 @Damage@의 광역 피해",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_LudensEcho.TFT.dds",
       "from": [
         "3",
@@ -4986,8 +4986,8 @@
       ]
     },
     "35": {
-      "name": "Locket of the Iron Solari",
-      "desc": "When combat begins, the wearer and all allies within @HexRange@ hexes in the same row gain a shield that blocks @ShieldValue@ damage for @ShieldDuration@ seconds.",
+      "name": "강철의 솔라리 펜던트",
+      "desc": "전투 시작 시 주변 모든 아군에게 @ShieldValue@의 피해를 흡수하는 보호막 부여",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_LocketOfTheIronSolari.TFT.dds",
       "from": [
         "3",
@@ -5009,8 +5009,8 @@
       ]
     },
     "36": {
-      "name": "Ionic Spark",
-      "desc": "Whenever an enemy casts a spell, the wearer deals @Damage@ true damage to the caster.",
+      "name": "이온 충격기",
+      "desc": "스킬을 사용하는 적에게 @Damage@의 피해",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_IonicSpark.TFT.dds",
       "from": [
         "3",
@@ -5024,8 +5024,8 @@
       ]
     },
     "37": {
-      "name": "Morellonomicon",
-      "desc": "When the wearer deals damage with their spell, they burn the target, dealing @BurnPercent@% of the target's Maximum Health as true damage over @BurnDuration@ seconds and preventing all healing for the duration of the burn.",
+      "name": "모렐로노미콘",
+      "desc": "스킬 사용 시 1초당 적 최대 체력의 @BurnPercent@%에 해당하는 화염 피해",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Morellonomicon.TFT.dds",
       "from": [
         "3",
@@ -5051,8 +5051,8 @@
       ]
     },
     "38": {
-      "name": "Yuumi",
-      "desc": "Extra %i:scaleAP% +@AP@<br>Wearer is also a Sorcerer",
+      "name": "유미",
+      "desc": "장착 시 마법사 특성 획득",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Yuumi.TFT.dds",
       "from": [
         "3",
@@ -5066,8 +5066,8 @@
       ]
     },
     "44": {
-      "name": "Seraph's Embrace",
-      "desc": "After casting their spell, the wearer restores @ManaRestore@ Mana.",
+      "name": "대천사의 포옹",
+      "desc": "스킬을 사용할 때마다 마나 @ManaRestore@ 획득",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SeraphsEmbrace.TFT.dds",
       "from": [
         "4",
@@ -5081,8 +5081,8 @@
       ]
     },
     "45": {
-      "name": "Frozen Heart",
-      "desc": "Reduces the Attack Speed of adjacent enemies by @AttackSpeedSlow@%.",
+      "name": "얼어붙은 심장",
+      "desc": "주변 적의 공격 속도가 @AttackSpeedSlow@% 감소",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_FrozenHeart.TFT.dds",
       "from": [
         "4",
@@ -5100,8 +5100,8 @@
       ]
     },
     "46": {
-      "name": "Hush",
-      "desc": "Basic Attacks have a @ChanceOnHitToSilence@% chance to silence the target on-hit, preventing the enemy from gaining mana for @SilenceDuration@ seconds.",
+      "name": "침묵",
+      "desc": "공격 시 높은 확률로 적 침묵",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Hush.TFT.dds",
       "from": [
         "4",
@@ -5123,8 +5123,8 @@
       ]
     },
     "47": {
-      "name": "Redemption",
-      "desc": "When the wearer falls below @HPThreshold@% Health, nearby allies are healed for @HealthRestore@ Health after a 2.5 second delay.<br><br>This effect can trigger once per combat.",
+      "name": "구원",
+      "desc": "사망 시 주변 모든 아군의 체력을 @HealthRestore@만큼 회복",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Redemption.TFT.dds",
       "from": [
         "4",
@@ -5150,8 +5150,8 @@
       ]
     },
     "48": {
-      "name": "Darkin",
-      "desc": "Extra %i:scaleMana% +@Mana@<br>Wearer is also a Demon",
+      "name": "다르킨",
+      "desc": "장착 시 악마 특성 획득",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Darkin.TFT.dds",
       "from": [
         "4",
@@ -5165,8 +5165,8 @@
       ]
     },
     "55": {
-      "name": "Thornmail",
-      "desc": "When the wearer is hit by a Basic Attack, they reflect @DamageReflect@% of the mitigated damage as magic damage.",
+      "name": "가시 갑옷",
+      "desc": "공격으로 받은 피해량의 @DamageReflect@%를 적에게 돌려줌",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Thornmail.TFT.dds",
       "from": [
         "5",
@@ -5180,8 +5180,8 @@
       ]
     },
     "56": {
-      "name": "Sword Breaker",
-      "desc": "Wearer's Basic Attacks have a @ChanceOnHitToDisarm@% chance to disarm the target for @DisarmDuration@ seconds, preventing that enemy from Basic Attacking.",
+      "name": "파쇄검",
+      "desc": "공격 시 일정 확률로 적 무장 해제",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SwordBreaker.TFT.dds",
       "from": [
         "5",
@@ -5199,8 +5199,8 @@
       ]
     },
     "57": {
-      "name": "Red Buff",
-      "desc": "Wearer's Basic Attacks burn the target on-hit, dealing @BurnPercent@% of the target's Maximum Health as true damage over @BurnDuration@ seconds and preventing all healing for the duration of the burn.",
+      "name": "붉은 덩굴정령",
+      "desc": "공격 시 @BurnPercent@%의 화염 피해",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RedBuff.TFT.dds",
       "from": [
         "5",
@@ -5226,8 +5226,8 @@
       ]
     },
     "58": {
-      "name": "Knight's Vow",
-      "desc": "Extra %i:scaleArmor% +@Armor@<br>Wearer is also a Knight",
+      "name": "기사의 맹세",
+      "desc": "장착 시 기사 특성 획득",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_KnightsVow.TFT.dds",
       "from": [
         "5",
@@ -5241,8 +5241,8 @@
       ]
     },
     "66": {
-      "name": "Dragon's Claw",
-      "desc": "Wearer gains @MagicReduction@% resistance to magic damage.",
+      "name": "용의 발톱",
+      "desc": "마법 저항력 @MagicReduction@% 증가",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_DragonsClaw.TFT.dds",
       "from": [
         "6",
@@ -5256,8 +5256,8 @@
       ]
     },
     "67": {
-      "name": "Zephyr",
-      "desc": "When combat begins, the wearer summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for @BanishDuration@ seconds.",
+      "name": "서풍",
+      "desc": "전투 시작 시 적 하나를 @BanishDuration@초 동안 추방",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Zephyr.TFT.dds",
       "from": [
         "6",
@@ -5271,8 +5271,8 @@
       ]
     },
     "68": {
-      "name": "Runaan's Hurricane",
-      "desc": "Extra %i:scaleMR% +@ExtraMR@<br>Basic Attack fire an additional missile at another nearby enemy, dealing @MultiplierForDamage@% of the wearer's Attack Damage and applying on-hit effects.",
+      "name": "루난의 허리케인",
+      "desc": "공격 시 @AdditionalTargets@개의 적 유닛을 추가로 공격 (추가 공격 대상에게는 @DamagePenalty@%의 피해 적용)",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RunaansHurricane.TFT.dds",
       "from": [
         "6",
@@ -5294,8 +5294,8 @@
       ]
     },
     "77": {
-      "name": "Warmog's Armor",
-      "desc": "Wearer regenerates @HealthRegen@% of their missing Health per second.",
+      "name": "워모그의 갑옷",
+      "desc": "초당 최대 체력의 @HealthRegen@%만큼 체력 회복",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_WarmogsArmor.TFT.dds",
       "from": [
         "7",
@@ -5313,8 +5313,8 @@
       ]
     },
     "78": {
-      "name": "Frozen Mallet",
-      "desc": "Extra %i:scaleHealth% +@Health@<br>Wearer is also a Glacial",
+      "name": "얼어붙은 망치",
+      "desc": "장착 시 빙하 특성 획득",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_FrozenMallet.TFT.dds",
       "from": [
         "8",
@@ -5328,8 +5328,8 @@
       ]
     },
     "88": {
-      "name": "Force of Nature",
-      "desc": "Wearer's team gains +@MaxArmySizeIncrease@ maximum team size.",
+      "name": "대자연의 힘",
+      "desc": " 팀 규모 +@MaxArmySizeIncrease@ 증가",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ForceOfNature.TFT.dds",
       "from": [
         "8",
@@ -5343,22 +5343,22 @@
       ]
     },
     "100": {
-      "name": "Spatula",
-      "desc": "It must do <i>something</i>...",
+      "name": "뒤집개",
+      "desc": "분명 무슨 효과가 있을 겁니다...",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Unknown.TFT.dds",
       "from": [],
       "effects": []
     },
     "541": {
-      "name": "Mortal Reminder",
+      "name": "필멸자의 운명",
       "desc": "TFT_item_description_MortalReminder",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_MortalReminder.TFT.dds",
       "from": [],
       "effects": []
     },
     "10002": {
-      "name": "Jammed!",
-      "desc": "Item temporarily disabled",
+      "name": "tft_item_name_JammedSlot",
+      "desc": "tft_item_description_JammedSlot",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Jammed.TFT.dds",
       "from": [],
       "effects": []
