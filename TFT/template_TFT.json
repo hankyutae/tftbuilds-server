@@ -2,13 +2,14 @@
   "champions": {
     "4": {
       "name": "game_character_displayname_TwistedFate",
+      "id": 4,
       "cost": 2,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_TwistedFate.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_TwistedFate.png",
       "stats": {
-        "hp": 450.0,
+        "hp": 500.0,
         "hpScaleFactor": 1.8,
         "mana": 50.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 40.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -16,7 +17,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.7,
-        "range": 3
+        "range": 3.0
       },
       "traits": [
         "Pirate",
@@ -25,7 +26,7 @@
       "ability": {
         "name": "tft_character_twistedfate_ability_name: Pick a Card",
         "desc": "tft_character_twistedfate_ability_description",
-        "icon": "ASSETS/Characters/TFT_TwistedFate/HUD/Icons2D/TFT_TwistedFate_Spell.TFT.dds",
+        "icon": "ASSETS/Characters/TFT_TwistedFate/HUD/Icons2D/TFT_TwistedFate_Spell.TFT.png",
         "variables": [
           {
             "key": "RedCardDamage",
@@ -54,13 +55,13 @@
           {
             "key": "BlueCardManaRestore",
             "values": [
-              5.0,
-              20.0,
-              35.0,
+              10.0,
+              30.0,
               50.0,
-              65.0,
-              80.0,
-              95.0
+              70.0,
+              90.0,
+              110.0,
+              130.0
             ]
           },
           {
@@ -92,13 +93,14 @@
     },
     "10": {
       "name": "game_character_displayname_Kayle",
+      "id": 10,
       "cost": 5,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kayle.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kayle.png",
       "stats": {
         "hp": 750.0,
         "hpScaleFactor": 1.8,
         "mana": 125.0,
-        "initalMana": 0,
+        "initalMana": 50.0,
         "damage": 70.0,
         "damageScaleFactor": 1.25,
         "armor": 40.0,
@@ -106,7 +108,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 1.0,
-        "range": 3
+        "range": 3.0
       },
       "traits": [
         "Noble",
@@ -115,18 +117,18 @@
       "ability": {
         "name": "tft_character_kayle_ability_name",
         "desc": "tft_character_kayle_ability_description",
-        "icon": "ASSETS/Characters/Kayle/HUD/Icons2D/Kayle_R.dds",
+        "icon": "ASSETS/Characters/Kayle/HUD/Icons2D/Kayle_R.png",
         "variables": [
           {
             "key": "ShieldDuration",
             "values": [
-              1.0,
+              1.5,
               2.0,
+              2.5,
               3.0,
+              3.5,
               4.0,
-              5.0,
-              6.0,
-              7.0
+              4.5
             ]
           },
           {
@@ -146,13 +148,14 @@
     },
     "18": {
       "name": "game_character_displayname_Tristana",
+      "id": 18,
       "cost": 1,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Tristana.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Tristana.png",
       "stats": {
         "hp": 500.0,
         "hpScaleFactor": 1.8,
         "mana": 50.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 50.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -160,7 +163,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.65,
-        "range": 4
+        "range": 4.0
       },
       "traits": [
         "Yordle",
@@ -169,7 +172,7 @@
       "ability": {
         "name": "tft_character_tristana_ability_name",
         "desc": "tft_character_tristana_ability_description",
-        "icon": "ASSETS/Characters/Tristana/HUD/Icons2D/Tristana_E.dds",
+        "icon": "ASSETS/Characters/Tristana/HUD/Icons2D/Tristana_E.png",
         "variables": [
           {
             "key": "ExplosiveChargeDuration",
@@ -187,12 +190,12 @@
             "key": "ChargeBaseDamage",
             "values": [
               30.0,
-              60.0,
-              90.0,
-              120.0,
+              70.0,
+              110.0,
               150.0,
-              180.0,
-              210.0
+              190.0,
+              230.0,
+              270.0
             ]
           },
           {
@@ -211,12 +214,12 @@
             "key": "MaxChargeDamage",
             "values": [
               75.0,
-              150.0,
-              225.0,
-              300.0,
+              175.0,
+              275.0,
               375.0,
-              450.0,
-              525.0
+              475.0,
+              575.0,
+              675.0
             ]
           }
         ]
@@ -224,13 +227,14 @@
     },
     "19": {
       "name": "game_character_displayname_Warwick",
+      "id": 19,
       "cost": 1,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Warwick.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Warwick.png",
       "stats": {
-        "hp": 600.0,
+        "hp": 650.0,
         "hpScaleFactor": 1.8,
         "mana": 150.0,
-        "initalMana": 0,
+        "initalMana": 50.0,
         "damage": 50.0,
         "damageScaleFactor": 1.25,
         "armor": 30.0,
@@ -238,7 +242,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Wild",
@@ -247,7 +251,7 @@
       "ability": {
         "name": "tft_character_warwick_ability_name",
         "desc": "tft_character_warwick_ability_description",
-        "icon": "ASSETS/Characters/Warwick/HUD/Icons2D/WarwickR.dds",
+        "icon": "ASSETS/Characters/Warwick/HUD/Icons2D/WarwickR.png",
         "variables": [
           {
             "key": "Duration",
@@ -302,21 +306,22 @@
     },
     "21": {
       "name": "game_character_displayname_MissFortune",
+      "id": 21,
       "cost": 5,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_MissFortune.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_MissFortune.png",
       "stats": {
-        "hp": 700.0,
+        "hp": 750.0,
         "hpScaleFactor": 1.8,
-        "mana": 75.0,
-        "initalMana": 0,
+        "mana": 150.0,
+        "initalMana": 0.0,
         "damage": 75.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
         "magicResist": 20.0,
         "critMultiplier": 1.5,
         "critChance": 0.25,
-        "attackSpeed": 0.85,
-        "range": 3
+        "attackSpeed": 0.95,
+        "range": 3.0
       },
       "traits": [
         "Pirate",
@@ -325,7 +330,7 @@
       "ability": {
         "name": "tft_character_missfortune_ability_name",
         "desc": "tft_character_missfortune_ability_description",
-        "icon": "ASSETS/Characters/MissFortune/HUD/Icons2D/MissFortune_R.dds",
+        "icon": "ASSETS/Characters/MissFortune/HUD/Icons2D/MissFortune_R.png",
         "variables": [
           {
             "key": "Waves",
@@ -342,13 +347,13 @@
           {
             "key": "TotalDamage",
             "values": [
-              350.0,
-              800.0,
-              1250.0,
-              1700.0,
-              2150.0,
-              2600.0,
-              3050.0
+              600.0,
+              1300.0,
+              2000.0,
+              2700.0,
+              3400.0,
+              4100.0,
+              4800.0
             ]
           },
           {
@@ -380,13 +385,14 @@
     },
     "22": {
       "name": "game_character_displayname_Ashe",
+      "id": 22,
       "cost": 3,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Ashe.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Ashe.png",
       "stats": {
         "hp": 550.0,
         "hpScaleFactor": 1.8,
-        "mana": 100,
-        "initalMana": 0,
+        "mana": 125.0,
+        "initalMana": 0.0,
         "damage": 65.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -394,7 +400,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.7,
-        "range": 4
+        "range": 4.0
       },
       "traits": [
         "Glacial",
@@ -403,7 +409,7 @@
       "ability": {
         "name": "tft_character_ashe_ability_name",
         "desc": "tft_character_ashe_ability_description",
-        "icon": "ASSETS/Characters/Ashe/HUD/Icons2D/Ashe_R.dds",
+        "icon": "ASSETS/Characters/Ashe/HUD/Icons2D/Ashe_R.png",
         "variables": [
           {
             "key": "Damage",
@@ -434,21 +440,22 @@
     },
     "25": {
       "name": "game_character_displayname_Morgana",
+      "id": 25,
       "cost": 3,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Morgana.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Morgana.png",
       "stats": {
         "hp": 650.0,
         "hpScaleFactor": 1.8,
         "mana": 150.0,
-        "initalMana": 0,
+        "initalMana": 50.0,
         "damage": 50.0,
         "damageScaleFactor": 1.25,
-        "armor": 20.0,
+        "armor": 30.0,
         "magicResist": 20.0,
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 2
+        "range": 2.0
       },
       "traits": [
         "Demon",
@@ -457,18 +464,18 @@
       "ability": {
         "name": "tft_character_morgana_ability_name",
         "desc": "tft_character_morgana_ability_description",
-        "icon": "ASSETS/Characters/Morgana/HUD/Icons2D/FallenAngel_Purgatory.dds",
+        "icon": "ASSETS/Characters/Morgana/HUD/Icons2D/FallenAngel_Purgatory.png",
         "variables": [
           {
             "key": "Damage",
             "values": [
-              75.0,
-              200.0,
-              325.0,
-              450.0,
-              575.0,
-              700.0,
-              825.0
+              50.0,
+              175.0,
+              300.0,
+              425.0,
+              550.0,
+              675.0,
+              800.0
             ]
           },
           {
@@ -524,13 +531,14 @@
     },
     "28": {
       "name": "game_character_displayname_Evelynn",
+      "id": 28,
       "cost": 3,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Evelyn.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Evelyn.png",
       "stats": {
         "hp": 550.0,
         "hpScaleFactor": 1.8,
         "mana": 75.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 70.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -538,7 +546,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Demon",
@@ -547,30 +555,30 @@
       "ability": {
         "name": "tft_character_evelynn_ability_name",
         "desc": "tft_character_evelynn_ability_description",
-        "icon": "ASSETS/Characters/Evelynn/HUD/Icons2D/Evelynn_R.dds",
+        "icon": "ASSETS/Characters/Evelynn/HUD/Icons2D/Evelynn_R.png",
         "variables": [
           {
             "key": "CritMultiplier",
             "values": [
-              1.0,
+              2.0,
               3.0,
+              4.0,
               5.0,
+              6.0,
               7.0,
-              9.0,
-              11.0,
-              13.0
+              8.0
             ]
           },
           {
             "key": "CritThreshold",
             "values": [
-              0.65,
-              0.65,
-              0.65,
-              0.65,
-              0.65,
-              0.65,
-              0.65
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5
             ]
           },
           {
@@ -602,13 +610,14 @@
     },
     "30": {
       "name": "game_character_displayname_Karthus",
+      "id": 30,
       "cost": 5,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Karthus.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Karthus.png",
       "stats": {
         "hp": 850.0,
         "hpScaleFactor": 1.8,
         "mana": 125.0,
-        "initalMana": 0,
+        "initalMana": 40.0,
         "damage": 65.0,
         "damageScaleFactor": 1.25,
         "armor": 25.0,
@@ -616,7 +625,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.65,
-        "range": 3
+        "range": 3.0
       },
       "traits": [
         "Phantom",
@@ -625,7 +634,7 @@
       "ability": {
         "name": "tft_character_karthus_ability_name",
         "desc": "tft_character_karthus_ability_description",
-        "icon": "ASSETS/Characters/Karthus/HUD/Icons2D/Karthus_R.dds",
+        "icon": "ASSETS/Characters/Karthus/HUD/Icons2D/Karthus_R.png",
         "variables": [
           {
             "key": "Damage",
@@ -656,13 +665,14 @@
     },
     "31": {
       "name": "game_character_displayname_Chogath",
+      "id": 31,
       "cost": 4,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Chogath.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Chogath.png",
       "stats": {
         "hp": 1000.0,
         "hpScaleFactor": 1.8,
         "mana": 150.0,
-        "initalMana": 0,
+        "initalMana": 50.0,
         "damage": 70.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -670,7 +680,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Void",
@@ -679,7 +689,7 @@
       "ability": {
         "name": "tft_character_chogath_ability_name",
         "desc": "tft_character_chogath_ability_description",
-        "icon": "ASSETS/Characters/Chogath/HUD/Icons2D/GreenTerror_SpikeSlam.dds",
+        "icon": "ASSETS/Characters/Chogath/HUD/Icons2D/GreenTerror_SpikeSlam.png",
         "variables": [
           {
             "key": "Damage",
@@ -722,21 +732,22 @@
     },
     "34": {
       "name": "game_character_displayname_Anivia",
+      "id": 34,
       "cost": 5,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Anivia.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Anivia.png",
       "stats": {
-        "hp": 650.0,
+        "hp": 750.0,
         "hpScaleFactor": 1.8,
-        "mana": 100,
-        "initalMana": 0,
+        "mana": 125.0,
+        "initalMana": 50.0,
         "damage": 40.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
         "magicResist": 20.0,
         "critMultiplier": 1.5,
         "critChance": 0.25,
-        "attackSpeed": 0.6,
-        "range": 3
+        "attackSpeed": 0.8,
+        "range": 3.0
       },
       "traits": [
         "Glacial",
@@ -745,18 +756,18 @@
       "ability": {
         "name": "tft_character_anivia_ability_name",
         "desc": "tft_character_anivia_ability_description",
-        "icon": "ASSETS/Characters/Anivia/HUD/Icons2D/Anivia_R.dds",
+        "icon": "ASSETS/Characters/Anivia/HUD/Icons2D/Anivia_R.png",
         "variables": [
           {
             "key": "TotalDamage",
             "values": [
-              450.0,
-              700.0,
-              950.0,
-              1200.0,
-              1450.0,
+              500.0,
+              800.0,
+              1100.0,
+              1400.0,
               1700.0,
-              1950.0
+              2000.0,
+              2300.0
             ]
           },
           {
@@ -774,13 +785,13 @@
           {
             "key": "StormDuration",
             "values": [
-              8.0,
-              8.0,
-              8.0,
-              8.0,
-              8.0,
-              8.0,
-              8.0
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
             ]
           }
         ]
@@ -788,21 +799,22 @@
     },
     "38": {
       "name": "game_character_displayname_Kassadin",
+      "id": 38,
       "cost": 1,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kassadin.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kassadin.png",
       "stats": {
         "hp": 550.0,
         "hpScaleFactor": 1.8,
         "mana": 0.0,
-        "initalMana": 0,
-        "damage": 55.0,
+        "initalMana": 0.0,
+        "damage": 40.0,
         "damageScaleFactor": 1.25,
-        "armor": 25.0,
+        "armor": 35.0,
         "magicResist": 20.0,
         "critMultiplier": 1.5,
         "critChance": 0.25,
-        "attackSpeed": 0.6,
-        "range": 1
+        "attackSpeed": 0.55,
+        "range": 1.0
       },
       "traits": [
         "Void",
@@ -811,7 +823,7 @@
       "ability": {
         "name": "tft_character_kassadin_ability_name",
         "desc": "tft_character_kassadin_ability_description",
-        "icon": "ASSETS/Characters/Kassadin/HUD/Icons2D/Kassadin_W.dds",
+        "icon": "ASSETS/Characters/Kassadin/HUD/Icons2D/Kassadin_W.png",
         "variables": [
           {
             "key": "ShieldDuration",
@@ -829,12 +841,12 @@
             "key": "ManaSteal",
             "values": [
               0.0,
-              20.0,
-              40.0,
-              60.0,
-              80.0,
+              25.0,
+              50.0,
+              75.0,
               100.0,
-              120.0
+              125.0,
+              150.0
             ]
           }
         ]
@@ -842,21 +854,22 @@
     },
     "41": {
       "name": "game_character_displayname_Gangplank",
+      "id": 41,
       "cost": 3,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Gangplank.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Gangplank.png",
       "stats": {
         "hp": 700.0,
         "hpScaleFactor": 1.8,
-        "mana": 100,
-        "initalMana": 0,
-        "damage": 55.0,
+        "mana": 100.0,
+        "initalMana": 0.0,
+        "damage": 60.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
         "magicResist": 20.0,
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.65,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Pirate",
@@ -866,18 +879,18 @@
       "ability": {
         "name": "tft_character_gangplank_ability_name",
         "desc": "tft_character_gangplank_ability_description",
-        "icon": "ASSETS/Characters/Gangplank/HUD/Icons2D/Gangplank_E.dds",
+        "icon": "ASSETS/Characters/Gangplank/HUD/Icons2D/Gangplank_E.png",
         "variables": [
           {
             "key": "Damage",
             "values": [
-              75.0,
-              200.0,
-              325.0,
+              50.0,
+              150.0,
+              250.0,
+              350.0,
               450.0,
-              575.0,
-              700.0,
-              825.0
+              550.0,
+              650.0
             ]
           }
         ]
@@ -885,13 +898,14 @@
     },
     "45": {
       "name": "game_character_displayname_Veigar",
+      "id": 45,
       "cost": 3,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Veigar.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Veigar.png",
       "stats": {
         "hp": 500.0,
         "hpScaleFactor": 1.8,
         "mana": 75.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 50.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -899,7 +913,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.55,
-        "range": 3
+        "range": 3.0
       },
       "traits": [
         "Yordle",
@@ -908,18 +922,18 @@
       "ability": {
         "name": "tft_character_veigar_ability_name",
         "desc": "tft_character_veigar_ability_description",
-        "icon": "ASSETS/Characters/Veigar/HUD/Icons2D/VeigarPrimordialBurst.dds",
+        "icon": "ASSETS/Characters/Veigar/HUD/Icons2D/VeigarPrimordialBurst.png",
         "variables": [
           {
             "key": "Damage",
             "values": [
               50.0,
-              300.0,
-              550.0,
-              800.0,
-              1050.0,
-              1300.0,
-              1550.0
+              350.0,
+              650.0,
+              950.0,
+              1250.0,
+              1550.0,
+              1850.0
             ]
           },
           {
@@ -939,13 +953,14 @@
     },
     "50": {
       "name": "game_character_displayname_Swain",
+      "id": 50,
       "cost": 5,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Swain.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Swain.png",
       "stats": {
         "hp": 850.0,
         "hpScaleFactor": 1.8,
-        "mana": 100,
-        "initalMana": 0,
+        "mana": 100.0,
+        "initalMana": 0.0,
         "damage": 65.0,
         "damageScaleFactor": 1.25,
         "armor": 25.0,
@@ -953,7 +968,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.65,
-        "range": 2
+        "range": 2.0
       },
       "traits": [
         "Imperial",
@@ -963,7 +978,7 @@
       "ability": {
         "name": "tft_character_swain_ability_name",
         "desc": "tft_character_swain_ability_description",
-        "icon": "ASSETS/Characters/Swain/HUD/Icons2D/Swain_R.dds",
+        "icon": "ASSETS/Characters/Swain/HUD/Icons2D/Swain_R.png",
         "variables": [
           {
             "key": "TransformDuration",
@@ -981,24 +996,24 @@
             "key": "DamagePerTick",
             "values": [
               0.0,
-              50.0,
-              100.0,
-              150.0,
+              40.0,
+              80.0,
+              120.0,
+              160.0,
               200.0,
-              250.0,
-              300.0
+              240.0
             ]
           },
           {
             "key": "HealPerTick",
             "values": [
-              10.0,
-              40.0,
-              70.0,
-              100.0,
-              130.0,
-              160.0,
-              190.0
+              0.0,
+              30.0,
+              60.0,
+              90.0,
+              120.0,
+              150.0,
+              180.0
             ]
           },
           {
@@ -1014,31 +1029,30 @@
             ]
           },
           {
-            "key": "HealthIncrease",
-            "values": null
+            "key": "HealthIncrease"
           },
           {
             "key": "TotalDamage",
             "values": [
               0.0,
-              600.0,
-              1200.0,
-              1800.0,
+              480.0,
+              960.0,
+              1440.0,
+              1920.0,
               2400.0,
-              3000.0,
-              3600.0
+              2880.0
             ]
           },
           {
             "key": "TotalHeal",
             "values": [
-              120.0,
-              600.0,
+              0.0,
+              360.0,
+              720.0,
               1080.0,
-              1560.0,
-              2040.0,
-              2520.0,
-              3000.0
+              1440.0,
+              1800.0,
+              2160.0
             ]
           }
         ]
@@ -1046,13 +1060,14 @@
     },
     "53": {
       "name": "game_character_displayname_Blitzcrank",
+      "id": 53,
       "cost": 2,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Blitzcrank.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Blitzcrank.png",
       "stats": {
-        "hp": 600.0,
+        "hp": 650.0,
         "hpScaleFactor": 1.8,
         "mana": 125.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 50.0,
         "damageScaleFactor": 1.25,
         "armor": 35.0,
@@ -1060,7 +1075,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.5,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Robot",
@@ -1069,18 +1084,18 @@
       "ability": {
         "name": "tft_character_blitzcrank_ability_name",
         "desc": "tft_character_blitzcrank_ability_description",
-        "icon": "ASSETS/Characters/Blitzcrank/HUD/Icons2D/Blitzcrank_RocketGrab.dds",
+        "icon": "ASSETS/Characters/Blitzcrank/HUD/Icons2D/Blitzcrank_RocketGrab.png",
         "variables": [
           {
             "key": "Damage",
             "values": [
-              -250.0,
-              100.0,
-              450.0,
-              800.0,
+              -50.0,
+              250.0,
+              550.0,
+              850.0,
               1150.0,
-              1500.0,
-              1850.0
+              1450.0,
+              1750.0
             ]
           },
           {
@@ -1100,13 +1115,14 @@
     },
     "55": {
       "name": "game_character_displayname_Katarina",
+      "id": 55,
       "cost": 3,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Katarina.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Katarina.png",
       "stats": {
         "hp": 450.0,
         "hpScaleFactor": 1.8,
-        "mana": 100,
-        "initalMana": 0,
+        "mana": 85.0,
+        "initalMana": 0.0,
         "damage": 65.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -1114,7 +1130,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.65,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Imperial",
@@ -1123,18 +1139,18 @@
       "ability": {
         "name": "tft_character_katarina_ability_name",
         "desc": "tft_character_katarina_ability_description",
-        "icon": "ASSETS/Characters/Katarina/HUD/Icons2D/Katarina_R.dds",
+        "icon": "ASSETS/Characters/Katarina/HUD/Icons2D/Katarina_R.png",
         "variables": [
           {
             "key": "DamagePerTick",
             "values": [
               20.0,
-              40.0,
-              60.0,
-              80.0,
-              100.0,
+              45.0,
+              70.0,
+              95.0,
               120.0,
-              140.0
+              145.0,
+              170.0
             ]
           },
           {
@@ -1188,13 +1204,13 @@
           {
             "key": "TotalDamage",
             "values": [
-              300.0,
-              600.0,
-              900.0,
-              1200.0,
+              375.0,
+              750.0,
+              1125.0,
               1500.0,
-              1800.0,
-              2100.0
+              1875.0,
+              2250.0,
+              2625.0
             ]
           }
         ]
@@ -1202,13 +1218,14 @@
     },
     "60": {
       "name": "game_character_displayname_Elise",
+      "id": 60,
       "cost": 1,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Elise.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Elise.png",
       "stats": {
         "hp": 500.0,
         "hpScaleFactor": 1.8,
-        "mana": 100,
-        "initalMana": 0,
+        "mana": 100.0,
+        "initalMana": 0.0,
         "damage": 45.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -1216,7 +1233,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 2
+        "range": 2.0
       },
       "traits": [
         "Demon",
@@ -1268,13 +1285,14 @@
     },
     "63": {
       "name": "game_character_displayname_Brand",
+      "id": 63,
       "cost": 4,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Brand.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Brand.png",
       "stats": {
         "hp": 700.0,
         "hpScaleFactor": 1.8,
         "mana": 150.0,
-        "initalMana": 0,
+        "initalMana": 50.0,
         "damage": 60.0,
         "damageScaleFactor": 1.25,
         "armor": 25.0,
@@ -1282,7 +1300,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 3
+        "range": 3.0
       },
       "traits": [
         "Demon",
@@ -1291,7 +1309,7 @@
       "ability": {
         "name": "tft_character_brand_ability_name",
         "desc": "tft_character_brand_ability_description",
-        "icon": "ASSETS/Characters/Brand/HUD/Icons2D/BrandR.dds",
+        "icon": "ASSETS/Characters/Brand/HUD/Icons2D/BrandR.png",
         "variables": [
           {
             "key": "Damage",
@@ -1322,13 +1340,14 @@
     },
     "67": {
       "name": "game_character_displayname_Vayne",
+      "id": 67,
       "cost": 1,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Vayne.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Vayne.png",
       "stats": {
         "hp": 550.0,
         "hpScaleFactor": 1.8,
         "mana": 0.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 40.0,
         "damageScaleFactor": 1.25,
         "armor": 25.0,
@@ -1336,7 +1355,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.7,
-        "range": 3
+        "range": 3.0
       },
       "traits": [
         "Noble",
@@ -1345,7 +1364,7 @@
       "ability": {
         "name": "tft_character_vayne_ability_name",
         "desc": "tft_character_vayne_ability_description",
-        "icon": "ASSETS/Characters/Vayne/HUD/Icons2D/Vayne_SilveredBolts.dds",
+        "icon": "ASSETS/Characters/Vayne/HUD/Icons2D/Vayne_SilveredBolts.png",
         "variables": [
           {
             "key": "PercentDamage",
@@ -1364,13 +1383,14 @@
     },
     "76": {
       "name": "game_character_displayname_Nidalee",
+      "id": 76,
       "cost": 1,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Nidalee.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Nidalee.png",
       "stats": {
         "hp": 500.0,
         "hpScaleFactor": 1.8,
-        "mana": 100,
-        "initalMana": 0,
+        "mana": 85.0,
+        "initalMana": 0.0,
         "damage": 50.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -1378,7 +1398,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.65,
-        "range": 3
+        "range": 3.0
       },
       "traits": [
         "Wild",
@@ -1387,7 +1407,7 @@
       "ability": {
         "name": "tft_character_nidalee_ability_name",
         "desc": "tft_character_nidalee_ability_description",
-        "icon": "ASSETS/Characters/Nidalee/HUD/Icons2D/Nidalee_R2.dds",
+        "icon": "ASSETS/Characters/Nidalee/HUD/Icons2D/Nidalee_R2.png",
         "variables": [
           {
             "key": "HoTDuration",
@@ -1454,13 +1474,14 @@
     },
     "78": {
       "name": "game_character_displayname_Poppy",
+      "id": 78,
       "cost": 3,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Poppy.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Poppy.png",
       "stats": {
-        "hp": 800.0,
+        "hp": 700.0,
         "hpScaleFactor": 1.8,
         "mana": 75.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 50.0,
         "damageScaleFactor": 1.25,
         "armor": 40.0,
@@ -1468,7 +1489,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.5,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Yordle",
@@ -1477,7 +1498,7 @@
       "ability": {
         "name": "tft_character_poppy_ability_name",
         "desc": "tft_character_poppy_ability_description",
-        "icon": "ASSETS/Characters/Poppy/HUD/Icons2D/Poppy_R.dds",
+        "icon": "ASSETS/Characters/Poppy/HUD/Icons2D/Poppy_R.png",
         "variables": [
           {
             "key": "DamagePart2",
@@ -1542,15 +1563,107 @@
         ]
       }
     },
+    "80": {
+      "name": "game_character_displayname_Pantheon",
+      "id": 80,
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Pantheon.png",
+      "stats": {
+        "hp": 850.0,
+        "hpScaleFactor": 1.8,
+        "mana": 200.0,
+        "initalMana": 150.0,
+        "damage": 75.0,
+        "damageScaleFactor": 1.25,
+        "armor": 80.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.75,
+        "range": 1.0
+      },
+      "traits": [
+        "Dragon",
+        "Guardian"
+      ],
+      "ability": {
+        "name": "tft_character_pantheon_ability_name",
+        "desc": "tft_character_pantheon_ability_description",
+        "icon": "ASSETS/Characters/TFT_Pantheon/HUD/Icons2D/TFT_Pantheon_Spell.TFT_Pantheon.png",
+        "variables": [
+          {
+            "key": "PercentHealthDamage",
+            "values": [
+              0.0,
+              0.1,
+              0.2,
+              0.3,
+              0.4,
+              0.5,
+              0.6
+            ]
+          },
+          {
+            "key": "Radius",
+            "values": [
+              450.0,
+              450.0,
+              450.0,
+              450.0,
+              450.0,
+              450.0,
+              450.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "BurnPercent",
+            "values": [
+              0.2,
+              0.2,
+              0.2,
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "key": "BurnDuration",
+            "values": [
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0
+            ]
+          }
+        ]
+      }
+    },
     "82": {
       "name": "game_character_displayname_Mordekaiser",
+      "id": 82,
       "cost": 1,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Mordekaiser.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Mordekaiser.png",
       "stats": {
         "hp": 550.0,
         "hpScaleFactor": 1.8,
-        "mana": 100,
-        "initalMana": 0,
+        "mana": 150.0,
+        "initalMana": 50.0,
         "damage": 50.0,
         "damageScaleFactor": 1.25,
         "armor": 40.0,
@@ -1558,7 +1671,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.5,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Phantom",
@@ -1567,18 +1680,18 @@
       "ability": {
         "name": "tft_character_mordekaiser_ability_name",
         "desc": "tft_character_mordekaiser_ability_description",
-        "icon": "ASSETS/Characters/Mordekaiser/HUD/Icons2D/MordekaiserQ.MordeVGU.dds",
+        "icon": "ASSETS/Characters/Mordekaiser/HUD/Icons2D/MordekaiserQ.MordeVGU.png",
         "variables": [
           {
             "key": "Damage",
             "values": [
-              75.0,
-              200.0,
-              325.0,
-              450.0,
-              575.0,
-              700.0,
-              825.0
+              0.0,
+              250.0,
+              500.0,
+              750.0,
+              1000.0,
+              1250.0,
+              1500.0
             ]
           },
           {
@@ -1622,21 +1735,22 @@
     },
     "84": {
       "name": "game_character_displayname_Akali",
+      "id": 84,
       "cost": 4,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Akali.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Akali.png",
       "stats": {
         "hp": 650.0,
         "hpScaleFactor": 1.8,
         "mana": 25.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 80.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
         "magicResist": 20.0,
         "critMultiplier": 1.5,
         "critChance": 0.25,
-        "attackSpeed": 0.7,
-        "range": 1
+        "attackSpeed": 0.8,
+        "range": 1.0
       },
       "traits": [
         "Ninja",
@@ -1644,19 +1758,19 @@
       ],
       "ability": {
         "name": "tft_character_akali_ability_name",
-        "desc": "tft_character_akali_ability_description",
-        "icon": "ASSETS/Characters/Akali/HUD/Icons2D/Akali_Q.dds",
+        "desc": "Spell_TFT_AkaliAbility_Summary",
+        "icon": "ASSETS/Characters/Akali/HUD/Icons2D/Akali_Q.png",
         "variables": [
           {
             "key": "Damage",
             "values": [
-              25.0,
-              150.0,
-              275.0,
-              400.0,
-              525.0,
+              50.0,
+              200.0,
+              350.0,
+              500.0,
               650.0,
-              775.0
+              800.0,
+              950.0
             ]
           },
           {
@@ -1688,13 +1802,14 @@
     },
     "85": {
       "name": "game_character_displayname_Kennen",
+      "id": 85,
       "cost": 3,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kennen.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kennen.png",
       "stats": {
         "hp": 550.0,
         "hpScaleFactor": 1.8,
         "mana": 150.0,
-        "initalMana": 0,
+        "initalMana": 50.0,
         "damage": 65.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -1702,7 +1817,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.65,
-        "range": 2
+        "range": 2.0
       },
       "traits": [
         "Ninja",
@@ -1712,7 +1827,7 @@
       "ability": {
         "name": "tft_character_kennen_ability_name",
         "desc": "tft_character_kennen_ability_description",
-        "icon": "ASSETS/Characters/Kennen/HUD/Icons2D/Kennen_R.dds",
+        "icon": "ASSETS/Characters/Kennen/HUD/Icons2D/Kennen_R.png",
         "variables": [
           {
             "key": "TickRate",
@@ -1767,13 +1882,14 @@
     },
     "86": {
       "name": "game_character_displayname_Garen",
+      "id": 86,
       "cost": 1,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Garen.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Garen.png",
       "stats": {
         "hp": 600.0,
         "hpScaleFactor": 1.8,
-        "mana": 100,
-        "initalMana": 0,
+        "mana": 100.0,
+        "initalMana": 0.0,
         "damage": 50.0,
         "damageScaleFactor": 1.25,
         "armor": 40.0,
@@ -1781,7 +1897,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Noble",
@@ -1790,7 +1906,7 @@
       "ability": {
         "name": "tft_character_garen_ability_name",
         "desc": "tft_character_garen_ability_description",
-        "icon": "ASSETS/Characters/Garen/HUD/Icons2D/Garen_E1.dds",
+        "icon": "ASSETS/Characters/Garen/HUD/Icons2D/Garen_E1.png",
         "variables": [
           {
             "key": "SpinDuration",
@@ -1833,13 +1949,14 @@
     },
     "89": {
       "name": "game_character_displayname_Leona",
+      "id": 89,
       "cost": 4,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Leona.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Leona.png",
       "stats": {
-        "hp": 750.0,
+        "hp": 800.0,
         "hpScaleFactor": 1.8,
-        "mana": 100,
-        "initalMana": 0,
+        "mana": 100.0,
+        "initalMana": 50.0,
         "damage": 45.0,
         "damageScaleFactor": 1.25,
         "armor": 100.0,
@@ -1847,7 +1964,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.55,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Noble",
@@ -1856,7 +1973,7 @@
       "ability": {
         "name": "tft_character_leona_ability_name",
         "desc": "tft_character_leona_ability_description",
-        "icon": "ASSETS/Characters/Leona/HUD/Icons2D/LeonaSolarFlare.dds",
+        "icon": "ASSETS/Characters/Leona/HUD/Icons2D/LeonaSolarFlare.png",
         "variables": [
           {
             "key": "DelayTime",
@@ -1873,13 +1990,13 @@
           {
             "key": "CCDuration",
             "values": [
-              2.0,
+              3.0,
               5.0,
-              8.0,
+              7.0,
+              9.0,
               11.0,
-              14.0,
-              17.0,
-              20.0
+              13.0,
+              15.0
             ]
           },
           {
@@ -1899,13 +2016,14 @@
     },
     "98": {
       "name": "game_character_displayname_Shen",
+      "id": 98,
       "cost": 2,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Shen.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Shen.png",
       "stats": {
-        "hp": 650.0,
+        "hp": 700.0,
         "hpScaleFactor": 1.8,
         "mana": 150.0,
-        "initalMana": 0,
+        "initalMana": 100.0,
         "damage": 65.0,
         "damageScaleFactor": 1.25,
         "armor": 30.0,
@@ -1913,7 +2031,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.7,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Ninja",
@@ -1922,7 +2040,7 @@
       "ability": {
         "name": "tft_character_shen_ability_name",
         "desc": "tft_character_shen_ability_description",
-        "icon": "ASSETS/Characters/Shen/HUD/Icons2D/Shen_W.dds",
+        "icon": "ASSETS/Characters/Shen/HUD/Icons2D/Shen_W.png",
         "variables": [
           {
             "key": "ZoneDuration",
@@ -1941,13 +2059,14 @@
     },
     "102": {
       "name": "game_character_displayname_Shyvana",
+      "id": 102,
       "cost": 3,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Shyvana.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Shyvana.png",
       "stats": {
         "hp": 650.0,
         "hpScaleFactor": 1.8,
-        "mana": 100,
-        "initalMana": 0,
+        "mana": 85.0,
+        "initalMana": 0.0,
         "damage": 50.0,
         "damageScaleFactor": 1.25,
         "armor": 30.0,
@@ -1955,7 +2074,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.7,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Dragon",
@@ -1964,18 +2083,18 @@
       "ability": {
         "name": "tft_character_shyvana_ability_name",
         "desc": "tft_character_shyvana_ability_description",
-        "icon": "ASSETS/Characters/Shyvana/HUD/Icons2D/ShyvanaDragonsDescent.dds",
+        "icon": "ASSETS/Characters/Shyvana/HUD/Icons2D/ShyvanaDragonsDescent.png",
         "variables": [
           {
             "key": "TransformDuration",
             "values": [
-              5.0,
-              5.0,
-              5.0,
-              5.0,
-              5.0,
-              5.0,
-              5.0
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
             ]
           },
           {
@@ -2005,13 +2124,13 @@
           {
             "key": "BurnDamage",
             "values": [
-              125.0,
-              250.0,
-              375.0,
+              100.0,
+              200.0,
+              300.0,
+              400.0,
               500.0,
-              625.0,
-              750.0,
-              875.0
+              600.0,
+              700.0
             ]
           },
           {
@@ -2031,13 +2150,14 @@
     },
     "103": {
       "name": "game_character_displayname_Ahri",
+      "id": 103,
       "cost": 2,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Ahri.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Ahri.png",
       "stats": {
         "hp": 450.0,
         "hpScaleFactor": 1.8,
         "mana": 75.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 50.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -2045,7 +2165,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.55,
-        "range": 3
+        "range": 3.0
       },
       "traits": [
         "Wild",
@@ -2054,7 +2174,7 @@
       "ability": {
         "name": "tft_character_ahri_ability_name",
         "desc": "tft_character_ahri_ability_description",
-        "icon": "ASSETS/Characters/Ahri/HUD/Icons2D/Ahri_OrbofDeception.dds",
+        "icon": "ASSETS/Characters/Ahri/HUD/Icons2D/Ahri_OrbofDeception.png",
         "variables": [
           {
             "key": "Damage",
@@ -2085,21 +2205,22 @@
     },
     "104": {
       "name": "game_character_displayname_Graves",
+      "id": 104,
       "cost": 1,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Graves.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Graves.png",
       "stats": {
         "hp": 450.0,
         "hpScaleFactor": 1.8,
         "mana": 0.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 55.0,
         "damageScaleFactor": 1.25,
-        "armor": 20.0,
+        "armor": 30.0,
         "magicResist": 20.0,
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.55,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Pirate",
@@ -2107,8 +2228,8 @@
       ],
       "ability": {
         "name": "tft_character_graves_ability_name",
-        "desc": "tft_character_graves_ability_description",
-        "icon": "ASSETS/Characters/Graves/HUD/Icons2D/BuckshotOld.dds",
+        "desc": "Spell_TFT_GravesAbility_Summary",
+        "icon": "ASSETS/Characters/Graves/HUD/Icons2D/BuckshotOld.png",
         "variables": [
           {
             "key": "DamageMultiplier",
@@ -2127,21 +2248,22 @@
     },
     "106": {
       "name": "game_character_displayname_Volibear",
+      "id": 106,
       "cost": 3,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Volibear.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Volibear.png",
       "stats": {
-        "hp": 700.0,
+        "hp": 750.0,
         "hpScaleFactor": 1.8,
         "mana": 75.0,
-        "initalMana": 0,
-        "damage": 75.0,
+        "initalMana": 0.0,
+        "damage": 70.0,
         "damageScaleFactor": 1.25,
         "armor": 30.0,
         "magicResist": 20.0,
         "critMultiplier": 1.5,
         "critChance": 0.25,
-        "attackSpeed": 0.55,
-        "range": 1
+        "attackSpeed": 0.65,
+        "range": 1.0
       },
       "traits": [
         "Glacial",
@@ -2149,8 +2271,8 @@
       ],
       "ability": {
         "name": "tft_character_volibear_ability_name",
-        "desc": "tft_character_volibear_ability_description",
-        "icon": "ASSETS/Characters/Volibear/HUD/Icons2D/VolibearR.dds",
+        "desc": "Spell_TFT_VolibearAbility_Summary",
+        "icon": "ASSETS/Characters/Volibear/HUD/Icons2D/VolibearR.png",
         "variables": [
           {
             "key": "BuffDuration",
@@ -2217,13 +2339,14 @@
     },
     "107": {
       "name": "game_character_displayname_Rengar",
+      "id": 107,
       "cost": 3,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Rengar.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Rengar.png",
       "stats": {
         "hp": 550.0,
         "hpScaleFactor": 1.8,
         "mana": 75.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 70.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -2231,7 +2354,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Wild",
@@ -2240,7 +2363,7 @@
       "ability": {
         "name": "tft_character_rengar_ability_name",
         "desc": "tft_character_rengar_ability_description",
-        "icon": "ASSETS/Characters/Rengar/HUD/Icons2D/RengarQ.dds",
+        "icon": "ASSETS/Characters/Rengar/HUD/Icons2D/RengarQ.png",
         "variables": [
           {
             "key": "ADMult",
@@ -2295,13 +2418,14 @@
     },
     "110": {
       "name": "game_character_displayname_Varus",
+      "id": 110,
       "cost": 2,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Varus.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Varus.png",
       "stats": {
         "hp": 500.0,
         "hpScaleFactor": 1.8,
         "mana": 75.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 50.0,
         "damageScaleFactor": 1.25,
         "armor": 25.0,
@@ -2309,7 +2433,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.7,
-        "range": 4
+        "range": 4.0
       },
       "traits": [
         "Demon",
@@ -2318,7 +2442,7 @@
       "ability": {
         "name": "tft_character_varus_ability_name",
         "desc": "tft_character_varus_ability_description",
-        "icon": "ASSETS/Characters/Varus/HUD/Icons2D/VarusQ.dds",
+        "icon": "ASSETS/Characters/Varus/HUD/Icons2D/VarusQ.png",
         "variables": [
           {
             "key": "Damage",
@@ -2349,13 +2473,14 @@
     },
     "113": {
       "name": "game_character_displayname_Sejuani",
+      "id": 113,
       "cost": 4,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Sejuani.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Sejuani.png",
       "stats": {
-        "hp": 850.0,
+        "hp": 800.0,
         "hpScaleFactor": 1.8,
         "mana": 150.0,
-        "initalMana": 0,
+        "initalMana": 50.0,
         "damage": 45.0,
         "damageScaleFactor": 1.25,
         "armor": 40.0,
@@ -2363,7 +2488,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.55,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Glacial",
@@ -2372,7 +2497,7 @@
       "ability": {
         "name": "tft_character_sejuani_ability_name",
         "desc": "tft_character_sejuani_ability_description",
-        "icon": "ASSETS/Characters/Sejuani/HUD/Icons2D/Sejuani_R.dds",
+        "icon": "ASSETS/Characters/Sejuani/HUD/Icons2D/Sejuani_R.png",
         "variables": [
           {
             "key": "ExplosionDelay",
@@ -2401,13 +2526,13 @@
           {
             "key": "StunDuration",
             "values": [
-              1.0,
+              0.5,
               2.0,
-              4.0,
-              6.0,
+              3.5,
+              5.0,
+              6.5,
               8.0,
-              10.0,
-              12.0
+              9.5
             ]
           }
         ]
@@ -2415,13 +2540,14 @@
     },
     "114": {
       "name": "game_character_displayname_Fiora",
+      "id": 114,
       "cost": 1,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Fiora.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Fiora.png",
       "stats": {
-        "hp": 400.0,
+        "hp": 450.0,
         "hpScaleFactor": 1.8,
         "mana": 75.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 40.0,
         "damageScaleFactor": 1.25,
         "armor": 25.0,
@@ -2429,7 +2555,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 1.0,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Noble",
@@ -2438,7 +2564,7 @@
       "ability": {
         "name": "tft_character_fiora_ability_name",
         "desc": "tft_character_fiora_ability_description",
-        "icon": "ASSETS/Characters/Fiora/HUD/Icons2D/Fiora_W.dds",
+        "icon": "ASSETS/Characters/Fiora/HUD/Icons2D/Fiora_W.png",
         "variables": [
           {
             "key": "Damage",
@@ -2481,13 +2607,14 @@
     },
     "117": {
       "name": "game_character_displayname_Lulu",
+      "id": 117,
       "cost": 2,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Lulu.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Lulu.png",
       "stats": {
         "hp": 500.0,
         "hpScaleFactor": 1.8,
         "mana": 150.0,
-        "initalMana": 0,
+        "initalMana": 50.0,
         "damage": 50.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -2495,7 +2622,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 2
+        "range": 2.0
       },
       "traits": [
         "Yordle",
@@ -2504,7 +2631,7 @@
       "ability": {
         "name": "tft_character_lulu_ability_name",
         "desc": "tft_character_lulu_ability_description",
-        "icon": "ASSETS/Characters/Lulu/HUD/Icons2D/Lulu_GiantGrowth.dds",
+        "icon": "ASSETS/Characters/Lulu/HUD/Icons2D/Lulu_GiantGrowth.png",
         "variables": [
           {
             "key": "BonusHealth",
@@ -2559,21 +2686,22 @@
     },
     "119": {
       "name": "game_character_displayname_Draven",
+      "id": 119,
       "cost": 4,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Draven.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Draven.png",
       "stats": {
-        "hp": 700.0,
+        "hp": 650.0,
         "hpScaleFactor": 1.8,
         "mana": 50.0,
-        "initalMana": 0,
-        "damage": 75.0,
+        "initalMana": 0.0,
+        "damage": 70.0,
         "damageScaleFactor": 1.25,
         "armor": 25.0,
         "magicResist": 20.0,
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.75,
-        "range": 3
+        "range": 3.0
       },
       "traits": [
         "Imperial",
@@ -2581,8 +2709,8 @@
       ],
       "ability": {
         "name": "tft_character_draven_ability_name",
-        "desc": "tft_character_draven_ability_description",
-        "icon": "ASSETS/Characters/Draven/HUD/Icons2D/Draven_SpinningAxe.dds",
+        "desc": "Spell_TFT_DravenAbility_Summary",
+        "icon": "ASSETS/Characters/Draven/HUD/Icons2D/Draven_SpinningAxe.png",
         "variables": [
           {
             "key": "BuffDuration",
@@ -2625,13 +2753,14 @@
     },
     "121": {
       "name": "game_character_displayname_Khazix",
+      "id": 121,
       "cost": 1,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Khazix.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Khazix.png",
       "stats": {
         "hp": 500.0,
         "hpScaleFactor": 1.8,
-        "mana": 50.0,
-        "initalMana": 0,
+        "mana": 65.0,
+        "initalMana": 0.0,
         "damage": 55.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -2639,7 +2768,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Void",
@@ -2648,7 +2777,7 @@
       "ability": {
         "name": "tft_character_khazix_ability_name",
         "desc": "tft_character_khazix_ability_description",
-        "icon": "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_Q.dds",
+        "icon": "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_Q.png",
         "variables": [
           {
             "key": "Damage",
@@ -2679,13 +2808,14 @@
     },
     "122": {
       "name": "game_character_displayname_Darius",
+      "id": 122,
       "cost": 1,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Darius.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Darius.png",
       "stats": {
         "hp": 600.0,
         "hpScaleFactor": 1.8,
-        "mana": 100,
-        "initalMana": 0,
+        "mana": 100.0,
+        "initalMana": 0.0,
         "damage": 50.0,
         "damageScaleFactor": 1.25,
         "armor": 40.0,
@@ -2693,7 +2823,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.5,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Imperial",
@@ -2702,7 +2832,7 @@
       "ability": {
         "name": "tft_character_darius_ability_name",
         "desc": "tft_character_darius_ability_description",
-        "icon": "ASSETS/Characters/Darius/HUD/Icons2D/Darius_Icon_Decimate.dds",
+        "icon": "ASSETS/Characters/Darius/HUD/Icons2D/Darius_Icon_Decimate.png",
         "variables": [
           {
             "key": "Damage",
@@ -2745,21 +2875,22 @@
     },
     "126": {
       "name": "game_character_displayname_Jayce",
+      "id": 126,
       "cost": 2,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Jayce.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Jayce.png",
       "stats": {
         "hp": 600.0,
         "hpScaleFactor": 1.8,
-        "mana": 100,
-        "initalMana": 0,
+        "mana": 100.0,
+        "initalMana": 50.0,
         "damage": 60.0,
         "damageScaleFactor": 1.25,
-        "armor": 30.0,
+        "armor": 35.0,
         "magicResist": 20.0,
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.65,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Hextech",
@@ -2767,8 +2898,8 @@
       ],
       "ability": {
         "name": "tft_character_jayce_ability_name",
-        "desc": "tft_character_jayce_ability_description",
-        "icon": "ASSETS/Characters/TFT_Jayce/HUD/Icons2D/TFT_Jayce_Spell.TFT_Hextech.dds",
+        "desc": "Spell_TFT_JayceTransform_Tooltip",
+        "icon": "ASSETS/Characters/TFT_Jayce/HUD/Icons2D/TFT_Jayce_Spell.TFT_Hextech.png",
         "variables": [
           {
             "key": "RangeIncrease",
@@ -2859,13 +2990,14 @@
     },
     "127": {
       "name": "game_character_displayname_Lissandra",
+      "id": 127,
       "cost": 2,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Lissandra.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Lissandra.png",
       "stats": {
-        "hp": 450.0,
+        "hp": 500.0,
         "hpScaleFactor": 1.8,
-        "mana": 125.0,
-        "initalMana": 0,
+        "mana": 85.0,
+        "initalMana": 0.0,
         "damage": 40.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -2873,7 +3005,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 2
+        "range": 2.0
       },
       "traits": [
         "Glacial",
@@ -2882,7 +3014,7 @@
       "ability": {
         "name": "tft_character_lissandra_ability_name",
         "desc": "tft_character_lissandra_ability_description",
-        "icon": "ASSETS/Characters/Lissandra/HUD/Icons2D/Lissandra_R.dds",
+        "icon": "ASSETS/Characters/Lissandra/HUD/Icons2D/Lissandra_R.png",
         "variables": [
           {
             "key": "EnemyStunDuration",
@@ -2912,12 +3044,12 @@
             "key": "Damage",
             "values": [
               25.0,
-              150.0,
-              275.0,
-              400.0,
-              525.0,
-              650.0,
-              775.0
+              175.0,
+              325.0,
+              475.0,
+              625.0,
+              775.0,
+              925.0
             ]
           },
           {
@@ -2985,13 +3117,14 @@
     },
     "136": {
       "name": "game_character_displayname_AurelionSol",
+      "id": 136,
       "cost": 4,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_AurelionSol.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_AurelionSol.png",
       "stats": {
         "hp": 650.0,
         "hpScaleFactor": 1.8,
         "mana": 125.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 40.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -2999,7 +3132,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 3
+        "range": 3.0
       },
       "traits": [
         "Dragon",
@@ -3008,7 +3141,7 @@
       "ability": {
         "name": "tft_character_aurelionsol_ability_name",
         "desc": "tft_character_aurelionsol_ability_description",
-        "icon": "ASSETS/Characters/AurelionSol/HUD/Icons2D/AurelionSol_R.dds",
+        "icon": "ASSETS/Characters/AurelionSol/HUD/Icons2D/AurelionSol_R.png",
         "variables": [
           {
             "key": "Damage",
@@ -3037,15 +3170,84 @@
         ]
       }
     },
-    "150": {
-      "name": "game_character_displayname_Gnar",
-      "cost": 4,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Gnar.dds",
+    "145": {
+      "name": "game_character_displayname_Kaisa",
+      "id": 145,
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kaisa.TFT_Set1_KaiSa.png",
       "stats": {
-        "hp": 750.0,
+        "hp": 700.0,
         "hpScaleFactor": 1.8,
         "mana": 125.0,
-        "initalMana": 0,
+        "initalMana": 50.0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 1.25,
+        "range": 2.0
+      },
+      "traits": [
+        "Void",
+        "Ranger",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "Spell_TFT_KaisaRE_Name",
+        "desc": "Spell_TFT_KaisaRE_Tooltip",
+        "icon": "ASSETS/Characters/TFT_Kaisa/HUD/Icons2D/TFT_Kaisa_R.TFT_Set1_KaiSa.png",
+        "variables": [
+          {
+            "key": "ASPercent",
+            "values": [
+              0.25,
+              0.5,
+              0.75,
+              1.0,
+              1.25,
+              1.5,
+              1.75
+            ]
+          },
+          {
+            "key": "Duration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "ShieldAmount",
+            "values": [
+              100.0,
+              400.0,
+              700.0,
+              1000.0,
+              1300.0,
+              1600.0,
+              1900.0
+            ]
+          }
+        ]
+      }
+    },
+    "150": {
+      "name": "game_character_displayname_Gnar",
+      "id": 150,
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Gnar.png",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100.0,
+        "initalMana": 0.0,
         "damage": 50.0,
         "damageScaleFactor": 1.25,
         "armor": 30.0,
@@ -3053,7 +3255,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.7,
-        "range": 2
+        "range": 2.0
       },
       "traits": [
         "Wild",
@@ -3063,7 +3265,7 @@
       "ability": {
         "name": "tft_character_gnar_ability_name",
         "desc": "tft_character_gnar_ability_description",
-        "icon": "ASSETS/Characters/Gnar/HUD/Icons2D/GnarTransform.dds",
+        "icon": "ASSETS/Characters/Gnar/HUD/Icons2D/GnarTransform.png",
         "variables": [
           {
             "key": "Damage",
@@ -3116,25 +3318,25 @@
           {
             "key": "TransformHealth",
             "values": [
-              0.0,
-              300.0,
-              600.0,
-              900.0,
-              1200.0,
-              1500.0,
-              1800.0
+              50.0,
+              250.0,
+              450.0,
+              650.0,
+              850.0,
+              1050.0,
+              1250.0
             ]
           },
           {
             "key": "TransformAD",
             "values": [
               0.0,
-              30.0,
-              60.0,
-              90.0,
-              120.0,
+              50.0,
+              100.0,
               150.0,
-              180.0
+              200.0,
+              250.0,
+              300.0
             ]
           }
         ]
@@ -3142,13 +3344,14 @@
     },
     "157": {
       "name": "game_character_displayname_Yasuo",
+      "id": 157,
       "cost": 5,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Yasuo.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Yasuo.png",
       "stats": {
-        "hp": 700.0,
+        "hp": 750.0,
         "hpScaleFactor": 1.8,
         "mana": 25.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 75.0,
         "damageScaleFactor": 1.25,
         "armor": 35.0,
@@ -3156,7 +3359,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 1.0,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Exile",
@@ -3165,7 +3368,7 @@
       "ability": {
         "name": "tft_character_yasuo_ability_name",
         "desc": "tft_character_yasuo_ability_description",
-        "icon": "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_Q1.dds",
+        "icon": "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_Q1.png",
         "variables": [
           {
             "key": "Damage",
@@ -3244,21 +3447,22 @@
     },
     "164": {
       "name": "game_character_displayname_Camille",
+      "id": 164,
       "cost": 1,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Camille.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Camille.png",
       "stats": {
         "hp": 550.0,
         "hpScaleFactor": 1.8,
         "mana": 125.0,
-        "initalMana": 0,
-        "damage": 50.0,
+        "initalMana": 75.0,
+        "damage": 55.0,
         "damageScaleFactor": 1.25,
         "armor": 30.0,
         "magicResist": 20.0,
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Hextech",
@@ -3266,8 +3470,8 @@
       ],
       "ability": {
         "name": "Spell_TFT_CamilleR_Name",
-        "desc": "Spell_TFT_CamilleR_Summary",
-        "icon": "ASSETS/Characters/TFT_Camille/HUD/Icons2D/TFT_Camille_R.TFT_Hextech.dds",
+        "desc": "Spell_TFT_CamilleR_Tooltip",
+        "icon": "ASSETS/Characters/TFT_Camille/HUD/Icons2D/TFT_Camille_R.TFT_Hextech.png",
         "variables": [
           {
             "key": "Duration",
@@ -3298,13 +3502,14 @@
     },
     "201": {
       "name": "game_character_displayname_Braum",
+      "id": 201,
       "cost": 2,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Braum.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Braum.png",
       "stats": {
         "hp": 650.0,
         "hpScaleFactor": 1.8,
-        "mana": 50.0,
-        "initalMana": 0,
+        "mana": 75.0,
+        "initalMana": 0.0,
         "damage": 40.0,
         "damageScaleFactor": 1.25,
         "armor": 75.0,
@@ -3312,7 +3517,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Glacial",
@@ -3321,7 +3526,7 @@
       "ability": {
         "name": "tft_character_braum_ability_name",
         "desc": "tft_character_braum_ability_description",
-        "icon": "ASSETS/Characters/Braum/HUD/Icons2D/Braum_E.dds",
+        "icon": "ASSETS/Characters/Braum/HUD/Icons2D/Braum_E.png",
         "variables": [
           {
             "key": "ShieldDR",
@@ -3352,21 +3557,22 @@
     },
     "203": {
       "name": "game_character_displayname_Kindred",
+      "id": 203,
       "cost": 4,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kindred.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kindred.png",
       "stats": {
         "hp": 600.0,
         "hpScaleFactor": 1.8,
         "mana": 150.0,
-        "initalMana": 0,
+        "initalMana": 50.0,
         "damage": 60.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
         "magicResist": 20.0,
         "critMultiplier": 1.5,
         "critChance": 0.25,
-        "attackSpeed": 0.65,
-        "range": 3
+        "attackSpeed": 0.7,
+        "range": 3.0
       },
       "traits": [
         "Phantom",
@@ -3375,18 +3581,18 @@
       "ability": {
         "name": "tft_character_kindred_ability_name",
         "desc": "tft_character_kindred_ability_description",
-        "icon": "ASSETS/Characters/Kindred/HUD/Icons2D/Kindred_R.dds",
+        "icon": "ASSETS/Characters/Kindred/HUD/Icons2D/Kindred_R.png",
         "variables": [
           {
             "key": "Duration",
             "values": [
+              2.0,
               3.0,
               4.0,
               5.0,
               6.0,
               7.0,
-              8.0,
-              9.0
+              8.0
             ]
           },
           {
@@ -3406,21 +3612,22 @@
     },
     "222": {
       "name": "game_character_displayname_Jinx",
+      "id": 222,
       "cost": 4,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Jinx.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Jinx.png",
       "stats": {
         "hp": 550.0,
         "hpScaleFactor": 1.8,
         "mana": 0.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 75.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
         "magicResist": 20.0,
         "critMultiplier": 1.5,
         "critChance": 0.25,
-        "attackSpeed": 0.65,
-        "range": 3
+        "attackSpeed": 0.7,
+        "range": 3.0
       },
       "traits": [
         "Hextech",
@@ -3428,8 +3635,8 @@
       ],
       "ability": {
         "name": "tft_character_jinx_ability_name",
-        "desc": "Spell_TFT_JinxPassive_Description",
-        "icon": "ASSETS/Characters/TFT_Jinx/HUD/Icons2D/TFT_Jinx_Spell.TFT_Hextech.dds",
+        "desc": "tft_character_jinx_ability_description",
+        "icon": "ASSETS/Characters/TFT_Jinx/HUD/Icons2D/TFT_Jinx_Spell.TFT_Hextech.png",
         "variables": [
           {
             "key": "HitWindow",
@@ -3458,25 +3665,25 @@
           {
             "key": "AttackSpeedBonus",
             "values": [
-              0.5,
-              0.75,
+              0.4,
+              0.6,
+              0.8,
               1.0,
-              1.25,
-              1.5,
-              1.75,
-              2.0
+              1.2,
+              1.4,
+              1.6
             ]
           },
           {
             "key": "RocketDamage",
             "values": [
-              -25.0,
+              0.0,
               100.0,
-              225.0,
-              350.0,
-              475.0,
-              600.0,
-              725.0
+              200.0,
+              300.0,
+              400.0,
+              500.0,
+              600.0
             ]
           }
         ]
@@ -3484,13 +3691,14 @@
     },
     "236": {
       "name": "game_character_displayname_Lucian",
+      "id": 236,
       "cost": 2,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Lucian.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Lucian.png",
       "stats": {
         "hp": 600.0,
         "hpScaleFactor": 1.8,
         "mana": 35.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 65.0,
         "damageScaleFactor": 1.25,
         "armor": 25.0,
@@ -3498,7 +3706,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.65,
-        "range": 3
+        "range": 3.0
       },
       "traits": [
         "Noble",
@@ -3507,7 +3715,7 @@
       "ability": {
         "name": "tft_character_lucian_ability_name",
         "desc": "tft_character_lucian_ability_description",
-        "icon": "ASSETS/Characters/Lucian/HUD/Icons2D/Lucian_E.dds",
+        "icon": "ASSETS/Characters/Lucian/HUD/Icons2D/Lucian_E.png",
         "variables": [
           {
             "key": "FirstShotRatio",
@@ -3524,13 +3732,13 @@
           {
             "key": "SecondShotDamage",
             "values": [
-              50.0,
-              150.0,
+              0.0,
+              125.0,
               250.0,
-              350.0,
-              450.0,
-              550.0,
-              650.0
+              375.0,
+              500.0,
+              625.0,
+              750.0
             ]
           }
         ]
@@ -3538,13 +3746,14 @@
     },
     "238": {
       "name": "game_character_displayname_Zed",
+      "id": 238,
       "cost": 2,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Zed.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Zed.png",
       "stats": {
         "hp": 550.0,
         "hpScaleFactor": 1.8,
         "mana": 75.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 65.0,
         "damageScaleFactor": 1.25,
         "armor": 25.0,
@@ -3552,7 +3761,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.7,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Ninja",
@@ -3561,7 +3770,7 @@
       "ability": {
         "name": "tft_character_zed_ability_name",
         "desc": "tft_character_zed_ability_description",
-        "icon": "ASSETS/Characters/Zed/HUD/Icons2D/shadowninja_Q.dds",
+        "icon": "ASSETS/Characters/Zed/HUD/Icons2D/shadowninja_Q.png",
         "variables": [
           {
             "key": "Damage",
@@ -3592,13 +3801,14 @@
     },
     "254": {
       "name": "game_character_displayname_Vi",
+      "id": 254,
       "cost": 3,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Vi.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Vi.png",
       "stats": {
-        "hp": 650.0,
+        "hp": 700.0,
         "hpScaleFactor": 1.8,
-        "mana": 125.0,
-        "initalMana": 0,
+        "mana": 150.0,
+        "initalMana": 75.0,
         "damage": 60.0,
         "damageScaleFactor": 1.25,
         "armor": 25.0,
@@ -3606,7 +3816,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.65,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Hextech",
@@ -3614,19 +3824,19 @@
       ],
       "ability": {
         "name": "Spell_TFT_ViR_Name",
-        "desc": "Spell_TFT_ViR_Description",
-        "icon": "ASSETS/Characters/TFT_Vi/HUD/Icons2D/TFT_ViR.TFT_Hextech.dds",
+        "desc": "Spell_TFT_ViR_Tooltip",
+        "icon": "ASSETS/Characters/TFT_Vi/HUD/Icons2D/TFT_ViR.TFT_Hextech.png",
         "variables": [
           {
             "key": "Damage",
             "values": [
-              50.0,
-              250.0,
-              450.0,
-              650.0,
-              850.0,
-              1050.0,
-              1250.0
+              100.0,
+              300.0,
+              500.0,
+              700.0,
+              900.0,
+              1100.0,
+              1300.0
             ]
           },
           {
@@ -3670,21 +3880,22 @@
     },
     "266": {
       "name": "game_character_displayname_Aatrox",
+      "id": 266,
       "cost": 3,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Aatrox.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Aatrox.png",
       "stats": {
         "hp": 700.0,
         "hpScaleFactor": 1.8,
         "mana": 75.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 65.0,
         "damageScaleFactor": 1.25,
-        "armor": 25.0,
+        "armor": 35.0,
         "magicResist": 20.0,
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.65,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Demon",
@@ -3693,18 +3904,18 @@
       "ability": {
         "name": "tft_character_aatrox_ability_name",
         "desc": "tft_character_aatrox_ability_description",
-        "icon": "ASSETS/Characters/Aatrox/HUD/Icons2D/Aatrox_Q3.dds",
+        "icon": "ASSETS/Characters/Aatrox/HUD/Icons2D/Aatrox_Q3.png",
         "variables": [
           {
             "key": "Damage",
             "values": [
-              50.0,
-              250.0,
+              0.0,
+              300.0,
               600.0,
-              950.0,
-              1250.0,
-              1550.0,
-              1850.0
+              900.0,
+              1200.0,
+              1500.0,
+              1800.0
             ]
           }
         ]
@@ -3712,21 +3923,22 @@
     },
     "421": {
       "name": "game_character_displayname_RekSai",
+      "id": 421,
       "cost": 2,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Reksai.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Reksai.png",
       "stats": {
         "hp": 650.0,
         "hpScaleFactor": 1.8,
         "mana": 150.0,
-        "initalMana": 0,
+        "initalMana": 50.0,
         "damage": 50.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
         "magicResist": 20.0,
         "critMultiplier": 1.5,
         "critChance": 0.25,
-        "attackSpeed": 0.65,
-        "range": 1
+        "attackSpeed": 0.6,
+        "range": 1.0
       },
       "traits": [
         "Void",
@@ -3735,7 +3947,7 @@
       "ability": {
         "name": "tft_character_reksai_ability_name",
         "desc": "tft_character_reksai_ability_description",
-        "icon": "ASSETS/Characters/RekSai/HUD/Icons2D/RekSai_W1.dds",
+        "icon": "ASSETS/Characters/RekSai/HUD/Icons2D/RekSai_W1.png",
         "variables": [
           {
             "key": "HealAmount",
@@ -3802,13 +4014,14 @@
     },
     "555": {
       "name": "game_character_displayname_Pyke",
+      "id": 555,
       "cost": 2,
-      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Pyke.dds",
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Pyke.png",
       "stats": {
         "hp": 600.0,
         "hpScaleFactor": 1.8,
         "mana": 125.0,
-        "initalMana": 0,
+        "initalMana": 50.0,
         "damage": 60.0,
         "damageScaleFactor": 1.25,
         "armor": 25.0,
@@ -3816,7 +4029,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Pirate",
@@ -3825,7 +4038,7 @@
       "ability": {
         "name": "tft_character_pyke_ability_name",
         "desc": "tft_character_pyke_ability_description",
-        "icon": "ASSETS/Characters/Pyke/HUD/Icons2D/PykeE.dds",
+        "icon": "ASSETS/Characters/Pyke/HUD/Icons2D/PykeE.png",
         "variables": [
           {
             "key": "Damage",
@@ -3871,7 +4084,7 @@
     {
       "name": "tft_trait_displayname_Pirate",
       "desc": "tft_trait_description_Pirate",
-      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Pirate.dds",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Pirate.png",
       "effects": [
         {
           "minUnits": 3,
@@ -3883,23 +4096,20 @@
     {
       "name": "tft_trait_displayname_Elementalist",
       "desc": "tft_trait_description_Elementalist",
-      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Elementalist.dds",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Elementalist.png",
       "effects": [
         {
           "minUnits": 3,
           "maxUnits": 25000,
           "vars": [
             {
-              "name": "HPMultiplier",
-              "value": null
+              "name": "HPMultiplier"
             },
             {
-              "name": "558229DF",
-              "value": null
+              "name": "558229DF"
             },
             {
-              "name": "SizeCoefficient",
-              "value": null
+              "name": "SizeCoefficient"
             }
           ]
         }
@@ -3908,7 +4118,7 @@
     {
       "name": "tft_trait_displayname_Demon",
       "desc": "tft_trait_description_Demon",
-      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Demon.dds",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Demon.png",
       "effects": [
         {
           "minUnits": 2,
@@ -3969,7 +4179,7 @@
     {
       "name": "tft_trait_displayname_Wild",
       "desc": "tft_trait_description_Wild",
-      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Wild.dds",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Wild.png",
       "effects": [
         {
           "minUnits": 2,
@@ -3996,10 +4206,24 @@
     {
       "name": "tft_trait_displayname_Void",
       "desc": "tft_trait_description_Void2",
-      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Void.dds",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Void.png",
       "effects": [
         {
-          "minUnits": 3,
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "PercentArmorPen",
+              "value": 100.0
+            },
+            {
+              "name": "CB42693F",
+              "value": 1.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
           "maxUnits": 25000,
           "vars": [
             {
@@ -4017,7 +4241,7 @@
     {
       "name": "tft_trait_displayname_Brawler",
       "desc": "tft_trait_description_Brawler",
-      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Brawler.dds",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Brawler.png",
       "effects": [
         {
           "minUnits": 2,
@@ -4025,7 +4249,7 @@
           "vars": [
             {
               "name": "BonusHealth",
-              "value": 300.0
+              "value": 250.0
             }
           ]
         },
@@ -4035,7 +4259,7 @@
           "vars": [
             {
               "name": "BonusHealth",
-              "value": 600.0
+              "value": 500.0
             }
           ]
         },
@@ -4045,7 +4269,7 @@
           "vars": [
             {
               "name": "BonusHealth",
-              "value": 1000.0
+              "value": 900.0
             }
           ]
         }
@@ -4054,7 +4278,7 @@
     {
       "name": "tft_trait_displayname_Dragon",
       "desc": "tft_trait_description_Dragon",
-      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Dragon.dds",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Dragon.png",
       "effects": [
         {
           "minUnits": 2,
@@ -4062,7 +4286,7 @@
           "vars": [
             {
               "name": "MagicReduction",
-              "value": 83.0
+              "value": 75.0
             }
           ]
         }
@@ -4071,7 +4295,7 @@
     {
       "name": "tft_trait_displayname_Exile",
       "desc": "tft_trait_description_Exile",
-      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Exile.dds",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Exile.png",
       "effects": [
         {
           "minUnits": 1,
@@ -4088,7 +4312,7 @@
     {
       "name": "tft_trait_displayname_Yordle",
       "desc": "tft_trait_description_Yordle",
-      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Yordle.dds",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Yordle.png",
       "effects": [
         {
           "minUnits": 3,
@@ -4102,11 +4326,21 @@
         },
         {
           "minUnits": 6,
+          "maxUnits": 8,
+          "vars": [
+            {
+              "name": "MissPercent",
+              "value": 60.0
+            }
+          ]
+        },
+        {
+          "minUnits": 9,
           "maxUnits": 25000,
           "vars": [
             {
               "name": "MissPercent",
-              "value": 55.0
+              "value": 90.0
             }
           ]
         }
@@ -4115,7 +4349,7 @@
     {
       "name": "tft_trait_displayname_Guardian",
       "desc": "tft_trait_description_Guardian",
-      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Guardian.dds",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Guardian.png",
       "effects": [
         {
           "minUnits": 2,
@@ -4123,7 +4357,7 @@
           "vars": [
             {
               "name": "Armor",
-              "value": 50.0
+              "value": 35.0
             }
           ]
         }
@@ -4132,7 +4366,7 @@
     {
       "name": "tft_trait_displayname_Knight",
       "desc": "tft_trait_description_Knight",
-      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Knight.dds",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Knight.png",
       "effects": [
         {
           "minUnits": 2,
@@ -4150,7 +4384,7 @@
           "vars": [
             {
               "name": "BlockAmount",
-              "value": 30.0
+              "value": 35.0
             }
           ]
         },
@@ -4160,7 +4394,7 @@
           "vars": [
             {
               "name": "BlockAmount",
-              "value": 55.0
+              "value": 65.0
             }
           ]
         }
@@ -4169,7 +4403,7 @@
     {
       "name": "tft_trait_displayname_Ninja",
       "desc": "tft_trait_description_Ninja",
-      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Ninja.dds",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Ninja.png",
       "effects": [
         {
           "minUnits": 1,
@@ -4191,11 +4425,11 @@
           "vars": [
             {
               "name": "ADValue",
-              "value": 70.0
+              "value": 80.0
             },
             {
               "name": "APValue",
-              "value": 70.0
+              "value": 80.0
             }
           ]
         }
@@ -4204,7 +4438,7 @@
     {
       "name": "tft_trait_displayname_Ranger",
       "desc": "tft_trait_description_Ranger",
-      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Ranger.dds",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Ranger.png",
       "effects": [
         {
           "minUnits": 2,
@@ -4230,7 +4464,7 @@
           "vars": [
             {
               "name": "ProcPercent",
-              "value": 65.0
+              "value": 70.0
             },
             {
               "name": "ASMultiplier",
@@ -4247,7 +4481,7 @@
     {
       "name": "tft_trait_displayname_Shapeshifter",
       "desc": "tft_trait_description_Shapeshifter",
-      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Shapeshifter.dds",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Shapeshifter.png",
       "effects": [
         {
           "minUnits": 3,
@@ -4265,7 +4499,7 @@
           "vars": [
             {
               "name": "HPPercent",
-              "value": 120.0
+              "value": 100.0
             }
           ]
         }
@@ -4274,7 +4508,7 @@
     {
       "name": "tft_trait_displayname_Gunslinger",
       "desc": "tft_trait_description_Gunslinger",
-      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Gunslinger.dds",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Gunslinger.png",
       "effects": [
         {
           "minUnits": 2,
@@ -4335,7 +4569,7 @@
     {
       "name": "tft_trait_displayname_Sorcerer",
       "desc": "tft_trait_description_Sorcerer",
-      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Sorcerer.dds",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Sorcerer.png",
       "effects": [
         {
           "minUnits": 3,
@@ -4349,11 +4583,21 @@
         },
         {
           "minUnits": 6,
-          "maxUnits": 25000,
+          "maxUnits": 8,
           "vars": [
             {
               "name": "AP",
               "value": 100.0
+            }
+          ]
+        },
+        {
+          "minUnits": 9,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "AP",
+              "value": 175.0
             }
           ]
         }
@@ -4362,7 +4606,7 @@
     {
       "name": "tft_trait_displayname_Robot",
       "desc": "tft_trait_description_Robot",
-      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Robot.dds",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Robot.png",
       "effects": [
         {
           "minUnits": 1,
@@ -4374,7 +4618,7 @@
     {
       "name": "tft_trait_displayname_Hextech",
       "desc": "tft_trait_description_Hextech3",
-      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Hextech.dds",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Hextech.png",
       "effects": [
         {
           "minUnits": 2,
@@ -4382,7 +4626,7 @@
           "vars": [
             {
               "name": "DisableDuration",
-              "value": 8.0
+              "value": 7.0
             },
             {
               "name": "HexSize",
@@ -4400,7 +4644,7 @@
           "vars": [
             {
               "name": "DisableDuration",
-              "value": 8.0
+              "value": 7.0
             },
             {
               "name": "HexSize",
@@ -4417,7 +4661,7 @@
     {
       "name": "tft_trait_displayname_Phantom",
       "desc": "tft_trait_description_Phantom",
-      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Phantom.dds",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Phantom.png",
       "effects": [
         {
           "minUnits": 2,
@@ -4434,7 +4678,7 @@
     {
       "name": "tft_trait_displayname_Noble",
       "desc": "tft_trait_description_Noble",
-      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Noble.dds",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Noble.png",
       "effects": [
         {
           "minUnits": 3,
@@ -4442,7 +4686,7 @@
           "vars": [
             {
               "name": "Armor",
-              "value": 75.0
+              "value": 50.0
             },
             {
               "name": "Heal",
@@ -4450,7 +4694,7 @@
             },
             {
               "name": "MagicResist",
-              "value": 75.0
+              "value": 50.0
             }
           ]
         },
@@ -4460,7 +4704,7 @@
           "vars": [
             {
               "name": "Armor",
-              "value": 75.0
+              "value": 50.0
             },
             {
               "name": "Heal",
@@ -4468,7 +4712,7 @@
             },
             {
               "name": "MagicResist",
-              "value": 75.0
+              "value": 50.0
             }
           ]
         }
@@ -4477,7 +4721,7 @@
     {
       "name": "tft_trait_displayname_Assassin",
       "desc": "tft_trait_description_Assassin",
-      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Assassin.dds",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Assassin.png",
       "effects": [
         {
           "minUnits": 3,
@@ -4485,17 +4729,39 @@
           "vars": [
             {
               "name": "CritAmpPercent",
-              "value": 125.0
+              "value": 75.0
+            },
+            {
+              "name": "CritChanceAmpPercent",
+              "value": 10.0
             }
           ]
         },
         {
           "minUnits": 6,
+          "maxUnits": 8,
+          "vars": [
+            {
+              "name": "CritAmpPercent",
+              "value": 150.0
+            },
+            {
+              "name": "CritChanceAmpPercent",
+              "value": 20.0
+            }
+          ]
+        },
+        {
+          "minUnits": 9,
           "maxUnits": 25000,
           "vars": [
             {
               "name": "CritAmpPercent",
-              "value": 350.0
+              "value": 225.0
+            },
+            {
+              "name": "CritChanceAmpPercent",
+              "value": 30.0
             }
           ]
         }
@@ -4504,7 +4770,7 @@
     {
       "name": "tft_trait_displayname_Glacial",
       "desc": "tft_trait_description_Glacial",
-      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Glacial.dds",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Glacial.png",
       "effects": [
         {
           "minUnits": 2,
@@ -4516,7 +4782,7 @@
             },
             {
               "name": "StunDuration",
-              "value": 2.0
+              "value": 1.5
             }
           ]
         },
@@ -4526,11 +4792,11 @@
           "vars": [
             {
               "name": "ProcPercent",
-              "value": 30.0
+              "value": 33.0
             },
             {
               "name": "StunDuration",
-              "value": 2.0
+              "value": 1.5
             }
           ]
         },
@@ -4540,11 +4806,11 @@
           "vars": [
             {
               "name": "ProcPercent",
-              "value": 45.0
+              "value": 50.0
             },
             {
               "name": "StunDuration",
-              "value": 2.0
+              "value": 1.5
             }
           ]
         }
@@ -4553,7 +4819,7 @@
     {
       "name": "tft_trait_displayname_Imperial",
       "desc": "tft_trait_description_Imperial",
-      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Imperial.dds",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Imperial.png",
       "effects": [
         {
           "minUnits": 2,
@@ -4580,7 +4846,7 @@
     {
       "name": "tft_trait_displayname_Blademaster",
       "desc": "tft_trait_description_Blademaster",
-      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Blademaster.dds",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Blademaster.png",
       "effects": [
         {
           "minUnits": 3,
@@ -4628,22 +4894,51 @@
     }
   ],
   "items": {
+    "-100": {
+      "name": "tft_item_name_SwordOfTheDivine2",
+      "desc": "tft_item_description_SwordOfTheDivine2",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SwordOfTheDivine.TFT.png",
+      "from": [
+        -100,
+        -100
+      ],
+      "effects": [
+        {
+          "name": "ChanceToProc",
+          "value": 7.0
+        },
+        {
+          "name": "98AC43CE",
+          "value": 50.0
+        }
+      ]
+    },
+    "-1": {
+      "name": "tft_item_name_HextechChestguard",
+      "desc": "tft_item_description_HextechChestguard",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_HextechChestguard.TFT.png",
+      "from": [
+        -1,
+        -1
+      ],
+      "effects": []
+    },
     "1": {
       "name": "game_item_displayname_1038",
       "desc": "TFT_item_description_BFSword",
-      "icon": "ASSETS/Maps/Particles/TFT/Icon_BFSword.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/Icon_BFSword.TFT.png",
       "from": [],
       "effects": [
         {
           "name": "AD",
-          "value": 20.0
+          "value": 15.0
         }
       ]
     },
     "2": {
       "name": "game_item_displayname_1043",
       "desc": "TFT_item_description_RecurveBow",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RecurveBow.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RecurveBow.TFT.png",
       "from": [],
       "effects": [
         {
@@ -4655,7 +4950,7 @@
     "3": {
       "name": "game_item_displayname_1058",
       "desc": "TFT_item_description_NeedlesslyLargeRod",
-      "icon": "ASSETS/Maps/Particles/TFT/Icon_NeedlesslyLargeRod.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/Icon_NeedlesslyLargeRod.TFT.png",
       "from": [],
       "effects": [
         {
@@ -4667,7 +4962,7 @@
     "4": {
       "name": "game_item_displayname_3070",
       "desc": "TFT_item_description_TearOfTheGoddess",
-      "icon": "ASSETS/Maps/Particles/TFT/Icon_TearOfTheGoddess.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/Icon_TearOfTheGoddess.TFT.png",
       "from": [],
       "effects": [
         {
@@ -4679,7 +4974,7 @@
     "5": {
       "name": "game_item_displayname_1031",
       "desc": "tft_item_description_ChainVest",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ChainVest.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ChainVest.TFT.png",
       "from": [],
       "effects": [
         {
@@ -4691,7 +4986,7 @@
     "6": {
       "name": "game_item_displayname_1057",
       "desc": "tft_item_description_NegatronCloak",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_NegatronCloak.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_NegatronCloak.TFT.png",
       "from": [],
       "effects": [
         {
@@ -4703,7 +4998,7 @@
     "7": {
       "name": "game_item_displayname_1011",
       "desc": "TFT_item_description_GiantsBelt",
-      "icon": "ASSETS/Maps/Particles/TFT/Icon_GiantsBelt.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/Icon_GiantsBelt.TFT.png",
       "from": [],
       "effects": [
         {
@@ -4715,7 +5010,7 @@
     "8": {
       "name": "tft_item_name_MagicDust",
       "desc": "tft_item_description_MagicDust",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Spatula.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Spatula.TFT.png",
       "from": [],
       "effects": [
         {
@@ -4724,43 +5019,59 @@
         }
       ]
     },
+    "9": {
+      "name": "tft_item_name_CloakOfAgility",
+      "desc": "tft_item_description_CloakOfAgility",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SparringGloves.TFT.png",
+      "from": [],
+      "effects": [
+        {
+          "name": "CritChance",
+          "value": 10.0
+        },
+        {
+          "name": "DodgeChance",
+          "value": 10.0
+        }
+      ]
+    },
     "11": {
-      "name": "game_item_displayname_3031",
-      "desc": "TFT_item_description_InfinityEdge",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_InfinityEdge.TFT.dds",
+      "name": "tft_item_name_Deathblade3",
+      "desc": "tft_item_description_deathblade",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_DeathBlade.TFT.png",
       "from": [
-        "1",
-        "1"
+        1,
+        1
       ],
       "effects": [
         {
-          "name": "CriticalStrikeAmp",
-          "value": 200.0
+          "name": "ADPerStack",
+          "value": 15.0
         }
       ]
     },
     "12": {
-      "name": "TFT_item_name_SwordoftheDivine",
-      "desc": "TFT_item_description_SwordoftheDivine",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SwordOfTheDivine.TFT.dds",
+      "name": "tft_item_name_MadredsBloodrazor",
+      "desc": "tft_item_description_MadredsBloodrazor",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_GiantSlayer.png",
       "from": [
-        "1",
-        "2"
+        1,
+        2
       ],
       "effects": [
         {
-          "name": "ChanceToProc",
-          "value": 7.0
+          "name": "MaxHPTrueDamage",
+          "value": 5.0
         }
       ]
     },
     "13": {
       "name": "game_item_displayname_3146",
       "desc": "TFT_item_description_HextechGunblade",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_HextechGunblade.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_HextechGunblade.TFT.png",
       "from": [
-        "1",
-        "3"
+        1,
+        3
       ],
       "effects": [
         {
@@ -4772,10 +5083,10 @@
     "14": {
       "name": "game_item_displayname_3161",
       "desc": "TFT_item_description_SpearofShojin",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SpearOfShojin.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SpearOfShojin.TFT.png",
       "from": [
-        "1",
-        "4"
+        1,
+        4
       ],
       "effects": [
         {
@@ -4787,10 +5098,10 @@
     "15": {
       "name": "game_item_displayname_3026",
       "desc": "TFT_item_description_GuardianAngel",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_GuardianAngel.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_GuardianAngel.TFT.png",
       "from": [
-        "1",
-        "5"
+        1,
+        5
       ],
       "effects": [
         {
@@ -4798,7 +5109,7 @@
           "value": 500.0
         },
         {
-          "name": "C425872E",
+          "name": "StasisDuration",
           "value": 2.0
         }
       ]
@@ -4806,10 +5117,10 @@
     "16": {
       "name": "game_item_displayname_3072",
       "desc": "TFT_item_description_Bloodthirster",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Bloodthirster.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Bloodthirster.TFT.png",
       "from": [
-        "1",
-        "6"
+        1,
+        6
       ],
       "effects": [
         {
@@ -4821,10 +5132,10 @@
     "17": {
       "name": "TFT_item_name_ZekesHerald",
       "desc": "TFT_item_description_ZekesHerald",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ZekesHerald.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ZekesHerald.TFT.png",
       "from": [
-        "1",
-        "7"
+        1,
+        7
       ],
       "effects": [
         {
@@ -4838,37 +5149,60 @@
       ]
     },
     "18": {
-      "name": "game_item_displayname_3142",
+      "name": "TFT_item_name_YoumuusGhostblade",
       "desc": "TFT_item_description_YoumuusGhostblade",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_YoumuusGhostblade.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_YoumuusGhostblade.TFT.png",
       "from": [
-        "1",
-        "8"
+        1,
+        8
       ],
       "effects": [
         {
           "name": "AD",
+          "value": 15.0
+        }
+      ]
+    },
+    "19": {
+      "name": "game_item_displayname_3031",
+      "desc": "TFT_item_description_InfinityEdge",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_InfinityEdge.TFT.png",
+      "from": [
+        1,
+        9
+      ],
+      "effects": [
+        {
+          "name": "CriticalStrikeAmp",
+          "value": 150.0
+        },
+        {
+          "name": "CritChance",
           "value": 20.0
+        },
+        {
+          "name": "AD",
+          "value": 15.0
         }
       ]
     },
     "22": {
       "name": "game_item_displayname_3094",
       "desc": "TFT_item_description_RapidFireCannon",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RapidFirecannon.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RapidFirecannon.TFT.png",
       "from": [
-        "2",
-        "2"
+        2,
+        2
       ],
       "effects": []
     },
     "23": {
       "name": "game_item_displayname_3124",
       "desc": "TFT_item_description_GuinsoosRageblade",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_GuinsoosRageblade.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_GuinsoosRageblade.TFT.png",
       "from": [
-        "2",
-        "3"
+        2,
+        3
       ],
       "effects": [
         {
@@ -4880,10 +5214,10 @@
     "24": {
       "name": "game_item_displayname_3087",
       "desc": "TFT_item_description_StatikkShiv",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_StatikkShiv.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_StatikkShiv.TFT.png",
       "from": [
-        "2",
-        "4"
+        2,
+        4
       ],
       "effects": [
         {
@@ -4901,26 +5235,26 @@
       ]
     },
     "25": {
-      "name": "game_item_displayname_3046",
+      "name": "TFT_item_name_PhantomDancer",
       "desc": "TFT_item_description_PhantomDancer",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_PhantomDancer.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_PhantomDancer.TFT.png",
       "from": [
-        "2",
-        "5"
+        2,
+        5
       ],
       "effects": []
     },
     "26": {
       "name": "tft_item_name_CursedBlade",
       "desc": "TFT_item_description_CursedBlade",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_CursedBlade.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_CursedBlade.TFT.png",
       "from": [
-        "2",
-        "6"
+        2,
+        6
       ],
       "effects": [
         {
-          "name": "A56E0A21",
+          "name": "ChanceOnHitToShrink",
           "value": 20.0
         }
       ]
@@ -4928,27 +5262,54 @@
     "27": {
       "name": "game_item_displayname_3748",
       "desc": "TFT_item_description_TitanicHydra",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_TitanicHydra.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_TitanicHydra.TFT.png",
       "from": [
-        "2",
-        "7"
+        2,
+        7
       ],
       "effects": [
         {
           "name": "MaxHealth",
-          "value": 10.0
+          "value": 3.0
         }
       ]
     },
     "28": {
       "name": "TFT_item_name_BladeOfTheRuinedKing",
       "desc": "TFT_item_description_BladeOfTheRuinedKing",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_BladeOfTheRuinedKing.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_BladeOfTheRuinedKing.TFT.png",
       "from": [
-        "2",
-        "8"
+        2,
+        8
       ],
       "effects": [
+        {
+          "name": "AS",
+          "value": 20.0
+        }
+      ]
+    },
+    "29": {
+      "name": "tft_item_name_SwordOfTheDivine2",
+      "desc": "tft_item_description_SwordOfTheDivine2",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RepeatingCrossbow.TFT.png",
+      "from": [
+        2,
+        9
+      ],
+      "effects": [
+        {
+          "name": "AttackSpeedPerStack",
+          "value": 20.0
+        },
+        {
+          "name": "CritChancePerStack",
+          "value": 20.0
+        },
+        {
+          "name": "CritChance",
+          "value": 20.0
+        },
         {
           "name": "AS",
           "value": 20.0
@@ -4958,10 +5319,10 @@
     "33": {
       "name": "game_item_displayname_3089",
       "desc": "TFT_item_description_RabadonsDeathcap",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RabadonsDeathcap.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RabadonsDeathcap.TFT.png",
       "from": [
-        "3",
-        "3"
+        3,
+        3
       ],
       "effects": [
         {
@@ -4973,15 +5334,15 @@
     "34": {
       "name": "game_item_displayname_3285",
       "desc": "TFT_item_description_LudensEcho",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_LudensEcho.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_LudensEcho.TFT.png",
       "from": [
-        "3",
-        "4"
+        3,
+        4
       ],
       "effects": [
         {
           "name": "Damage",
-          "value": 200.0
+          "value": 180.0
         },
         {
           "name": "Bounces",
@@ -4992,7 +5353,7 @@
           "value": 2.0
         },
         {
-          "name": "93D13AF6",
+          "name": "ExtraBounces",
           "value": 3.0
         }
       ]
@@ -5000,19 +5361,19 @@
     "35": {
       "name": "game_item_displayname_3190",
       "desc": "TFT_item_description_LocketOfTheIronSolari",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_LocketOfTheIronSolari.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_LocketOfTheIronSolari.TFT.png",
       "from": [
-        "3",
-        "5"
+        3,
+        5
       ],
       "effects": [
         {
           "name": "ShieldValue",
-          "value": 250.0
+          "value": 300.0
         },
         {
           "name": "ShieldDuration",
-          "value": 6.0
+          "value": 7.0
         },
         {
           "name": "HexRange",
@@ -5023,10 +5384,10 @@
     "36": {
       "name": "game_item_displayname_3178",
       "desc": "TFT_item_description_IonicSpark",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_IonicSpark.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_IonicSpark.TFT.png",
       "from": [
-        "3",
-        "6"
+        3,
+        6
       ],
       "effects": [
         {
@@ -5036,17 +5397,17 @@
       ]
     },
     "37": {
-      "name": "game_item_displayname_3165",
+      "name": "TFT_item_name_Morellonomicon",
       "desc": "TFT_item_description_Morellonomicon",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Morellonomicon.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Morellonomicon.TFT.png",
       "from": [
-        "3",
-        "7"
+        3,
+        7
       ],
       "effects": [
         {
           "name": "BurnPercent",
-          "value": 60.0
+          "value": 20.0
         },
         {
           "name": "6DF27940",
@@ -5058,19 +5419,38 @@
         },
         {
           "name": "BurnDuration",
-          "value": 45.0
+          "value": 10.0
         }
       ]
     },
     "38": {
-      "name": "game_character_displayname_Yuumi",
+      "name": "TFT_item_name_Yuumi",
       "desc": "TFT_item_description_Yuumi",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Yuumi.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Yuumi.TFT.png",
       "from": [
-        "3",
-        "8"
+        3,
+        8
       ],
       "effects": [
+        {
+          "name": "AP",
+          "value": 20.0
+        }
+      ]
+    },
+    "39": {
+      "name": "tft_item_name_MoonflairSpellblade",
+      "desc": "tft_item_description_MoonflairSpellblade",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Jeweled_Gauntlet.TFT.png",
+      "from": [
+        3,
+        9
+      ],
+      "effects": [
+        {
+          "name": "CritChance",
+          "value": 20.0
+        },
         {
           "name": "AP",
           "value": 20.0
@@ -5080,10 +5460,10 @@
     "44": {
       "name": "game_item_displayname_3040",
       "desc": "TFT_item_description_SeraphsEmbrace",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SeraphsEmbrace.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SeraphsEmbrace.TFT.png",
       "from": [
-        "4",
-        "4"
+        4,
+        4
       ],
       "effects": [
         {
@@ -5095,33 +5475,33 @@
     "45": {
       "name": "game_item_displayname_3110",
       "desc": "TFT_item_description_FrozenHeart",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_FrozenHeart.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_FrozenHeart.TFT.png",
       "from": [
-        "4",
-        "5"
+        4,
+        5
       ],
       "effects": [
         {
           "name": "AttackSpeedSlow",
-          "value": 25.0
+          "value": 35.0
         },
         {
           "name": "0020F716",
-          "value": 2.875
+          "value": 4.0
         }
       ]
     },
     "46": {
       "name": "tft_item_name_Hush",
       "desc": "TFT_item_description_Hush",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Hush.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Hush.TFT.png",
       "from": [
-        "4",
-        "6"
+        4,
+        6
       ],
       "effects": [
         {
-          "name": "2275757B",
+          "name": "ChanceOnHitToSilence",
           "value": 33.0
         },
         {
@@ -5137,15 +5517,15 @@
     "47": {
       "name": "game_item_displayname_3107",
       "desc": "TFT_item_description_Redemption",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Redemption.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Redemption.TFT.png",
       "from": [
-        "4",
-        "7"
+        4,
+        7
       ],
       "effects": [
         {
           "name": "HealthRestore",
-          "value": 1500.0
+          "value": 1200.0
         },
         {
           "name": "HPThreshold",
@@ -5164,12 +5544,43 @@
     "48": {
       "name": "tft_item_name_Darkin",
       "desc": "tft_item_description_Darkin",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Darkin.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Darkin.TFT.png",
       "from": [
-        "4",
-        "8"
+        4,
+        8
       ],
       "effects": [
+        {
+          "name": "Mana",
+          "value": 20.0
+        }
+      ]
+    },
+    "49": {
+      "name": "tft_item_name_HandOfJustice",
+      "desc": "tft_item_description_HandOfJustice",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_HandOfJustice.TFT.png",
+      "from": [
+        4,
+        9
+      ],
+      "effects": [
+        {
+          "name": "ChanceToGrow",
+          "value": 66.667
+        },
+        {
+          "name": "TraitMultiplier",
+          "value": 40.0
+        },
+        {
+          "name": "DodgeChance",
+          "value": 10.0
+        },
+        {
+          "name": "CritChance",
+          "value": 10.0
+        },
         {
           "name": "Mana",
           "value": 20.0
@@ -5179,10 +5590,10 @@
     "55": {
       "name": "game_item_displayname_3075",
       "desc": "tft_item_description_Thornmail",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Thornmail.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Thornmail.TFT.png",
       "from": [
-        "5",
-        "5"
+        5,
+        5
       ],
       "effects": [
         {
@@ -5194,38 +5605,38 @@
     "56": {
       "name": "TFT_item_name_SwordBreaker",
       "desc": "TFT_item_description_SwordBreaker",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SwordBreaker.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SwordBreaker.TFT.png",
       "from": [
-        "5",
-        "6"
+        5,
+        6
       ],
       "effects": [
         {
-          "name": "2426EA7E",
-          "value": 25.0
+          "name": "ChanceOnHitToDisarm",
+          "value": 33.0
         },
         {
           "name": "DisarmDuration",
-          "value": 4.0
+          "value": 3.0
         }
       ]
     },
     "57": {
       "name": "TFT_item_name_RedBuff",
       "desc": "TFT_item_description_RedBuff",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RedBuff.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RedBuff.TFT.png",
       "from": [
-        "5",
-        "7"
+        5,
+        7
       ],
       "effects": [
         {
           "name": "BurnPercent",
-          "value": 60.0
+          "value": 20.0
         },
         {
           "name": "BurnDuration",
-          "value": 45.0
+          "value": 10.0
         },
         {
           "name": "6DF27940",
@@ -5240,12 +5651,35 @@
     "58": {
       "name": "TFT_item_name_KnightsVow",
       "desc": "TFT_item_description_KnightsVow",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_KnightsVow.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_KnightsVow.TFT.png",
       "from": [
-        "5",
-        "8"
+        5,
+        8
       ],
       "effects": [
+        {
+          "name": "Armor",
+          "value": 20.0
+        }
+      ]
+    },
+    "59": {
+      "name": "tft_item_name_FrozenFist",
+      "desc": "tft_item_description_FrozenFist",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_IcebornGauntlet.TFT.png",
+      "from": [
+        5,
+        9
+      ],
+      "effects": [
+        {
+          "name": "ASSlowPercentage",
+          "value": 35.0
+        },
+        {
+          "name": "DodgeChance",
+          "value": 20.0
+        },
         {
           "name": "Armor",
           "value": 20.0
@@ -5255,40 +5689,40 @@
     "66": {
       "name": "tft_item_name_DragonsClaw",
       "desc": "TFT_item_description_DragonsClaw",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_DragonsClaw.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_DragonsClaw.TFT.png",
       "from": [
-        "6",
-        "6"
+        6,
+        6
       ],
       "effects": [
         {
           "name": "MagicReduction",
-          "value": 83.0
+          "value": 75.0
         }
       ]
     },
     "67": {
       "name": "game_item_displayname_3172",
       "desc": "TFT_item_description_Zephyr",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Zephyr.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Zephyr.TFT.png",
       "from": [
-        "6",
-        "7"
+        6,
+        7
       ],
       "effects": [
         {
           "name": "BanishDuration",
-          "value": 5.0
+          "value": 6.0
         }
       ]
     },
     "68": {
       "name": "game_item_displayname_3085",
       "desc": "TFT_item_description_RunaansHurricane",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RunaansHurricane.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RunaansHurricane.TFT.png",
       "from": [
-        "6",
-        "8"
+        6,
+        8
       ],
       "effects": [
         {
@@ -5305,13 +5739,36 @@
         }
       ]
     },
+    "69": {
+      "name": "tft_item_name_Mercurial",
+      "desc": "tft_item_description_Mercurial",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Mercurial.TFT.png",
+      "from": [
+        9,
+        6
+      ],
+      "effects": [
+        {
+          "name": "CleanseICD",
+          "value": 5.0
+        },
+        {
+          "name": "DodgeChance",
+          "value": 20.0
+        },
+        {
+          "name": "MagicResist",
+          "value": 20.0
+        }
+      ]
+    },
     "77": {
       "name": "game_item_displayname_3083",
       "desc": "TFT_item_description_WarmogsArmor",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_WarmogsArmor.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_WarmogsArmor.TFT.png",
       "from": [
-        "7",
-        "7"
+        7,
+        7
       ],
       "effects": [
         {
@@ -5325,14 +5782,37 @@
       ]
     },
     "78": {
-      "name": "game_item_displayname_3022",
+      "name": "TFT_item_name_FrozenMallet",
       "desc": "TFT_item_description_FrozenMallet",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_FrozenMallet.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_FrozenMallet.TFT.png",
       "from": [
-        "8",
-        "7"
+        8,
+        7
       ],
       "effects": [
+        {
+          "name": "Health",
+          "value": 200.0
+        }
+      ]
+    },
+    "79": {
+      "name": "tft_item_name_PowerGauntlet",
+      "desc": "tft_item_description_PowerGauntlet",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Backhand.TFT.png",
+      "from": [
+        7,
+        9
+      ],
+      "effects": [
+        {
+          "name": "StunDuration",
+          "value": 5.0
+        },
+        {
+          "name": "DodgeChance",
+          "value": 20.0
+        },
         {
           "name": "Health",
           "value": 200.0
@@ -5342,10 +5822,10 @@
     "88": {
       "name": "game_item_displayname_4401",
       "desc": "TFT_item_description_ForceofNature",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ForceOfNature.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ForceOfNature.TFT.png",
       "from": [
-        "8",
-        "8"
+        8,
+        8
       ],
       "effects": [
         {
@@ -5354,24 +5834,130 @@
         }
       ]
     },
+    "89": {
+      "name": "tft_item_name_Mittens",
+      "desc": "tft_item_description_IsYordle",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Mittens.TFT.png",
+      "from": [
+        9,
+        8
+      ],
+      "effects": [
+        {
+          "name": "DodgeChance",
+          "value": 10.0
+        },
+        {
+          "name": "CritChance",
+          "value": 10.0
+        }
+      ]
+    },
+    "99": {
+      "name": "tft_item_name_ThiefsGloves",
+      "desc": "tft_item_description_FracturedMirror",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ThiefsGloves.TFT.png",
+      "from": [
+        9,
+        9
+      ],
+      "effects": [
+        {
+          "name": "CritChance",
+          "value": 20.0
+        },
+        {
+          "name": "DodgeChance",
+          "value": 20.0
+        }
+      ]
+    },
     "100": {
       "name": "tft_item_name_MagicDust",
       "desc": "tft_item_description_MagicDust",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Unknown.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Unknown.TFT.png",
       "from": [],
       "effects": []
+    },
+    "200": {
+      "name": "TFT_consumable_name_WildCard",
+      "desc": "TFT_consumable_description_WildCard",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Blessing_WildCard.TFT.png",
+      "from": [],
+      "effects": []
+    },
+    "529": {
+      "name": "tft_item_name_SpellThiefsEdge",
+      "desc": "tft_item_description_SpellThiefsEdge",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SpellThiefsEdge.TFT.png",
+      "from": [],
+      "effects": [
+        {
+          "name": "ChanceToSpellSteal",
+          "value": 10.0
+        }
+      ]
     },
     "541": {
       "name": "game_item_displayname_3033",
       "desc": "TFT_item_description_MortalReminder",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_MortalReminder.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_MortalReminder.TFT.png",
+      "from": [],
+      "effects": []
+    },
+    "10001": {
+      "name": "tft_item_name_FracturedMirrorEmptySlot",
+      "desc": "tft_item_description_FracturedMirrorEmptySlot",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Unknown.TFT.png",
       "from": [],
       "effects": []
     },
     "10002": {
       "name": "tft_item_name_JammedSlot",
       "desc": "tft_item_description_JammedSlot",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Jammed.TFT.dds",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Jammed.TFT.png",
+      "from": [],
+      "effects": []
+    },
+    "10003": {
+      "name": "game_item_displayname_1038",
+      "desc": "TFT_item_description_BFSword",
+      "icon": "ASSETS/Maps/Particles/TFT/Icon_BFSword.TFT.png",
+      "from": [],
+      "effects": [
+        {
+          "name": "AD",
+          "value": 20.0
+        }
+      ]
+    },
+    "10004": {
+      "name": "tft_item_name_Deathblade",
+      "desc": "tft_item_description_deathblade",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_DeathBlade.TFT.png",
+      "from": [],
+      "effects": [
+        {
+          "name": "55CE8055",
+          "value": null
+        },
+        {
+          "name": "D0FCC895",
+          "value": 40.0
+        }
+      ]
+    },
+    "10005": {
+      "name": "tft_item_name_SwordOfTheDivine2",
+      "desc": "tft_item_description_SwordOfTheDivine2",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RepeatingCrossbow.TFT.png",
+      "from": [],
+      "effects": []
+    },
+    "10006": {
+      "name": "tft_item_name_FracturedMirrorEmptySlot",
+      "desc": "tft_item_description_FracturedMirrorEmptySlot",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_EmptySlot.TFT916CritComponent.png",
       "from": [],
       "effects": []
     }

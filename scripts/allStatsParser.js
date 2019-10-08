@@ -45,6 +45,8 @@ function handleStupidRandomSecondaryTags(name) {
     return 'kayle_rework.';
   if (name === 'mordekaiser')
     return 'mordevgu.';
+  if(name==='pantheon')
+    return 'pantheonvgu.';
   return '';
 }
 
@@ -148,6 +150,13 @@ function handleQuirks(champion) {
       }
       champion.ability.variables.splice(index, 1);
     });
+    champion.ability.desc='Akali throws shurikens in front of her, dealing @modifieddamage@ magic damage. There is a @critchance@ chance that this spell will critically strike for @critdamage@ magic damage insteadd.';
+  }
+  else if (champion.name.toLowerCase() === 'draven') {
+    champion.ability.desc='Draven gains Spinning Axes, dealing bonus @bonusaddamage@ on-hit damage. Stacks up to two times.';
+  }
+  else if (champion.name.toLowerCase() === 'graves') {
+    champion.ability.desc='Passive: Graves\' basic attacks deal bonus @bonusdamage@ physical damage and hit all enemies in a cone in front of him. Graves applies on-hit effects to all enemies hit.';
   }
   else if (champion.name.toLowerCase() === 'volibear') {
     let propsToRemove = ['SizeIncrease'];
@@ -160,9 +169,10 @@ function handleQuirks(champion) {
       }
       champion.ability.variables.splice(index, 1);
     });
+    champion.ability.desc='Volibear empowers his attacks to chain between enemies, applying on-hit effects.';
   }
   else if (champion.name.toLowerCase() === 'lissandra') {
-    let propsToRemove = ['SlowAmount', 'SelfUltHealthPercent'];
+    let propsToRemove = ['SlowAmount'];
     propsToRemove.forEach(prop => {
       let index = champion.ability.variables.findIndex(obj => {
         return obj.key === prop;
