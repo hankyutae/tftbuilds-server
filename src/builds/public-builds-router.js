@@ -20,7 +20,7 @@ publicBuildsRouter
             error: { message: 'Build doesn\'t exist' }
           });
         }
-        res.build = Build; // save the article for the next middleware
+        res.build = Build; // save the build for the next middleware
         next(); // don't forget to call next so the next middleware happens!
       })
       .catch(next);
@@ -29,7 +29,7 @@ publicBuildsRouter
     if(res.build['is_public']){
       return res.status(200).json(res.build);
     }
-    res.status(403).json({
+    return res.status(403).json({
       error: 'Forbidden'
     }).end();
   });

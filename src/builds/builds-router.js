@@ -17,11 +17,14 @@ buildsRouter
       req.user.id
     )
       .then(Builds => {
-        return res.json(Builds.map(Build => BuildsService.serializeBuild(Build)));
+        Builds.sort((a,b)=>{
+          let aTime =new Date (a.date_created).getTime();
+          let bTime =new Date (b.date_created).getTime();
+          return bTime-aTime;
+        });
+        res.status(200).json(Builds.map(Build => BuildsService.serializeBuild(Build)));
       })
       .catch(next);
-
-
   })
   .post(jsonBodyParser, (req, res, next) => {
     const { build_data } = req.body;
@@ -91,7 +94,7 @@ buildsRouter
           newBuild
         )
           .then(Build => {
-            res
+            return res
               .status(201)
               .location(path.posix.join(req.originalUrl, `/${Build.id}`))
               .json(BuildsService.serializeBuild(Build));
@@ -119,8 +122,9 @@ buildsRouter
         if(Build.user_id!==req.user.id){
           return res.status(403).json({ error: 'Forbidden' });
         }
-        res.build = Build; // save the article for the next middleware
+        res.build = Build; // save the build for the next middleware
         next(); // don't forget to call next so the next middleware happens!
+        return null;
       })
       .catch(next);
   })
@@ -129,7 +133,7 @@ buildsRouter
     const id = req.params.id;
     BuildsService.deleteById(db, id)
       .then(actual => {
-        res.status(204).end();
+        return res.status(204).end();
       })
       .catch(next);
   });
@@ -152,7 +156,7 @@ buildsRouter
         if(Build.user_id!==req.user.id){
           return res.status(403).json({ error: 'Forbidden' });
         }
-        res.build = Build; // save the article for the next middleware
+        res.build = Build; // save the build for the next middleware
         next(); // don't forget to call next so the next middleware happens!
       })
       .catch(next);
@@ -160,7 +164,7 @@ buildsRouter
   .patch((req, res, next) => {
     BuildsService.makePublic(req.app.get('db'), req.params.id)
       .then(actual => {
-        res.status(204).end();
+        return res.status(204).end();
       })
       .catch(next);
   });

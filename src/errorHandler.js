@@ -9,7 +9,7 @@ function errorHandler(error, req, res, next) {
     logger.error(error);
     response = { message: error.message, error };
   }
-  res.status(500).json(response);
+  return res.status(500).json(response);
 }
 
 module.exports=errorHandler;
