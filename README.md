@@ -67,10 +67,10 @@ Unprotected:
 - `POST /api/auth/login`
 
 Protected:
--`GET /api/builds`
--`POST /api/builds`
--`DELETE /api/builds/:id`
--`PATCH /api/builds/make-public/:id`
+- `GET /api/builds`
+- `POST /api/builds`
+- `DELETE /api/builds/:id`
+- `PATCH /api/builds/make-public/:id`
 
 
 ## Deploying
