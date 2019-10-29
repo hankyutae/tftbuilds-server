@@ -59,12 +59,12 @@ timezone = 'UTC'
 
 ## Endpoints
 Unprotected:
--`GET /api/champions`
--`GET /api/items`
--`GET /api/traits`
--`POST /api/users`
--`GET /api/public-builds/:id`
--`POST /api/auth/login`
+- `GET /api/champions`
+- `GET /api/items`
+- `GET /api/traits`
+- `POST /api/users`
+- `GET /api/public-builds/:id`
+- `POST /api/auth/login`
 
 Protected:
 -`GET /api/builds`
