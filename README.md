@@ -1,6 +1,8 @@
 # tftBuilds server
 
 Deployed server URL: [https://stark-atoll-11428.herokuapp.com/](https://stark-atoll-11428.herokuapp.com/)
+Live client URL: [https://tftbuilds.now.sh/](https://tftbuilds.now.sh/)
+Client Github URL: [https://github.com/hankyutae/tftbuilds-client](https://github.com/hankyutae/tftbuilds-client)
 
 ## Technology Used
 
