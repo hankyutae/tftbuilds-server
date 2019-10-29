@@ -1,5 +1,16 @@
 # tftBuilds server
 
+Deployed server URL: [https://stark-atoll-11428.herokuapp.com/](https://stark-atoll-11428.herokuapp.com/)
+
+## Technology Used
+
+Node.js
+Framework: Express
+Testing: Mocha/Chai, Supertest
+Auth/Security: uuid, jwt, xss, helmet
+DB: PostgreSQL, knex
+
+
 ## Setting Up
 
 - Install dependencies: `npm install`
@@ -14,6 +25,7 @@
 - Bootstrap test database: `MIGRATION_DB_NAME=tftBuilds-test npm run migrate`
 
 - Need to initialize game data to DB, so run `node ./scripts/allStatsParser`
+-- NOTE that to even get game data you need to get lol-parser found at https://github.com/stelar7/lol-parser
 
 ## Scripts
 
