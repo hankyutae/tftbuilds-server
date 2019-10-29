@@ -4,11 +4,11 @@ Deployed server URL: [https://stark-atoll-11428.herokuapp.com/](https://stark-at
 
 ## Technology Used
 
-Node.js
-Framework: Express
-Testing: Mocha/Chai, Supertest
-Auth/Security: uuid, jwt, xss, helmet
-DB: PostgreSQL, knex
+- Node.js
+- Framework: Express
+- Testing: Mocha/Chai, Supertest
+- Auth/Security: uuid, jwt, xss, helmet
+- DB: PostgreSQL, knex
 
 
 ## Setting Up
