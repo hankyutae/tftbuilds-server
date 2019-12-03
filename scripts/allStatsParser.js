@@ -41,8 +41,6 @@ function handleNameExceptions(name) {
   return name;
 }
 function handleStupidRandomSecondaryTags(name) {
-  if (name === 'kayle')
-    return 'kayle_rework.';
   if (name === 'mordekaiser')
     return 'mordevgu.';
   if(name==='pantheon')
