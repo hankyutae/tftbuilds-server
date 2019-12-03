@@ -1,5 +1,18 @@
 # tftBuilds server
 
+- Deployed server URL: [https://stark-atoll-11428.herokuapp.com/](https://stark-atoll-11428.herokuapp.com/)
+- Live client URL: [https://tftbuilds.now.sh/](https://tftbuilds.now.sh/)
+- Client Github URL: [https://github.com/hankyutae/tftbuilds-client](https://github.com/hankyutae/tftbuilds-client)
+
+## Technology Used
+
+- Node.js
+- Framework: Express
+- Testing: Mocha/Chai, Supertest
+- Auth/Security: uuid, jwt, xss, helmet
+- DB: PostgreSQL, knex
+
+
 ## Setting Up
 
 - Install dependencies: `npm install`
@@ -14,6 +27,7 @@
 - Bootstrap test database: `MIGRATION_DB_NAME=tftBuilds-test npm run migrate`
 
 - Need to initialize game data to DB, so run `node ./scripts/allStatsParser`
+-- NOTE that to even get game data you need to get lol-parser found at https://github.com/stelar7/lol-parser
 
 ## Scripts
 
@@ -47,18 +61,18 @@ timezone = 'UTC'
 
 ## Endpoints
 Unprotected:
-`GET /api/champions`
-`GET /api/items`
-`GET /api/traits`
-`POST /api/users`
-`GET /api/public-builds/:id`
-`POST /api/auth/login`
+- `GET /api/champions`
+- `GET /api/items`
+- `GET /api/traits`
+- `POST /api/users`
+- `GET /api/public-builds/:id`
+- `POST /api/auth/login`
 
 Protected:
-`GET /api/builds`
-`POST /api/builds`
-`DELETE /api/builds/:id`
-`PATCH /api/builds/make-public/:id`
+- `GET /api/builds`
+- `POST /api/builds`
+- `DELETE /api/builds/:id`
+- `PATCH /api/builds/make-public/:id`
 
 
 ## Deploying
