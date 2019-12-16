@@ -215,6 +215,24 @@ function handleQuirks(champion) {
     }
     champion.ability.variables.splice(index,1);
   }
+  if( champion.name.toLowerCase() === 'Vladimir'){
+    let index=champion.ability.variables.findIndex(obj=>{
+      return obj.name==='HealthThreshold';
+    });
+    if(index===-1){
+      return;
+    }
+    champion.ability.variables.splice(index,1);
+  }
+  if( champion.name.toLowerCase() === 'Vladimir'){
+    let index=champion.ability.variables.findIndex(obj=>{
+      return obj.name==='HealingAmp';
+    });
+    if(index===-1){
+      return;
+    }
+    champion.ability.variables.splice(index,1);
+  }
 
   //Was from set1
   /*
