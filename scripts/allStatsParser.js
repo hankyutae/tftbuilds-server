@@ -215,7 +215,7 @@ function handleQuirks(champion) {
     }
     champion.ability.variables.splice(index,1);
   }
-  if( champion.name.toLowerCase() === 'Vladimir'){
+  if( champion.name.toLowerCase() === 'vladimir'){
     let index=champion.ability.variables.findIndex(obj=>{
       return obj.name==='HealthThreshold';
     });
@@ -224,7 +224,7 @@ function handleQuirks(champion) {
     }
     champion.ability.variables.splice(index,1);
   }
-  if( champion.name.toLowerCase() === 'Vladimir'){
+  if( champion.name.toLowerCase() === 'vladimir'){
     let index=champion.ability.variables.findIndex(obj=>{
       return obj.name==='HealingAmp';
     });
