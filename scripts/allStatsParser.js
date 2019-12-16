@@ -1,4 +1,4 @@
-const jsondata = require('../TFT/en_us_TFT.json');
+let jsondata = require('../TFT/Cdragon.json');
 const knex = require('knex');
 const { DB_URL } = require('../src/config');
 const fetch = require('node-fetch');
@@ -7,6 +7,107 @@ const db = knex({
   client: 'pg',
   connection: DB_URL,
 });
+
+let tempItems=jsondata.items;
+let itemEffectsHash={};
+itemEffectsHash['{ce132611}']='APPercentAmp';
+itemEffectsHash['{4724fc58}']='AD';
+itemEffectsHash['{eac3d5c4}']='CriticalStrikeAmp';
+itemEffectsHash['{3abb8549}']='CritChance';
+itemEffectsHash['{2275757b}']='ChanceOnHitToSilence';
+itemEffectsHash['{dc44b1d7}']='HealthRestore';
+itemEffectsHash['{8f954b18}']='HPThreshold';
+itemEffectsHash['{510fdb6a}']='BanishDuration';
+itemEffectsHash['{1a97299e}']='Mana';
+itemEffectsHash['{c4b5579c}']='DodgeChance';
+itemEffectsHash['{6688a0d5}']='DamageReflect';
+itemEffectsHash['{d0088170}']='ASSlowPercentage';
+itemEffectsHash['{0e4779e5}']='DodgeChancePercent';
+itemEffectsHash['{a79cf66e}']='CurrentHPPhysicalDamage';
+itemEffectsHash['{a8ca7859}']='AttackSpeedPercent';
+itemEffectsHash['{57706a69}']='BurnPercent';
+itemEffectsHash['{97e52ce8}']='BurnDuration';
+itemEffectsHash['{ae49cc70}']='TraitMultiplier';
+itemEffectsHash['{c425872e}']='StasisDuration';
+itemEffectsHash['{03494ad0}']='ManaRestore';
+itemEffectsHash['{276ba2c8}']='MultiplierForDamage';
+itemEffectsHash['{69fff1ab}']='ManaPercentRestore';
+itemEffectsHash['{93d13af6}']='ExtraBounces';
+itemEffectsHash['{9b1e8f37}']='HexRange';
+itemEffectsHash['{2426ea7e}']='ChanceOnHitToDisarm';
+itemEffectsHash['{aa03e0b1}']='AttackSpeedPerStack';
+itemEffectsHash['{cb57edb0}']='CritChancePerStack';
+itemEffectsHash['{ec9a04d1}']='MaxArmySizeIncrease';
+itemEffectsHash['{e93233aa}']='CleanseICD';
+itemEffectsHash['{ad68ce80}']='StartingStacks';
+itemEffectsHash['{f1d43b01}']='ADPerStack';
+itemEffectsHash['{337a0cca}']='BouncesTooltip';
+itemEffectsHash['{ad16f688}']='OmniVamp';
+itemEffectsHash['{1bb18b94}']='HPPerRound';
+itemEffectsHash['']='';
+itemEffectsHash['']='';
+itemEffectsHash['']='';
+itemEffectsHash['']='';
+itemEffectsHash['']='';
+let finalItems={};
+tempItems.forEach(item=>{
+  Object.keys(item.effects).forEach(effectKey=>{
+    let realEffectName=itemEffectsHash[effectKey];
+    if(realEffectName){
+      item.effects[  realEffectName ] =item.effects[effectKey];
+      delete (item.effects[effectKey]);
+    }
+  });
+  finalItems[item.id]=item;
+});
+
+
+
+
+
+
+
+
+jsondata=jsondata.sets['2'];
+let set2ChampDescChanges={
+  'Ashe':'Ashe gains @AttackSpeed*100@% Attack Speed for @Duration@ seconds, and her Basic Attacks fire a flurry of @NumArrows@ arrows with each arrow dealing @PercentADPerArrow*100@% of her AD in physical damage.',
+  'Annie':'Annie summons Tibbers near her target, dealing @ModifiedStunDamage@ magic damage to all adjacent enemies. Tibbers fights for the rest of the round or until killed, dealing @ModifiedTibbersDamage@ magic damage with each Basic Attack.<br><br>Annie can\'t gain mana while Tibbers is active.',
+  'Azir':'Azir summons a Sand Soldier near a random enemy. Sand Soldiers attack nearby enemies whenever Azir attacks, dealing @ModifiedSoldierDamage@ magic damage in a line, and last @SoldierDuration@ seconds.',
+  'Diana': 'Diana creates @Orbs@ flame orbs which rotate around her and explode for @ModifiedOrbDamage@ magic damage when they collide with an enemy. She also shields herself for @ShieldDuration@ seconds, absorbing the next @ModifiedShieldValue@ damage she would take.',
+  'Mundo' : 'Dr. Mundo creates a toxic cloud around him for @Duration@ seconds. The cloud deals @ModifiedBaseDamage@ + @HealthPercent@% of Dr. Mundo\'s maximum health as magic damage to nearby enemies each second, and heals him for @HealRatio*100@% of that value.',
+  'Ezreal': 'Ezreal fires a shard of ice at the lowest-health enemy, dealing @ModifiedBaseDamage@ magic damage and applying on-hit effects.',
+  'Ivern': 'Ivern shields the lowest-health ally for @Duration@ seconds, absorbing the next @ModifiedShieldAmount@ damage.',
+  'Janna': 'Janna summons a Monsoon around her, healing allies for @ModifiedHealAmountPercent@% of their max health over @Duration@ seconds. Nearby enemies are knocked back and stunned for @StunDuration@ second.',
+  'Malzahar': 'Malzahar summons @NumVoidlings@ Shadow Spawn, who hit for @ModifiedVoidlingDamage@ magic damage each attack.<br><br>Shadow Spawn benefit from active Shadow trait bonuses.',
+  'Maokai' : 'Passive: After being damaged by an enemy spell, Maokai\'s next attack heals him for @ModifiedHealAmount@.',
+  'Master Yi':'Master Yi meditates, becoming untargetable for @MeditateDuration@ seconds and healing @ModifiedHealAmount@ of his max health over the duration.<br><br>After Master Yi finishes meditating, he gains @AttackSpeed*100@% Attack Speed and deals @ModifiedDamage@ bonus magic damage on hit for @BuffDuration@ seconds.',
+  'Nami': 'Nami summons a massive tidal wave which deals @ModifiedDamage@ magic damage to all enemies hit, knocking up and stunning them for @StunDuration@ seconds. Allies hit are empowered, and their Basic Attacks deal an additional @ModifiedAllyDamageBonus@ magic damage for the next @AllyBuffDuration@ seconds.',
+  'Nocturne': 'Passive - Every three hits Nocturne\'s attack deals damage and applys on-hit effects to all adjacent units. It also heals for @ModifiedHealPercent*100@% of the damage dealt.',
+  'Renekton': 'Renekton swings his blade, dealing @ModifiedBaseDamage@ magic damage to nearby enemies and healing himself for @ModifiedHealAmount@ per enemy hit.',
+  'Singed' : 'Passive: Singed leaves a toxic cloud wherever he moves, poisoning enemies who stand in it for @ModifiedTotalDamage@ magic damage over @PoisonDuration@ seconds.',
+  'Skarner' : 'Skarner gains a shield against @ModifiedShieldAmount@ damage for @Duration@ seconds. While the shield persists, Skarner gains @AttackSpeed*100@% attack speed.',
+  'Yorick' : 'Yorick blesses his @NumAlliesToTarget@ lowest-health allies (except Minions of Light). When they die they are resurrected as a Minion of Light with @GhoulHealth@ health and @ModifiedGhoulAD@ attack damage.<br><br>Minions of Light benefit from active Light trait bonuses.',
+  'Zyra' : 'Zyra summons @NumPlants@ Flame Spitters at random locations on the edge of the arena. They attack the nearest enemy for @PlantDuration@ seconds, dealing @ModifiedPlantAD@ magic damage per attack a total of @PlantAmmo@ times.',
+  'Vayne' : 'Passive: Whenever Vayne Basic Attacks the same target 3 times, she deals @ModifiedPercentDamage@ of her target\'s maximum health as true damage.',
+  'Warwick' : 'Warwick pounces on the weakest enemy, stunning them for @Duration@ seconds and striking them @Hits@ times, dealing @ModifiedBaseDamage@ magic damage. Each strike triggers on-hit effects and heals Warwick for 100% of the damage dealt.',
+  'Qiyana' : 'Qiyana blasts a short line in front of her, stunning enemies for @CCDuration@ seconds and dealing @ModifiedBaseDamage@ magic damage.',
+  'Lucian' : 'Lucian fires @NumShots@ + (@AttacksPerSecondCoefficient@ * Attacks Per Second) bullets in a direction over @Duration@ seconds, each attacking for @TADRatio*100@% of his AD, applying on-hits, and dealing @ModifiedBaseDamage@ magic damage.<br><br>Lucian will dash during the Culling to keep hitting enemies.',
+  'Senna' : 'Senna fires a beam through her furthest ally, dealing @ModifiedDamage@ magic damage to enemies, and buffing allies\' on-hits for @AllyBuffDuration@ seconds to deal @ModifiedAllyDamageBonus@ magic damage from Senna.',
+  'Amumu' : 'Amumu explodes in an infernal tantrum, dealing @ModifiedRDamage@ magic damage to all enemies within @RRange@ Hexes and stunning them for @RDuration@ seconds.'
+};
+
+let championsHash={};
+jsondata.champions.forEach((championObj,index)=>{
+
+  championsHash[index]=championObj;
+  championsHash[index].id=index;
+  let potentiallyNewAbilityDesc=set2ChampDescChanges[championObj.name];
+  if(potentiallyNewAbilityDesc){
+    championsHash[index].ability.desc=potentiallyNewAbilityDesc;
+  }
+});
+
+jsondata.champions = championsHash;
 
 
 
@@ -66,39 +167,34 @@ Object.keys(jsondata.champions).forEach(key => {
 
 function isItOrigin(traitName) {
   switch (traitName) {
-  case 'Demon':
+  case 'Cloud':
     return true;
-  case 'Exile':
+  case 'Crystal':
     return true;
-  case 'Dragon':
+  case 'Desert':
+    return true;
+  case 'Electric':
     return true;
   case 'Glacial':
     return true;
-  case 'Imperial':
+  case 'Inferno':
     return true;
-  case 'Ninja':
+  case 'Light':
     return true;
-  case 'Noble':
+  case 'Mountain':
     return true;
-  case 'Phantom':
+  case 'Ocean':
     return true;
-  case 'Pirate':
+  case 'Poison':
     return true;
-  case 'Robot':
+  case 'Shadow':
     return true;
-  case 'Void':
+  case 'Steel':
     return true;
-  case 'Wild':
+  case 'Woodland':
     return true;
-  case 'Yordle':
+  case 'Lunar':
     return true;
-  case 'Hextech':
-    return true;
-    /* 
-  case 'Demon':
-    return true;
-  case 'Demon':
-    return true; */
 
   default:
     return false;
@@ -107,6 +203,8 @@ function isItOrigin(traitName) {
 }
 
 function handleQuirks(champion) {
+  //Was from set1
+  /*
   if (champion.name.toLowerCase() === 'swain') {
     let index = champion.ability.variables.findIndex(obj => {
       return obj.key === 'HealthIncrease';
@@ -229,7 +327,7 @@ function handleQuirks(champion) {
       champion.ability.variables.splice(index, 1);
     });
   }
-  /*  else if (champion.name.toLowerCase() === 'elise') {
+  else if (champion.name.toLowerCase() === 'elise') {
     let index=champion.ability.variables.findIndex(obj=>{
       return obj.key==='SpiderFormDuration';
     });
@@ -250,6 +348,7 @@ function handleQuirks(champion) {
 
 }
 
+
 Object.keys(jsondata.champions).forEach(key => {
   let origins = [];
   let classes = [];
@@ -265,6 +364,34 @@ Object.keys(jsondata.champions).forEach(key => {
   handleQuirks(jsondata.champions[key]);
 });
 
+
+
+
+let traitEffectsHash={};
+
+traitEffectsHash['{b4a90a5d}']='ProcChance';
+traitEffectsHash['{8f954b18}']='HPThreshold';
+traitEffectsHash['{5119f0ff}']='ADBonus';
+traitEffectsHash['{cca74473}']='DamageThreshold';
+traitEffectsHash['{6003afce}']='ProcPercent';
+traitEffectsHash['{538d2e86}']='ASMultTooltip';
+traitEffectsHash['{1b812333}']='ProcRate';
+traitEffectsHash['{4e5f79b7}']='HealthPercentThreshold';
+traitEffectsHash['{d165d743}']='ImmunityDuration';
+traitEffectsHash['{268f634e}']='CritAmpPercent';
+traitEffectsHash['{9f2eb1e2}']='CritChanceAmpPercent';
+traitEffectsHash['{360f62b5}']='SummonDurationBoost';
+traitEffectsHash['{471b1a16}']='TickRate';
+traitEffectsHash['{d0539890}']='ManaPerTick';
+traitEffectsHash['{04bbf4a5}']='ArmorPercentIncrease';
+traitEffectsHash['{d04eb593}']='ZoneDuration';
+traitEffectsHash['{cb6b5298}']='PercentBonusDamage';
+traitEffectsHash['{e97e931e}']='NumZones';
+traitEffectsHash['{4c67d4fe}']='DamageAmp';
+traitEffectsHash['{e7acd68a}']='ArmorPercentReduction';
+traitEffectsHash['{a8ca7859}']='AttackSpeedPercent';
+traitEffectsHash['{a861afa0}']='CostIncrease';
+traitEffectsHash['']='';
 const traitobj = {};/* 
 const effectIdToString={
   ''
@@ -272,15 +399,17 @@ const effectIdToString={
 jsondata.traits.forEach(trait => {
   traitobj[trait.name] = trait;
   traitobj[trait.name].isOrigin = isItOrigin(trait.name);
-  if (trait.name === 'Hextech') {
-    traitobj[trait.name].effects.forEach(effect => {
-      if (-1 === effect.vars.findIndex(el => el.name === 'HexSize')) {
-        effect.vars[effect.vars.findIndex(el=>el.name==='FB0B4533')].name='HexSize';
+  traitobj[trait.name].effects.forEach(effect => {
+    Object.keys(effect.variables).forEach(varKey=>{
+      let newEffectName=traitEffectsHash[varKey];
+      if(newEffectName){
+        effect.variables[newEffectName] = effect.variables[varKey];
+        delete (effect.variables[varKey]);
       }
     });
-  }
+  });
+  
 });
-
 
 
 db.raw(
@@ -290,7 +419,7 @@ db.raw(
   tft_traits`
 )
   /* .then(() => db.into('tft_items').insert(itemarray))
-  .then(() => db.into('tft_champs').insert(champarray)) */.then(() => db.into('tft_items').insert([{ itemdata: jsondata.items }]))
+  .then(() => db.into('tft_champs').insert(champarray)) */.then(() => db.into('tft_items').insert([{ itemdata: finalItems }]))
   .then(() => Promise.all(fetchPng))
   .then(resArray => {
     resArray.forEach((res, index) => {
