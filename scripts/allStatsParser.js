@@ -146,6 +146,8 @@ function handleStupidRandomSecondaryTags(name) {
     return 'mordevgu.';
   if(name==='pantheon')
     return 'pantheonvgu.';
+  if(name==='senna')
+    return 'senna.';
   return '';
 }
 
