@@ -74,7 +74,7 @@ let set2ChampDescChanges={
   'Annie':'Annie summons Tibbers near her target, dealing @ModifiedStunDamage@ magic damage to all adjacent enemies. Tibbers fights for the rest of the round or until killed, dealing @ModifiedTibbersDamage@ magic damage with each Basic Attack.<br><br>Annie can\'t gain mana while Tibbers is active.',
   'Azir':'Azir summons a Sand Soldier near a random enemy. Sand Soldiers attack nearby enemies whenever Azir attacks, dealing @ModifiedSoldierDamage@ magic damage in a line, and last @SoldierDuration@ seconds.',
   'Diana': 'Diana creates @Orbs@ flame orbs which rotate around her and explode for @ModifiedOrbDamage@ magic damage when they collide with an enemy. She also shields herself for @ShieldDuration@ seconds, absorbing the next @ModifiedShieldValue@ damage she would take.',
-  'Mundo' : 'Dr. Mundo creates a toxic cloud around him for @Duration@ seconds. The cloud deals @ModifiedBaseDamage@ + @HealthPercent@% of Dr. Mundo\'s maximum health as magic damage to nearby enemies each second, and heals him for @HealRatio*100@% of that value.',
+  'Dr. Mundo' : 'Dr. Mundo creates a toxic cloud around him for @Duration@ seconds. The cloud deals @ModifiedBaseDamage@ + @HealthPercent@% of Dr. Mundo\'s maximum health as magic damage to nearby enemies each second, and heals him for @HealRatio*100@% of that value.',
   'Ezreal': 'Ezreal fires a shard of ice at the lowest-health enemy, dealing @ModifiedBaseDamage@ magic damage and applying on-hit effects.',
   'Ivern': 'Ivern shields the lowest-health ally for @Duration@ seconds, absorbing the next @ModifiedShieldAmount@ damage.',
   'Janna': 'Janna summons a Monsoon around her, healing allies for @ModifiedHealAmountPercent@% of their max health over @Duration@ seconds. Nearby enemies are knocked back and stunned for @StunDuration@ second.',
@@ -205,6 +205,17 @@ function isItOrigin(traitName) {
 }
 
 function handleQuirks(champion) {
+  //set2
+  if( champion.name.toLowerCase() === 'neeko'){
+    let index=champion.ability.variables.findIndex(obj=>{
+      return obj.name==='Radius1';
+    });
+    if(index===-1){
+      return;
+    }
+    champion.ability.variables.splice(index,1);
+  }
+
   //Was from set1
   /*
   if (champion.name.toLowerCase() === 'swain') {
