@@ -91,7 +91,7 @@ let set2ChampDescChanges={
   'Vayne' : 'Passive: Whenever Vayne Basic Attacks the same target 3 times, she deals @ModifiedPercentDamage@ of her target\'s maximum health as true damage.',
   'Warwick' : 'Warwick pounces on the weakest enemy, stunning them for @Duration@ seconds and striking them @Hits@ times, dealing @ModifiedBaseDamage@ magic damage. Each strike triggers on-hit effects and heals Warwick for 100% of the damage dealt.',
   'Qiyana' : 'Qiyana blasts a short line in front of her, stunning enemies for @CCDuration@ seconds and dealing @ModifiedBaseDamage@ magic damage.',
-  'Lucian' : 'Lucian fires @NumShots@ + (@AttacksPerSecondCoefficient@ * Attacks Per Second) bullets in a direction over @Duration@ seconds, each attacking for @TADRatio*100@% of his AD, applying on-hits, and dealing @ModifiedBaseDamage@ magic damage.<br><br>Lucian will dash during the Culling to keep hitting enemies.',
+  'Lucian' : 'Lucian fires @NumShots@ + (8 * Attacks Per Second) bullets in a direction over @Duration@ seconds, each attacking for @TADRatio*100@% of his AD, applying on-hits, and dealing @ModifiedBaseDamage@ magic damage.<br><br>Lucian will dash during the Culling to keep hitting enemies.',
   'Senna' : 'Senna fires a beam through her furthest ally, dealing @ModifiedDamage@ magic damage to enemies, and buffing allies\' on-hits for @AllyBuffDuration@ seconds to deal @ModifiedAllyDamageBonus@ magic damage from Senna.',
   'Amumu' : 'Amumu explodes in an infernal tantrum, dealing @ModifiedRDamage@ magic damage to all enemies within @RRange@ Hexes and stunning them for @RDuration@ seconds.',
   'Thresh': 'Thresh throws his lantern to the lowest-health ally, shielding them and nearby allies against @ModifiedShieldAmount@ damage for @Duration@ seconds.',
