@@ -7565,7 +7565,7 @@
               },
               {
                   "ability": {
-                      "desc": "Twitch gains infinite range and has @BonusADDamage@ Attack Damage for @Duration@ seconds. During this time his attacks travel their full range and hit every enemy they pass through. This also applies on-hit effects.",
+                      "desc": "Twitch gains infinite range and has @ADAmp*100@% Attack Damage for @Duration@ seconds. During this time his attacks travel their full range and hit every enemy they pass through. This also applies on-hit effects.",
                       "icon": "ASSETS/Characters/Twitch/HUD/Icons2D/Twitch_R.dds",
                       "name": "Spray and Pray",
                       "variables": [

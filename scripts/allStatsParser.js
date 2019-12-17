@@ -93,7 +93,10 @@ let set2ChampDescChanges={
   'Qiyana' : 'Qiyana blasts a short line in front of her, stunning enemies for @CCDuration@ seconds and dealing @ModifiedBaseDamage@ magic damage.',
   'Lucian' : 'Lucian fires @NumShots@ + (@AttacksPerSecondCoefficient@ * Attacks Per Second) bullets in a direction over @Duration@ seconds, each attacking for @TADRatio*100@% of his AD, applying on-hits, and dealing @ModifiedBaseDamage@ magic damage.<br><br>Lucian will dash during the Culling to keep hitting enemies.',
   'Senna' : 'Senna fires a beam through her furthest ally, dealing @ModifiedDamage@ magic damage to enemies, and buffing allies\' on-hits for @AllyBuffDuration@ seconds to deal @ModifiedAllyDamageBonus@ magic damage from Senna.',
-  'Amumu' : 'Amumu explodes in an infernal tantrum, dealing @ModifiedRDamage@ magic damage to all enemies within @RRange@ Hexes and stunning them for @RDuration@ seconds.'
+  'Amumu' : 'Amumu explodes in an infernal tantrum, dealing @ModifiedRDamage@ magic damage to all enemies within @RRange@ Hexes and stunning them for @RDuration@ seconds.',
+  'Thresh': 'Thresh throws his lantern to the lowest-health ally, shielding them and nearby allies against @ModifiedShieldAmount@ damage for @Duration@ seconds.',
+  'Sivir' : 'For the next @Duration@ seconds, Sivir\'s attacks bounce up to @NumBounces@ times, dealing @PercentDamage*100@% AD physical damage to enemies hit and applying on-hit effects.',
+  'Twitch' : 'Twitch gains infinite range and has @ADAmp*100@% Attack Damage for @Duration@ seconds. During this time his attacks travel their full range and hit every enemy they pass through. This also applies on-hit effects.'
 };
 
 let championsHash={};
