@@ -125,7 +125,7 @@ let set2ChampDescChanges={
   'Thresh': 'Thresh throws his lantern to the lowest-health ally, shielding them and nearby allies against @ModifiedShieldAmount@ damage for @Duration@ seconds.',
   'Sivir' : 'For the next @Duration@ seconds, Sivir\'s attacks bounce up to @NumBounces@ times, dealing @PercentDamage*100@% AD physical damage to enemies hit and applying on-hit effects.',
   'Twitch' : 'Twitch gains infinite range and has @ADAmp*100@% Attack Damage for @Duration@ seconds. During this time his attacks travel their full range and hit every enemy they pass through. This also applies on-hit effects.',
-  'Karma' : 'At start of combat, Karma tethers to her closest ally.<br><br>Karma shields the tethered ally (or a random one if the tether is dead) for @Duration@ seconds, absorbing the next @ModifiedShieldAmount@ damage. While the shield holds, the ally receives @ModifiedAS@% bonus Attack Speed.'
+  'Karma' : 'At start of combat, Karma tethers to her closest ally.<br><br>Karma shields the tethered ally (or a random one if the tether is dead) for @Duration@ seconds, absorbing the next @ModifiedShieldAmount@ damage. While the shield holds, the ally receives @StatsValue@% bonus Attack Speed.'
 };
 
 let championsHash={};
