@@ -44,11 +44,36 @@ itemEffectsHash['{f1d43b01}']='ADPerStack';
 itemEffectsHash['{337a0cca}']='BouncesTooltip';
 itemEffectsHash['{ad16f688}']='OmniVamp';
 itemEffectsHash['{1bb18b94}']='HPPerRound';
+itemEffectsHash['{aaa03dde}']='FreezeDuration';
+itemEffectsHash['{5079c7a2}']='ArmorReductionPercent';
+itemEffectsHash['{cc9fefa7}']='ArmorBreakDuration';
+itemEffectsHash['{1ee760be}']='1StarAoEDamage';
+itemEffectsHash['{a3b999e9}']='2StarAoEDamage';
+itemEffectsHash['{156febb8}']='3StarAoEDamage';
+itemEffectsHash['{73e0fa13}']='ICD';
+itemEffectsHash['{27b09915}']='1StarDamage';
+itemEffectsHash['{844e604c}']='2StarDamage';
+itemEffectsHash['{f5220527}']='3StarDamage';
+itemEffectsHash['{6fb9af6a}']='1StarShieldValue';
+itemEffectsHash['{0d46330d}']='2StarShieldValue';
+itemEffectsHash['{829e6cec}']='3StarShieldValue';
+itemEffectsHash['{440f813d}']='1StarBounces';
+itemEffectsHash['{12a15e9e}']='2StarBounces';
+itemEffectsHash['{79e2ec7b}']='3StarBounces';
+itemEffectsHash['{df6f64b9}']='ManaRatio';
+itemEffectsHash['{9396f00d}']='StackCap';
+itemEffectsHash['{b55019fa}']='BonusResistsAtStackCap';
+itemEffectsHash['{d50b4559}']='DamageIncreasePercent';
 itemEffectsHash['']='';
 itemEffectsHash['']='';
 itemEffectsHash['']='';
-itemEffectsHash['']='';
-itemEffectsHash['']='';
+let itemDescChanges={
+  'Luden\'s Echo':'When the wearer casts their spell, the first target hit and up to @ExtraBounces@ nearby enemies are dealt an additional @1StarDamage@/@2StarDamage@/@3StarDamage@ magic damage.',
+  'Bramble Vest':'Negates bonus damage from incoming critical hits. On being hit by a Basic Attack, deal @1StarAoEDamage@/@2StarAoEDamage@/@3StarAoEDamage@ magic damage to all nearby enemies (once every @ICD@ seconds).',
+  'Statikk Shiv': 'Every third Basic Attack from the wearer deals @Damage@ magic damage to @1StarBounces@/@2StarBounces@/@3StarBounces@ enemies.',
+  'Locket of the Iron Solari':'When combat begins, the wearer and all allies within @HexRange@ hexes in the same row gain a shield that blocks @1StarShieldValue@/@2StarShieldValue@/@3StarShieldValue@ damage for @ShieldDuration@ seconds.',
+};
+
 let finalItems={};
 tempItems.forEach(item=>{
   Object.keys(item.effects).forEach(effectKey=>{
@@ -58,6 +83,9 @@ tempItems.forEach(item=>{
       delete (item.effects[effectKey]);
     }
   });
+  if(itemDescChanges[item.name]){
+    item.desc=itemDescChanges[item.name];
+  }
   finalItems[item.id]=item;
 });
 
@@ -96,7 +124,8 @@ let set2ChampDescChanges={
   'Amumu' : 'Amumu explodes in an infernal tantrum, dealing @ModifiedRDamage@ magic damage to all enemies within @RRange@ Hexes and stunning them for @RDuration@ seconds.',
   'Thresh': 'Thresh throws his lantern to the lowest-health ally, shielding them and nearby allies against @ModifiedShieldAmount@ damage for @Duration@ seconds.',
   'Sivir' : 'For the next @Duration@ seconds, Sivir\'s attacks bounce up to @NumBounces@ times, dealing @PercentDamage*100@% AD physical damage to enemies hit and applying on-hit effects.',
-  'Twitch' : 'Twitch gains infinite range and has @ADAmp*100@% Attack Damage for @Duration@ seconds. During this time his attacks travel their full range and hit every enemy they pass through. This also applies on-hit effects.'
+  'Twitch' : 'Twitch gains infinite range and has @ADAmp*100@% Attack Damage for @Duration@ seconds. During this time his attacks travel their full range and hit every enemy they pass through. This also applies on-hit effects.',
+  'Karma' : 'At start of combat, Karma tethers to her closest ally.<br><br>Karma shields the tethered ally (or a random one if the tether is dead) for @Duration@ seconds, absorbing the next @ModifiedShieldAmount@ damage. While the shield holds, the ally receives @ModifiedAS@% bonus Attack Speed.'
 };
 
 let championsHash={};
@@ -425,6 +454,10 @@ traitEffectsHash['{4c67d4fe}']='DamageAmp';
 traitEffectsHash['{e7acd68a}']='ArmorPercentReduction';
 traitEffectsHash['{a8ca7859}']='AttackSpeedPercent';
 traitEffectsHash['{a861afa0}']='CostIncrease';
+traitEffectsHash['{3abb8549}']='CritChance';
+traitEffectsHash['{2fb31c01}']='Frequency';
+traitEffectsHash['']='';
+traitEffectsHash['']='';
 traitEffectsHash['']='';
 const traitobj = {};/* 
 const effectIdToString={
